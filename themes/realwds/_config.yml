@@ -19,7 +19,7 @@ menu:
     # - 音樂 || /music/ || fas fa-music
     图库: /gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
-    自言自语: /talking/ || fas fa-cubes
+    说说: /talking/ || fas fa-cubes
   留言板: /messageboard/ || fas fa-comment-dots
 
 # Hide the child menu items in mobile sidebar
@@ -28,7 +28,7 @@ hide_sidebar_menu_child: false
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light # darker / pale night / light / ocean / mac / mac light /false
+highlight_theme: mac # darker / pale night / light / ocean / mac / mac light /false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -875,7 +875,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/realwds.css">
   bottom:
     # - <script src="xxxx"></script>
 
@@ -972,12 +972,12 @@ CDN:
 # see https://artitalk.js.org/
 artitalk:
   enable: true
-  appId: f2OAz3uUxl0Dr048MqPBUYLn-MdYXbMMI
-  appKey: Hay8CrEoQcBTO5bn2FS1FWx7
+  appId: lMM2G147us4K8mXILKxKHmHr-MdYXbMMI
+  appKey: dGgm6nGrFdRjcvz2tBy7BzWr
   path: talking
   js:
   option:
   front_matter:
-    title: 自言自語
+    title: 说说
     comments: false
     top_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-demo-talking-top-img.jpg
