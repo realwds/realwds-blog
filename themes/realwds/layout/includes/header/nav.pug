@@ -1,8 +1,6 @@
 nav#nav
   span#blog_name
     a#site-name(href=url_for('/')) #[=config.title]
-  span#page-name
-    a#page-name-text(href=url_for('/')) #[=config.subtitle]
     
   #menus
     if (theme.algolia_search.enable || theme.local_search.enable)
@@ -15,3 +13,5 @@ nav#nav
     #toggle-menu
       a.site-page
         i.fas.fa-bars.fa-fw
+
+

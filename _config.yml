@@ -4,21 +4,38 @@
 
 # Site
 title: realwds's blog
-subtitle: '数学系的挨踢者'
-description: '精致的五官是心动的开始，迷人的气质是动情的深渊。'
+subtitle: 数学系的挨踢者
+description: 精致的五官是心动的开始，迷人的气质是动情的深渊。
 keywords: relawds、realwds's blog
 author: Alejandro
 language: zh-CN
-timezone: ''
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://realwds-blog.vercel.com
-permalink: :year/:month/:day/:title/
+root: /
+permalink: posts/:abbrlink/
+
+# abbrlink config
+abbrlink:
+  alg: crc32 #support crc16(default) and crc32
+  rep: hex #support dec(default) and hex
+  drafts: false #(true)Process draft,(false)Do not process draft. false(default)
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+    enable: false #true(default)
+    depth: #3(default)
+    over_write: false
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
+
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -102,4 +119,55 @@ theme: realwds
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:realwds/realwds-blog.git
+  branch: master
+  # other deployer
+
+search:
+  path: search.xml
+  field: post
+  content: true
+
+markdown_it_plus:
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      enable: true
+      options:
+        strict: false
+
+douban:
+  user: iamjerryc
+  builtin: false
+  movie:
+    title: '那些年,我看過的電影'
+    quote: '過去、現在、未來'
+    comments: false
+    top_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/movie.jpg
+    meta: true
+    aside: true
+  timeout: 10000 
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+marked:
+  smartypants: false
+  descriptionLists: false
+
+server:
+  port: 3127
