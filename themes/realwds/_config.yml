@@ -96,7 +96,7 @@ avatar:
   effect: false
 
 # Disable all banner image
-disable_top_img: true
+disable_top_img: false
 
 # The banner image of home page
 index_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
@@ -879,7 +879,10 @@ inject:
   head:
     - <link rel="stylesheet" href="/realwds/realwds.css">
   bottom:
-    - <script src="realwds/realwds.js"></script>
+    - <script src="/realwds/realwds.js"></script>
+    # 在需要插入二维码的位置创建一个id为qrcode的div
+    # - <script async src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs@master/qrcode.min.js"></script>
+    # - <script async src="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/qrcode/qrcode-lu.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work

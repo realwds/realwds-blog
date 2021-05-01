@@ -187,3 +187,13 @@ bangumi:
   quote: '生命不息，追番不止！' #写在页面开头的一段话，支持 html 语法
   show: 1 # 初始显示页面：0: 想看 , 1: 在看 , 2: 看过，默认为 1
   loading: '/img/bangumi-loading.gif' #图片加载完成前的 loading 图片
+
+# hexo-admin authentification
+admin:
+  username: realwds
+  password_hash: $2a$10$g1fR1NFFDW6976rWAneqwu.ndXttVKmqWqpPQl4nc3UQDxmcSmHIq
+  secret: realwds-blog.vercel.app
+
+metadata:
+  top: false
+  cover: 

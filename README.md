@@ -15,6 +15,16 @@ cd source
 # 新建文件
 hexo new page movies
 
+# 启动
+hexo clean && hexo douban -bgm && hexo s
+
 # 部署
-hexo clean && hexo douban -bgm && hexo g && hexo s
+hexo g
+```
+
+## hexo-admin 管理文章
+
+``` sh
+# 安装依赖
+npm install --save hexo-admin
 ```
