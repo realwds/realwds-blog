@@ -138,11 +138,11 @@ markdown_it_plus:
         strict: false
 
 douban:
-  user: iamjerryc
+  user: realwds
   builtin: false
   movie:
-    title: '那些年,我看過的電影'
-    quote: '過去、現在、未來'
+    title: '那些年,我看过的电影'
+    quote: '过去、现在、未来'
     comments: false
     top_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/movie.jpg
     meta: true

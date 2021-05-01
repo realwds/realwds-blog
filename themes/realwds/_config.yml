@@ -18,7 +18,7 @@ menu:
   娱乐||fa fa-heartbeat:
     # - 音樂 || /music/ || fas fa-music
     图库: /gallery/ || fas fa-images
-    电影: /movies/ || fas fa-video
+    电影: /movie/ || fas fa-video
     说说: /talking/ || fas fa-cubes
   留言板: /messageboard/ || fas fa-comment-dots
 
@@ -94,7 +94,7 @@ avatar:
   effect: false
 
 # Disable all banner image
-disable_top_img: true
+disable_top_img: false
 
 # The banner image of home page
 index_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
@@ -503,7 +503,7 @@ yandex_site_verification:
 
 theme_color:
   enable: true
-  main: "#1a1a1a"
+  main: "#49b1f5"
   paginator: "#00c4b6"
   button_hover: "#FF7242"
   text_selection: "#00c4b6"
@@ -513,8 +513,8 @@ theme_color:
   code_foreground: "#F47466"
   code_background: "rgba(27, 31, 35, .05)"
   toc_color: "#00c4b6"
-  blockquote_padding_color: "#1a1a1a"
-  blockquote_background_color: "#1a1a1a"
+  blockquote_padding_color: "#49b1f5"
+  blockquote_background_color: "#49b1f5"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
