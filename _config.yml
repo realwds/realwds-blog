@@ -147,6 +147,13 @@ douban:
     top_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/movie.jpg
     meta: true
     aside: true
+  book:
+    title: '读万卷书，行万里路'
+    quote: '在读、想读、已读'
+    comments: false
+    top_img: https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/main.jpg
+    meta: true
+    aside: true
   timeout: 10000 
 
 feed:
@@ -171,3 +178,12 @@ marked:
 
 server:
   port: 3127
+
+# B站番剧
+bangumi:
+  enable: true 
+  vmid: 20529081 #哔哩哔哩番剧页面的 vmid(uid)
+  title: '追番列表' #该页面的标题
+  quote: '生命不息，追番不止！' #写在页面开头的一段话，支持 html 语法
+  show: 1 # 初始显示页面：0: 想看 , 1: 在看 , 2: 看过，默认为 1
+  loading: '/img/bangumi-loading.gif' #图片加载完成前的 loading 图片

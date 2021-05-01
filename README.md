@@ -14,4 +14,7 @@ cd source
 
 # 新建文件
 hexo new page movies
+
+# 部署
+hexo clean && hexo douban -bgm && hexo g && hexo s
 ```
