@@ -96,7 +96,7 @@ avatar:
   effect: false
 
 # Disable all banner image
-disable_top_img: false
+disable_top_img: true
 
 # The banner image of home page
 index_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
@@ -877,9 +877,9 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/css/realwds.css">
+    - <link rel="stylesheet" href="/realwds/realwds.css">
   bottom:
-    # - <script src="xxxx"></script>
+    - <script src="realwds/realwds.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
