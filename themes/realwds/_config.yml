@@ -15,6 +15,7 @@ menu:
   网站||fas fa-link:
     关于: /about/ || fas fa-heart
     友链: /link/ || fas fa-link
+    留言板: /messageboard/ || fas fa-comment-dots
   娱乐||fa fa-heartbeat:
     # - 音樂 || /music/ || fas fa-music
     图库: /gallery/ || fas fa-images
@@ -22,7 +23,6 @@ menu:
     追番: /bangumis/ || fab fa-youtube
     书单: /books/ || fas fa-book
     说说: /talking/ || fas fa-cubes
-  留言板: /messageboard/ || fas fa-comment-dots
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -99,7 +99,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
+index_img: false
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
@@ -217,7 +217,7 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: true
+  enable: false
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   url: https://github.com/realwds/realwds-blog/edit/master/source/
@@ -655,7 +655,7 @@ subtitle:
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
 
-# Loading Animation (加載動畫)
+# Loading Animation (加载动画)
 preloader: false
 
 # aside (側邊欄)
@@ -677,11 +677,7 @@ aside:
       link: https://github.com/realwds
   card_announcement:
     enable: true
-    content: 如果你在使用中遇到問題，請到 <a href="https://github.com/jerryc127/hexo-theme-butterfly/issues" style="color:#49b1f5">Github Issues</a> 或者 <a href="/messageboard/" style="color:#49b1f5">留言板</a> 進行反饋，你也可以加入 QQ 群（由於 QQ 群只能有500人，會定時清理潛水的人）<div class="social-button">
-      <a class="button--animated" href="https://jq.qq.com/?_wv=1027&k=KU9105XR" target="_blank">QQ 1 群 👍</a>
-      <a class="button--animated" href="https://jq.qq.com/?_wv=1027&k=r1nK0DQz" target="_blank">QQ 2 群 👍</a>
-      <a class="button--animated" href="https://t.me/bu2fly" target="_blank">Telegram 👍</a>
-      </div>
+    content: 如果你在使用中遇到問題，請到 <a href="https://github.com/jerryc127/hexo-theme-butterfly/issues" style="color:#49b1f5">Github Issues</a> 或者 <a href="/messageboard/" style="color:#49b1f5">留言板</a> 進行反饋，你也可以加入 QQ 群（由於 QQ 群只能有500人，會定時清理潛水的人）
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -720,7 +716,7 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
+  enable: true
   publish_date: 2021/4/30 00:00:00
 
 # Aside widget - Newest Comments
@@ -845,14 +841,14 @@ instantpage: true
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
-  enable: false
+  enable: true
   field: site # site/post
 
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/lazyload
 lazyload:
   enable: true
-  post: /img/loading.gif
+  post: /img/loading.png
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
