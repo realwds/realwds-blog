@@ -1,11 +1,12 @@
 ---
-title: Gallery
+title: 图库
 date: 2019-10-24 22:23:55
 comments: false
 reward: false
-description: 圖庫
-aside: false
-top_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/Photo/photo.jpg
+description: 图库
+# aside: false
+top_img: false
+# top_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/Photo/photo.jpg
 ---
 
 {% galleryGroup '壁紙' '收藏的一些壁紙' '/gallery/wallpaper' https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png %}

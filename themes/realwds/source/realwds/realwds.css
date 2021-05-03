@@ -423,3 +423,7 @@ a.darkmode_switchbutton {
 #nav .menus_items .menus_item i.expand {
   display: none
 }
+
+#archive, #page, .page #aside-content, #recent-posts {
+  margin-top: 40px;
+}

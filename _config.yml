@@ -144,14 +144,14 @@ douban:
     title: '那些年,我看过的电影'
     quote: '过去、现在、未来'
     comments: false
-    top_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/movie.jpg
+    top_img: false
     meta: true
     aside: true
   book:
     title: '读万卷书，行万里路'
     quote: '在读、想读、已读'
     comments: false
-    top_img: https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/main.jpg
+    top_img: false
     meta: true
     aside: true
   timeout: 10000 
