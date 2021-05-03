@@ -305,12 +305,9 @@ i.fab {
 }
 
 #nav a:hover {
-  border-radius: 8px;
-  color: var(--just-white)
-}[data-theme=light] #nav a:hover {
-   background: var(--just-post-blockquote-bg);
-   margin: auto;
-   color: var(--just-fontcolor)
+  color: var(--just-white)!important;
+  background: var(--just-main);
+  transition: .3s;
 }
 
 #search-mask {
