@@ -9,20 +9,20 @@
 menu:
   首页: / || fas fa-home
   目录||fas fa-compass:
-    分类: /categories/ || fas fa-folder-open
-    标签: /tags/ || fas fa-tags
-    归档: /archives/ || fas fa-archive
+    文章列表: /archives/ || fas fa-book-open
+    全部分类: /categories/ || fas fa-shapes
+    全部标签: /tags/ || fas fa-tags
   网站||fas fa-link:
-    关于: /about/ || fas fa-heart
-    友链: /link/ || fas fa-link
+    关于本站: /about/ || fas fa-address-card
+    友情链接: /link/ || fas fa-heart
     留言板: /messageboard/ || fas fa-comment-dots
-  娱乐||fa fa-heartbeat:
+  我的||fa fa-user:
     # - 音樂 || /music/ || fas fa-music
-    图库: /gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
     追番: /bangumis/ || fab fa-youtube
     书单: /books/ || fas fa-book
-    说说: /talking/ || fas fa-cubes
+    图库: /gallery/ || fas fa-images
+    说说: /talking/ || fas fa-bomb
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: true
@@ -92,7 +92,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img:  /img/favicon.png
+  img: /img/avatar.png
   effect: false
 
 # Disable all banner image
@@ -123,7 +123,7 @@ category_img: false
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img:
+category_per_img: 
 
 cover:
   # display the cover or not (是否顯示文章封面)
