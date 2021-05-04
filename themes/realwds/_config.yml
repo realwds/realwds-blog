@@ -9,9 +9,9 @@
 menu:
   首页: / || fas fa-home
   目录||fas fa-compass:
-    归档: /archives/ || fas fa-archive
-    标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
+    标签: /tags/ || fas fa-tags
+    归档: /archives/ || fas fa-archive
   网站||fas fa-link:
     关于: /about/ || fas fa-heart
     友链: /link/ || fas fa-link
@@ -135,17 +135,16 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-2.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-1.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-3.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-6.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-5.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-4.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-7.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-8.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-10.png
+    - /img/cover/material-2.png
+    - /img/cover/material-1.png
+    - /img/cover/material-3.png
+    - /img/cover/material-6.png
+    - /img/cover/material-5.png
+    - /img/cover/material-4.png
+    - /img/cover/material-7.png
+    - /img/cover/material-9.png
+    - /img/cover/material-8.png
+    - /img/cover/material-10.png
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:

@@ -6,10 +6,9 @@ tags:
   - Hexo
   - 主題
   - butterfly
-categories: Docs文檔
+categories: Docs文档
 keywords: 'hexo,butterfly,主題,doc,教程,文檔'
 description: Butterfly安裝文檔-快速開始
-cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-docs-01-cover.png
 abbrlink: 21cfbf15
 sticky: 100
 ---
