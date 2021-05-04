@@ -25,7 +25,7 @@ menu:
     说说: /talking/ || fas fa-cubes
 
 # Hide the child menu items in mobile sidebar
-hide_sidebar_menu_child: false
+hide_sidebar_menu_child: true
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -198,7 +198,7 @@ toc:
   style_simple: false
 
 post_copyright:
-  enable: true
+  enable: false
   decode: false
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -207,10 +207,13 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/Photo/wechat.jpg
+    - img: /img/reward/wxds.png
+      link:
+      text: 微信赞赏
+    - img: /img/reward/wxzf.png
       link:
       text: 微信
-    - img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/Photo/alipay.jpg
+    - img: /img/reward/zfbzf.png
       link:
       text: 支付宝
 
@@ -240,7 +243,7 @@ post_pagination: 2
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
-anchor: false
+anchor: true
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
@@ -427,7 +430,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: '精致的五官是心动的开始，迷人的气质是动情的深渊。<br />精緻な五感は心の動きの始まりで、魅惑的な気質は感動の深淵です。<br />정교 한 이목 구비 는 심 쿵 의 시작 이 고, 사람 을 매혹 시 키 는 기질 은 감동 의 심연 이다.<br />Delicate facial features are the beginning of the heart, charming temperament is the abyss of emotion.<br /> '
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -537,13 +540,13 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: false
+footer_bg: 'linear-gradient(208deg, #4584ff 0, #4584ff 11%, #ff7676 100%);'
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
 
 # Enter transitions (開啓網頁進入效果)
-enter_transitions: true
+enter_transitions: false
 
 # Background effects (背景特效)
 # --------------------------------------
@@ -607,7 +610,7 @@ ClickShowText:
 # light (default) / dark
 display_mode: light
 
-# Beautify (美化頁面顯示)
+# Beautify (美化页面显示)
 beautify:
   enable: true
   field: post # site/post
@@ -617,9 +620,9 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size: 15px
-  code-font-size: 13px
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  global-font-size: 16px
+  code-font-size: 14px
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft YaHei", sans-serif
   code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
@@ -630,7 +633,7 @@ blog_title_font:
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
-  enable: true
+  enable: false
   icon: # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
@@ -669,7 +672,7 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    description:
+    description: 数学系的挨踢者
     button:
       enable: false
       icon: fab fa-github
@@ -829,10 +832,10 @@ aplayerInject:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
-  position: bottom-left
-  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
-  bg_dark: '#121212' # The background color of Toast Notification in dark mode
+  enable: true
+  position: bottom-right
+  bg_light: '#007AFF' # The background color of Toast Notification in light mode
+  bg_dark: '#007AFF' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
@@ -841,7 +844,7 @@ instantpage: true
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
-  enable: true
+  enable: false
   field: site # site/post
 
 # Lazyload (圖片懶加載)
