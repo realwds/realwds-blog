@@ -172,7 +172,6 @@ background: var(--just-card-bg)
   width: 121px
 }
 
-
 #nav #site-name {
   display: inline;
   opacity: 1;
@@ -276,91 +275,16 @@ background: var(--just-card-bg)
   margin-left: 3.6rem
 }
 
-
 @media screen and (max-width:899px) {
   #nav #page-name {
       display: none!important
   }
 }
 
-i.fab {
-  font-size: 20px;
-  vertical-align: middle
-}
-
-#body-wrap .full_page:before {
-  background-color: var(--just-none)!important;
-  transition: 0s!important
-}
-
-.full_page #page-header:before {
-  display: none!important
-}
-
-.snackbar-container {
-  background: var(--just-main)!important;
-  color: var(--just-white)!important;
-  border-radius: 8px!important;
-  font-weight: 700!important
-}
-
 #nav a:hover {
   color: var(--just-white)!important;
   background: var(--just-main);
   transition: .3s;
-}
-
-#search-mask {
-  backdrop-filter: blur(3px);
-  background: var(--just-maskbg)
-}
-
-#algolia-search .search-dialog .ais-search-box input {
-  border-radius: 12px!important
-}
-
-#algolia-search .search-dialog .ais-search-box input::placeholder {
-  opacity: .6
-}
-
-.search-dialog {
-  border-radius: 12px!important;
-  box-shadow: var(--just-shadow-lightblack);
-  background: var(--just-card-bg)
-}
-
-#algolia-tips {
-  padding-top: 12px;
-  opacity: .6
-}
-
-#algolia-search-results {
-  padding-top: 8px
-}
-
-#algolia-search .search-dialog .ais-search-box {
-  padding-top: 8px
-}
-
-#algolia-search .search-dialog .ais-pagination.pagination .ais-pagination--item.current a {
-  border-radius: 4px
-}
-
-a {
-  color: var(--just-fontcolor)
-}
-
-a:hover {
-  color: var(--just-hovertext)
-}
-
-a.deal_link {
-  padding: 8px;
-  color: var(--just-secondtext)
-}
-
-a.deal_link:hover {
-  color: var(--just-hovertext)
 }
 
 #nav .menus_items {
@@ -404,19 +328,10 @@ a.darkmode_switchbutton {
   color: var(--just-fontcolor)
 }
 
-#nav .site-page {
-  text-shadow: .05rem .05rem .1rem transparent;
-  border-radius: 8px
-}
-
-#nav .site-page {
-  color: var(--just-fontcolor)
-}
-
 #nav #site-name {
   text-shadow: .05rem .05rem .1rem transparent;
   color: var(--just-fontcolor);
-  padding: 0 .4rem;
+  padding: .4rem;
   height: 46px
 }
 
@@ -426,4 +341,67 @@ a.darkmode_switchbutton {
 
 #archive, #page, .page #aside-content, #recent-posts {
   margin-top: 40px;
+}
+
+.post-bg #nav #site-name {
+  color: var(--just-white);
+  transition: 0s;
+}
+
+#nav .site-page {
+  color: var(--just-white);
+  text-shadow: 0.05rem 0.05rem 0.1rem transparent;
+  border-radius: 8px;
+}
+
+#nav a {
+  border-radius: 12px;
+  color: var(--just-white);
+}
+
+#menus>div.menus_items>div>a {
+  font-weight: 600;
+}
+
+#menus #search-button a span {
+  font-weight: 600;
+}
+
+#aside-content .card-widget {
+  box-shadow: var(--just-shadow-lightblack);
+  background: var(--just-card-bg);
+}
+#recent-posts>.recent-post-item {
+  background: var(--just-card-bg);
+  box-shadow: var(--just-shadow-light2black);
+  border-radius: 12px;
+}
+.layout>div:first-child:not(.recent-posts) {
+  box-shadow: var(--just-shadow-lightblack);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  background: var(--just-card-bg);
+}
+
+#aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover, #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {
+  color: var(--just-white);
+}
+
+hr {
+  display: none
+}
+
+#local-search-tip {
+  font-size: var(--global-font-size);
+  margin: 10px 8px;
+}
+
+#search-mask {
+  backdrop-filter: blur(3px);
+  background: var(--just-maskbg)
+}
+.search-dialog {
+  border-radius: 12px!important;
+  box-shadow: var(--just-shadow-lightblack);
+  background: var(--just-card-bg)
 }

@@ -505,18 +505,18 @@ yandex_site_verification:
 
 theme_color:
   enable: true
-  main: "#49b1f5"
-  paginator: "#00c4b6"
-  button_hover: "#FF7242"
-  text_selection: "#00c4b6"
+  main: "#007AFF"
+  paginator: "#007AFF"
+  button_hover: "#9e9e9e"
+  text_selection: "#007AFF"
   link_color: "#99a9bf"
   meta_color: "#858585"
   hr_color: "#A4D8FA"
   code_foreground: "#F47466"
   code_background: "rgba(27, 31, 35, .05)"
-  toc_color: "#00c4b6"
-  blockquote_padding_color: "#49b1f5"
-  blockquote_background_color: "#49b1f5"
+  toc_color: "#007AFF"
+  blockquote_padding_color: "#007AFF"
+  blockquote_background_color: "#007AFF"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -665,19 +665,19 @@ aside:
   enable: true
   hide: false
   button: true
-  mobile: true # display on mobile
+  mobile: false # display on mobile
   position: right # left or right
   card_author:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
       text: 主页 GitHub
       link: https://github.com/realwds
   card_announcement:
-    enable: true
-    content: 如果你在使用中遇到問題，請到 <a href="https://github.com/jerryc127/hexo-theme-butterfly/issues" style="color:#49b1f5">Github Issues</a> 或者 <a href="/messageboard/" style="color:#49b1f5">留言板</a> 進行反饋，你也可以加入 QQ 群（由於 QQ 群只能有500人，會定時清理潛水的人）
+    enable: false
+    content: 精致的五官是心动的开始，迷人的气质是动情的深渊。
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -742,7 +742,7 @@ newest_comments:
 # --------------------------------------
 
 # Change font size
-change_font_size: true
+change_font_size: false
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
