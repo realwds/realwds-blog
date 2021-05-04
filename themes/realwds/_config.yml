@@ -13,7 +13,6 @@ menu:
     全部分类: /categories/ || fas fa-shapes
     全部标签: /tags/ || fas fa-tags
   网站||fas fa-link:
-    关于本站: /about/ || fas fa-address-card
     友情链接: /link/ || fas fa-heart
     留言板: /messageboard/ || fas fa-comment-dots
   我的||fa fa-user:
@@ -23,6 +22,7 @@ menu:
     书单: /books/ || fas fa-book
     图库: /gallery/ || fas fa-images
     说说: /talking/ || fas fa-bomb
+  关于: /about/ || fas fa-info-circle
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: true
@@ -850,7 +850,7 @@ pangu:
 # https://github.com/verlok/lazyload
 lazyload:
   enable: true
-  post: /img/loading.png
+  post: /img/loading.gif
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
