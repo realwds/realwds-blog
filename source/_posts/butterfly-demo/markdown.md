@@ -5,8 +5,8 @@ tags:
   - Bar
 categories:
   - Markdown
-date: 2018-07-24 23:31:06
 mathjax: true
+abbrlink: 9acea012
 ---
 
 This post is originated from [here](https://gist.github.com/apackeer/4159268) and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.
