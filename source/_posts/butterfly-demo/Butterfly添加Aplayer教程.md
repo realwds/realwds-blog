@@ -1,5 +1,7 @@
 ---
 title: Butterfly添加全局吸底Aplayer教程
+abbrlink: 507c070f
+date: 2020-07-31 19:02:28
 tags:
   - 教程
   - Hexo
@@ -9,8 +11,6 @@ tags:
 categories: 进阶教程
 keywords: 'hexo,butterfly,主题,doc,教程,文档,Aplayer,Aplayer吸底,pjax'
 description: Butterfly添加全局吸底Aplayer教程
-abbrlink: 39568
-date: 2020-07-31 19:02:28
 top_img:
 ---
 
