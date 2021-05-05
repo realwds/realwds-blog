@@ -1,16 +1,16 @@
 :root {
   --wds-white: #fff;
   --wds-black: #000;
-  --wds-none: rgba(0,0,0,0);
+  --wds-none: rgba(0, 0, 0, 0);
   --wds-gray: #999999;
   --wds-yellow: #ffc93e;
   --wds-main: #007AFF;
-  --wds-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234,.20);
-  --wds-shadow-white: 0 8px 12px -3px rgba(255, 255, 255,.20);
-  --wds-shadow-black: 0 0 12px 4px rgba(0, 0, 0,.05);
-  --wds-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62,.12);
+  --wds-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, .20);
+  --wds-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, .20);
+  --wds-shadow-black: 0 0 12px 4px rgba(0, 0, 0, .05);
+  --wds-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, .12);
   --wds-shadow-pink: 0 8px 12px -3px #ee7d7936;
-  --wds-logo-color: linear-gradient(215deg,#4584ff 30%,#ff7676 70%)
+  --wds-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%)
 }
 
 ::selection {
@@ -50,7 +50,7 @@
   --wds-fontcolor: #F7F7FA;
   --wds-background: #18171d;
   --wds-reverse: #fff;
-  --wds-maskbg: rgba(0,0,0, 0.6);
+  --wds-maskbg: rgba(0, 0, 0, 0.6);
   --wds-hovertext: #0A84FF;
   --wds-ahoverbg: #fff;
   --wds-lighttext: #f2b94b;
@@ -84,7 +84,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--wds-main);
   opacity: 1;
-  display: block!important
+  display: block !important
 }
 
 ::-webkit-scrollbar-track {
@@ -104,6 +104,7 @@ html {
   justify-content: space-between
 }
 
+/* 修改菜单栏 */
 #nav .menus_items .menus_item .menus_item_child {
   padding: 6px 8px 8px 8px;
   border-radius: 12px;
@@ -120,8 +121,8 @@ html {
 }
 
 #nav .menus_items .menus_item .menus_item_child li a:hover {
-  background: var(--wds-main)!important;
-  color: var(--wds-white)!important;
+  background: var(--wds-main) !important;
+  color: var(--wds-white) !important;
   margin: 0 auto
 }
 
@@ -142,11 +143,20 @@ html {
   color: var(--wds-fontcolor)
 }
 
+/* 菜单栏居中右边移动 */
+#nav .menus_items .menus_item:nth-child(1) .menus_item_child {
+  right: -140px;
+}
+
+#nav .menus_items .menus_item:nth-child(2) .menus_item_child {
+  right: -170px;
+}
+
 #page-header.nav-fixed #nav {
   top: 0;
   transition: .2s;
-  background: var(--wds-card-bg)!important;
-  box-shadow: var(--wds-shadow-nav)!important
+  background: var(--wds-card-bg) !important;
+  box-shadow: var(--wds-shadow-nav) !important
 }
 
 #page-header #nav {
@@ -155,7 +165,7 @@ html {
 }
 
 #nav.show {
-  transform: translate3d(0,0,0)!important;
+  transform: translate3d(0, 0, 0) !important;
   top: 0;
   transition: .2s;
   position: fixed;
@@ -190,74 +200,74 @@ html {
 
 @media screen and (min-width: 900px) {
   #nav #blog_name {
-      flex-wrap:nowrap;
-      height: 60px;
-      overflow: hidden;
-      display: flex;
-      align-items: center
+    flex-wrap: nowrap;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    align-items: center
   }
-  
+
   #nav #page-name-text {
-      display: inline;
-      font-weight: 600;
-      padding: 4px 8px;
-      opacity: 0;
-      transition: .1s;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      white-space: nowrap;
-      position: relative;
-      text-align: center;
-      cursor: pointer;
-      top: 0;
-      font-size: .9rem
+    display: inline;
+    font-weight: 600;
+    padding: 4px 8px;
+    opacity: 0;
+    transition: .1s;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    top: 0;
+    font-size: .9rem
   }
 
   #nav #page-name-text:hover {
-      color: var(--wds-white)!important;
-      background: var(--wds-main)
+    color: var(--wds-white) !important;
+    background: var(--wds-main)
   }
 
   #page-header.nav-fixed #nav #page-name-text {
-      display: inline;
-      opacity: 1;
-      transition: .15s;
-      top: 0
+    display: inline;
+    opacity: 1;
+    transition: .15s;
+    top: 0;
   }
 
   #page-header.nav-fixed #nav div.menus_items {
-      display: inline;
-      opacity: 0;
-      transition: .15s;
-      transform: translateY(-60px)
+    display: inline;
+    opacity: 0;
+    transition: .15s;
+    transform: translateY(-60px)
   }
 
   #page-header.nav-fixed.nav-visible #nav #page-name-text {
-      display: inline;
-      opacity: 0;
-      transition: .15s;
-      top: 30px
+    display: inline;
+    opacity: 0;
+    transition: .15s;
+    top: 30px
   }
 
   #page-header.nav-fixed.nav-visible #nav div.menus_items {
-      display: inline;
-      opacity: 1;
-      transition: .15s;
-      transform: translateY(0)
+    display: inline;
+    opacity: 1;
+    transition: .15s;
+    transform: translateY(0)
   }
 
   #page-name {
-      overflow: hidden;
-      align-items: center;
-      display: inline;
-      border-radius: 12px;
-      margin-left: 1rem
+    overflow: hidden;
+    align-items: center;
+    display: inline;
+    border-radius: 12px;
+    margin-left: 1rem
   }
 }
 
 @media screen and (max-width: 899px) {
   #nav #page-name {
-      display:none!important
+    display: none !important
   }
 }
 
@@ -266,7 +276,7 @@ html {
 }
 
 #nav a:hover {
-  color: var(--wds-white)!important;
+  color: var(--wds-white) !important;
   background: var(--wds-main);
   transition: .3s
 }
@@ -278,7 +288,6 @@ html {
 #nav #site-name:hover i {
   color: var(--wds-white)
 }
-
 
 a {
   color: var(--wds-fontcolor)
@@ -294,7 +303,7 @@ hr {
 
 #nav .menus_items {
   position: absolute;
-  width: 400px;
+  width: 600px;
   text-align: center;
   left: 0;
   right: 0;
@@ -362,6 +371,7 @@ a.darkmode_switchbutton {
 #search-button>a>span {
   display: none
 }
+
 #local-search-tip {
   font-size: var(--global-font-size);
   margin: 10px 8px;
@@ -449,16 +459,19 @@ a.darkmode_switchbutton {
   border-radius: 12px;
   height: 14.6em;
 }
-#recent-posts > .recent-post-item > .recent-post-info > .content {
+
+#recent-posts>.recent-post-item>.recent-post-info>.content {
   color: var(--wds-secondtext);
   font-size: .9em;
 }
+
 .layout>div:first-child:not(.recent-posts) {
   box-shadow: var(--wds-shadow-lightblack);
   padding: 1rem 2rem;
   border-radius: 12px;
   background: var(--wds-card-bg);
 }
+
 #aside-content .card-widget {
   box-shadow: var(--wds-shadow-lightblack);
   background: var(--wds-card-bg);
@@ -469,6 +482,6 @@ a.darkmode_switchbutton {
   color: var(--wds-white);
 }
 
-.not-top-img + .layout .aside-content .sticky_layout .card-recent-post {
+.not-top-img+.layout .aside-content .sticky_layout .card-recent-post {
   display: none;
 }
