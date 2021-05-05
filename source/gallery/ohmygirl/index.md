@@ -4,7 +4,7 @@ date: 2019-12-25 23:42:01
 comments: false
 reward: false
 description: 
-top_img: https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg
+top_img: false
 ---
 {% gallery %}
 ![](https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg)

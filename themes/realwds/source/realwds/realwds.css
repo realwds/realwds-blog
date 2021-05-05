@@ -378,29 +378,6 @@ a.darkmode_switchbutton {
   background: var(--wds-card-bg)
 }
 
-#aside-content .card-widget {
-  box-shadow: var(--wds-shadow-lightblack);
-  background: var(--wds-card-bg);
-}
-
-#recent-posts>.recent-post-item {
-  background: var(--wds-card-bg);
-  box-shadow: var(--wds-shadow-light2black);
-  border-radius: 12px;
-  height: 16em;
-}
-
-.layout>div:first-child:not(.recent-posts) {
-  box-shadow: var(--wds-shadow-lightblack);
-  padding: 1rem 2rem;
-  border-radius: 12px;
-  background: var(--wds-card-bg);
-}
-
-#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:hover,
-#aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover {
-  color: var(--wds-white);
-}
 
 /* 文章列表修改 */
 .article-sort-title:before {
@@ -465,3 +442,33 @@ a.darkmode_switchbutton {
 /* #rightside {
   display: none
 } */
+
+#recent-posts>.recent-post-item {
+  background: var(--wds-card-bg);
+  box-shadow: var(--wds-shadow-light2black);
+  border-radius: 12px;
+  height: 14.6em;
+}
+#recent-posts > .recent-post-item > .recent-post-info > .content {
+  color: var(--wds-secondtext);
+  font-size: .9em;
+}
+.layout>div:first-child:not(.recent-posts) {
+  box-shadow: var(--wds-shadow-lightblack);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  background: var(--wds-card-bg);
+}
+#aside-content .card-widget {
+  box-shadow: var(--wds-shadow-lightblack);
+  background: var(--wds-card-bg);
+}
+
+#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:hover,
+#aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover {
+  color: var(--wds-white);
+}
+
+.not-top-img + .layout .aside-content .sticky_layout .card-recent-post {
+  display: none;
+}
