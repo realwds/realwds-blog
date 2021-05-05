@@ -1,7 +1,5 @@
 ---
 title: Code Highlight Style test
-abbrlink: 9db656e5
-date: 2019-07-25 16:43:00
 tags:
   - highlight
 categories:

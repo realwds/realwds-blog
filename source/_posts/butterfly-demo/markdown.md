@@ -5,10 +5,8 @@ tags:
   - Bar
 categories:
   - Markdown
-abbrlink: '89757140'
 date: 2018-07-24 23:31:06
 mathjax: true
-keywords: 'hexo,butterfly,主题,doc,教程,文档,Markdown'
 ---
 
 This post is originated from [here](https://gist.github.com/apackeer/4159268) and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.

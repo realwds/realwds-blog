@@ -130,16 +130,16 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    - /img/cover/material-2.png
-    - /img/cover/material-1.png
-    - /img/cover/material-3.png
-    - /img/cover/material-6.png
-    - /img/cover/material-5.png
-    - /img/cover/material-4.png
-    - /img/cover/material-7.png
-    - /img/cover/material-9.png
-    - /img/cover/material-8.png
-    - /img/cover/material-10.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-2.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-1.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-3.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-6.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-5.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-4.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-7.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-8.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-10.png
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
@@ -622,7 +622,7 @@ font:
 # Font settings for the site title and site subtitle
 # 左上角网站名字 主页居中网站名字
 blog_title_font:
-  font_link: /extend/Titillium/Titillium.css
+  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
   font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
 
 # The setting of divider icon (水平分隔线图标设置)
@@ -850,13 +850,13 @@ lazyload:
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
-pwa:
-  enable: true
-  manifest: /pwa/manifest.json
-  apple_touch_icon: /pwa/icons/apple-touch-icon-60x60.png
-  favicon_32_32: /pwa/icons/favicon-32x32.png
-  favicon_16_16: /pwa/icons/favicon-16x16.png
-  mask_icon: /pwa/icons/safari-pinned-tab.svg
+# pwa:
+#   enable: true
+#   manifest: /pwa/manifest.json
+#   apple_touch_icon: /pwa/icons/apple-touch-icon-60x60.png
+#   favicon_32_32: /pwa/icons/favicon-32x32.png
+#   favicon_16_16: /pwa/icons/favicon-16x16.png
+#   mask_icon: /pwa/icons/safari-pinned-tab.svg
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
@@ -879,16 +879,16 @@ inject:
 
 # CDN
 # Don't modify the following settings unless you know how they work
-# 非必要请不要修改
+# 非必要請不要修改
 CDN:
   # main
   main_css: /css/index.css
-  jquery: /extend/js/jquery.min.js
-  main: /js/main.js
-  utils: /js/utils.js
+  jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
+  main: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/main.min.js # /js/main.js
+  utils: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/utils.min.js # /js/utils.js
 
   # pjax
-  pjax: /extend/js/pjax.min.js
+  pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
 
   # comments
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
@@ -898,16 +898,15 @@ CDN:
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
   twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
-  waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: /extend/js/social-share.min.js
-  sharejs_css: /extend/css/share.min.css
+  sharejs: https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js
+  sharejs_css: https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css
 
   # search
-  local_search: /js/search/local-search.js
-  algolia_js: /js/search/algolia.js
+  local_search: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/search/local-search.min.js # /js/search/local-search.js
+  algolia_js: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/search/algolia.min.js # /js/search/algolia.js
   algolia_search: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
   algolia_search_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
 
@@ -919,26 +918,26 @@ CDN:
   mermaid: https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
 
   # count
-  busuanzi: /extend/js/busuanzi.pure.mini.js
+  busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
   # background effect
   canvas_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
   canvas_fluttering_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
   canvas_nest: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js
 
-  lazyload: /extend/js/lazyload.iife.min.js
-  instantpage: /extend/js/instantpage.min.js
+  lazyload: https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
+  instantpage: https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js
   typed: https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js
   pangu: https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
 
   # photo
-  fancybox_css: /extend/css/jquery.fancybox.min.css
-  fancybox: /extend/js/jquery.fancybox.min.js
-  medium_zoom: /extend/js/medium-zoom.min.js
+  fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+  medium_zoom: https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
 
   # snackbar
-  snackbar_css: /extend/css/snackbar.min.css
-  snackbar: /extend/js/snackbar.min.js
+  snackbar_css: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css
+  snackbar: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
 
   # effect
   activate_power_mode: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
@@ -947,10 +946,10 @@ CDN:
   ClickShowText: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js
 
   # fontawesome
-  fontawesome: /extend/css/all.min.css
+  fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
 
   # Conversion between Traditional and Simplified Chinese
-  translate: /js/tw_cn.js
+  translate: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/tw_cn.min.js # /js/tw_cn.js
 
   # justifiedGallery
   justifiedGallery_js: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js

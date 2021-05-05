@@ -1,7 +1,6 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
-  "private": true,
+  "name": "realwds-blog",
+  "version": "v1.0.0",
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
@@ -28,7 +27,6 @@
     "hexo-generator-search": "^2.4.2",
     "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
-    "hexo-offline": "^2.0.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^4.0.0",
     "hexo-renderer-pug": "^1.0.0",
