@@ -7,22 +7,21 @@
 #   name || link || icon
 
 menu:
-  首页: / || fas fa-home
-  目录||fas fa-compass:
+  文库:
     文章列表: /archives/ || fas fa-book-open
     全部分类: /categories/ || fas fa-shapes
     全部标签: /tags/ || fas fa-tags
-  网站||fas fa-link:
+  网站:
     友情链接: /link/ || fas fa-heart
     留言板: /messageboard/ || fas fa-comment-dots
-  我的||fa fa-user:
+  我的:
     # - 音樂 || /music/ || fas fa-music
     电影: /movies/ || fas fa-video
     追番: /bangumis/ || fab fa-youtube
     书单: /books/ || fas fa-book
     图库: /gallery/ || fas fa-images
     说说: /talking/ || fas fa-bomb
-  关于: /about/ || fas fa-info-circle
+  关于: /about/
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: true
@@ -817,7 +816,7 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     - /talking/
 
@@ -893,7 +892,7 @@ CDN:
   utils: /js/utils.js
 
   # pjax
-  pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
+  pjax: /extend/js/pjax.min.js
 
   # comments
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
