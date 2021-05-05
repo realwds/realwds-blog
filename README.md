@@ -13,18 +13,11 @@ git clone https://github.com/realwds/realwds-blog.git
 cd source
 
 # 新建文件
-hexo new page movies
+hexo new page about
 
 # 启动
-hexo clean && hexo douban -bgm && hexo s
+hexo clean && hexo s
 
 # 部署
 hexo g
-```
-
-## hexo-admin 管理文章
-
-``` sh
-# 安装依赖
-npm install --save hexo-admin
 ```

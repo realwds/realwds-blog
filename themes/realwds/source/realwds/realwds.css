@@ -143,15 +143,6 @@ html {
   color: var(--wds-fontcolor)
 }
 
-/* 菜单栏居中右边移动 */
-#nav .menus_items .menus_item:nth-child(1) .menus_item_child {
-  right: -140px;
-}
-
-#nav .menus_items .menus_item:nth-child(2) .menus_item_child {
-  right: -170px;
-}
-
 #page-header.nav-fixed #nav {
   top: 0;
   transition: .2s;
@@ -521,4 +512,9 @@ a.darkmode_switchbutton {
   color: var(--wds-hovertext);
   background: var(--wds-post-blockquote-bg);
   border-radius: 4px;
+}
+
+/* 菜单栏居中右边移动 */
+#nav .menus_items .menus_item:nth-child(2) .menus_item_child {
+  right: -140px;
 }

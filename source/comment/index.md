@@ -1,5 +1,5 @@
 ---
-title: 留言板
+title: 留言
 date: 2019-04-14 18:30:38
 comments: true
 description: 留言板
