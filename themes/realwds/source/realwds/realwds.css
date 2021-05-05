@@ -448,11 +448,6 @@ a.darkmode_switchbutton {
   transform: translateX(0)
 }
 
-/* 隐藏右下角设置 */
-/* #rightside {
-  display: none
-} */
-
 #recent-posts>.recent-post-item {
   background: var(--wds-card-bg);
   box-shadow: var(--wds-shadow-light2black);
@@ -484,4 +479,46 @@ a.darkmode_switchbutton {
 
 .not-top-img+.layout .aside-content .sticky_layout .card-recent-post {
   display: none;
+}
+
+/* 右下角按钮设置 */
+
+#rightside {
+  right: -40px;
+}
+#rightside #rightside-config-hide {
+  transform: translate(40px, 0);
+}
+#rightside > div > button, #rightside > div > a {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width: 900px){
+  #rightside #mobile-toc-button{
+    display: none;
+  }
+}
+
+/* 页码样式调整 */
+#pagination .page-number {
+  margin: 0 0.2rem;
+  min-width: 1.8rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+}
+
+/* 页面内链接样式 */
+#article-container a {
+  text-decoration: none;
+  border-bottom: 2px solid var(--wds-lighttext);
+  color: var(--wds-fontcolor);
+  font-weight: 700;
+}
+
+#article-container a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid var(--wds-none);
+  color: var(--wds-hovertext);
+  background: var(--wds-post-blockquote-bg);
+  border-radius: 4px;
 }

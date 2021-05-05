@@ -13,8 +13,8 @@ top_img: false
 
 名字： MYW
 地址： https://immyw.com/
-頭像： https://immyw.com/img/avatar.png
-簡介： 今日事,今日畢
+头像： https://immyw.com/img/avatar.png
+简介： 今日事,今日毕
 
 {% endnote %}
 

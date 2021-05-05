@@ -1,4 +1,4 @@
-# Main menu navigation (導航目錄)
+# Main menu navigation (导航目录)
 # --------------------------------------
 
 # format: name: link || icon
@@ -26,7 +26,7 @@ title: 数学系的挨踢者
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: true
 
-# Code Blocks (代碼相關)
+# Code Blocks (代码相关)
 # --------------------------------------
 
 highlight_theme: mac # darker / pale night / light / ocean / mac / mac light /false
@@ -37,14 +37,14 @@ highlight_height_limit: 400 # unit: px
 code_word_wrap: false
 
 # copy settings
-# copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
+# copyright: Add the copyright information after copied content (複製的内容后面加上版权信息)
 copy:
   enable: true
   copyright:
     enable: true
     limit_count: 150
 
-# social settings (社交圖標設置)
+# social settings (社交图标设置)
 # formal:
 #   icon: link || the description
 social:
@@ -65,12 +65,12 @@ algolia_search:
 local_search:
   enable: true
 
-# Math (數學)
+# Math (数学)
 # --------------------------------------
 # About the per_page
-# if you set it to true, it will load mathjax/katex script in each page (true 表示每一頁都加載js)
+# if you set it to true, it will load mathjax/katex script in each page (true 表示每一页都加载js)
 # if you set it to false, it will load mathjax/katex script according to your setting (add the 'mathjax: true' in page's front-matter)
-# (false 需要時加載，須在使用的 Markdown Front-matter 加上 mathjax: true)
+# (false 需要时加载，须在使用的 Markdown Front-matter 加上 mathjax: true)
 
 # MathJax
 mathjax:
@@ -83,13 +83,13 @@ katex:
   per_page: false
   hide_scrollbar: true
 
-# Image (圖片設置)
+# Image (图片设置)
 # --------------------------------------
 
-# Favicon（網站圖標）
+# Favicon（网站图标）
 favicon: /img/favicon.png
 
-# Avatar (頭像)
+# Avatar (头像)
 avatar:
   img: /img/avatar.png
   effect: false
@@ -107,7 +107,7 @@ default_top_img: false
 archive_img: false
 
 # If the banner of tag page not setting, it will show the top_img
-# note: tag page, not tags page (子標籤頁面的 top_img)
+# note: tag page, not tags page (子标籤页面的 top_img)
 tag_img: false
 
 # The banner image of tag page
@@ -116,7 +116,7 @@ tag_img: false
 tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
-# note: category page, not categories page (子分類頁面的 top_img)
+# note: category page, not categories page (子分类页面的 top_img)
 category_img: false
 
 # The banner image of category page
@@ -125,14 +125,14 @@ category_img: false
 category_per_img: 
 
 cover:
-  # display the cover or not (是否顯示文章封面)
+  # display the cover or not (是否显示文章封面)
   index_enable: true
   aside_enable: true
   archives_enable: true
-  # the position of cover in home page (封面顯示的位置)
+  # the position of cover in home page (封面显示的位置)
   # left/right/both
   position: left
-  # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
+  # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
     - /img/cover/material-2.png
     - /img/cover/material-1.png
@@ -145,7 +145,7 @@ cover:
     - /img/cover/material-8.png
     - /img/cover/material-10.png
 
-# Replace Broken Images (替換無法顯示的圖片)
+# Replace Broken Images (替换无法显示的图片)
 error_img:
   flink: /img/friend_404.gif
   post_page: /img/404.jpg
@@ -158,19 +158,19 @@ error_404:
 
 post_meta:
   page: # Home Page
-    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
-    date_format: relative # date/relative 顯示日期還是相對日期
-    categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
-    label: true # true or false 顯示描述性文字
+    date_type: created # created or updated or both 主页文章日期是创建日或者更新日或都显示
+    date_format: relative # date/relative 显示日期还是相对日期
+    categories: true # true or false 主页是否显示分类
+    tags: false # true or false 主页是否显示标籤
+    label: true # true or false 显示描述性文字
   post:
-    date_type: created # created or updated or both 文章頁日期是創建日或者更新日或都顯示
-    date_format: relative # date/relative 顯示日期還是相對日期
-    categories: true # true or false 文章頁是否顯示分類
-    tags: true # true or false 文章頁是否顯示標籤
-    label: true # true or false 顯示描述性文字
+    date_type: created # created or updated or both 文章页日期是创建日或者更新日或都显示
+    date_format: relative # date/relative 显示日期还是相对日期
+    categories: true # true or false 文章页是否显示分类
+    tags: true # true or false 文章页是否显示标籤
+    label: true # true or false 显示描述性文字
 
-# wordcount (字數統計)
+# wordcount (字数统计)
 wordcount:
   enable: true
   post_wordcount: true
@@ -189,7 +189,7 @@ index_post_content:
 # Post
 # --------------------------------------
 
-# toc (目錄)
+# toc (目录)
 toc:
   enable: true
   number: true
@@ -227,12 +227,12 @@ post_edit:
 related_post:
   enable: true
   limit: 6 # Number of posts displayed
-  date_type: created # or created or updated 文章日期顯示創建日或者更新日
+  date_type: created # or created or updated 文章日期显示创建日或者更新日
 
-# figcaption (圖片描述文字)
+# figcaption (图片描述文字)
 photofigcaption: false
 
-# post_pagination (分頁)
+# post_pagination (分页)
 # value: 1 || 2 || false
 # 1: The 'next post' will link to old post
 # 2: The 'next post' will link to new post
@@ -243,14 +243,14 @@ post_pagination: 2
 # when you scroll in post, the URL will update according to header id.
 anchor: true
 
-# Displays outdated notice for a post (文章過期提醒)
+# Displays outdated notice for a post (文章过期提醒)
 noticeOutdate:
   enable: false
   style: flat # style: simple/flat
   limit_day: 500 # When will it be shown
   position: top # position: top/bottom
   message_prev: 距离上次更新已经过了
-  message_next: 天，文章所描述的內容可能已经发生变化，请留意。
+  message_next: 天，文章所描述的内容可能已经发生变化，请留意。
 
 # Share System (分享功能)
 # --------------------------------------
@@ -295,7 +295,7 @@ disqus:
   shortname:
 
 # Alternative Disqus - Render comments with Disqus API
-# DisqusJS 評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
+# DisqusJS 评论系统，可以实现在网路审查地区载入 Disqus 评论列表，兼容原版
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
   shortname:
@@ -306,7 +306,7 @@ disqusjs:
   admin:
   adminLabel:
 
-# livere (來必力)
+# livere (来必力)
 # https://www.livere.com/
 livere:
   uid:
@@ -428,7 +428,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: '精致的五官是心动的开始，迷人的气质是动情的深渊。<br />精緻な五感は心の動きの始まりで、魅惑的な気質は感動の深淵です。<br />정교 한 이목 구비 는 심 쿵 의 시작 이 고, 사람 을 매혹 시 키 는 기질 은 감동 의 심연 이다.<br />Delicate facial features are the beginning of the heart, charming temperament is the abyss of emotion.<br /> '
+  custom_text: '精致的五官是心动的开始，迷人的气质是动情的深渊。<br />精緻な五感は心の动きの始まりで、魅惑的な気质は感动の深渊です。<br />정교 한 이목 구비 는 심 쿵 의 시작 이 고, 사람 을 매혹 시 키 는 기질 은 감동 의 심연 이다.<br />Delicate facial features are the beginning of the heart, charming temperament is the abyss of emotion.<br /> '
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -461,7 +461,7 @@ microsoft_clarity:
 # Advertisement
 # --------------------------------------
 
-# Google Adsense (谷歌廣告)
+# Google Adsense (谷歌广告)
 google_adsense:
   enable: false
   auto_ads: true
@@ -469,13 +469,13 @@ google_adsense:
   client:
   enable_page_level_ads: true
 
-# Insert ads manually (手動插入廣告)
+# Insert ads manually (手动插入广告)
 # ad:
 #   index:
 #   aside:
 #   post:
 
-# Verification (站長驗證)
+# Verification (站长验证)
 # --------------------------------------
 
 # Google Webmaster tools verification setting
@@ -520,36 +520,36 @@ theme_color:
   blockquote_background_color: "#007AFF"
 
 # The top_img settings of home page
-# default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
-# The position of site info, eg: 300px/300em/300rem/10% (主頁標題距離頂部距離)
+# default: top img - full screen, site info - middle (默认top_img全屏，site_info在中间)
+# The position of site info, eg: 300px/300em/300rem/10% (主页标题距离顶部距离)
 index_site_info_top: 100px
-# The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
+# The height of top_img, eg: 300px/300em/300rem (主页top_img高度)
 index_top_img_height:
 
-# The user interface setting of category and tag page (category和tag頁的UI設置)
-# index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
-# default - same as archives UI 默認跟archives頁面UI一樣
+# The user interface setting of category and tag page (category和tag页的UI设置)
+# index - same as Homepage UI (index 值代表 UI将与首页的UI一样)
+# default - same as archives UI 默认跟archives页面UI一样
 category_ui: # 留空或 index
 tag_ui: # 留空或 index
 
-# Website Background (設置網站背景)
-# can set it to color or image (可設置圖片 或者 顔色)
+# Website Background (设置网站背景)
+# can set it to color or image (可设置图片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 background:
 
 # Footer Background
 footer_bg: 'linear-gradient(208deg, #4584ff 0, #4584ff 11%, #ff7676 100%);'
 
-# the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
-rightside-bottom:
+# the position of bottom right button/default unit: px (右下角按钮距离底部的距离/默认单位为px)
+rightside-bottom: 60px
 
-# Enter transitions (開啓網頁進入效果)
+# Enter transitions (开啓网页进入效果)
 enter_transitions: false
 
 # Background effects (背景特效)
 # --------------------------------------
 
-# canvas_ribbon (靜止彩帶背景)
+# canvas_ribbon (静止彩带背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
   enable: false
@@ -559,7 +559,7 @@ canvas_ribbon:
   click_to_change: false
   mobile: false
 
-# Fluttering Ribbon (動態彩帶)
+# Fluttering Ribbon (动态彩带)
 canvas_fluttering_ribbon:
   enable: false
   mobile: false
@@ -579,21 +579,21 @@ canvas_nest:
 activate_power_mode:
   enable: false
   colorful: true # open particle animation (冒光特效)
-  shake: true #  open shake (抖動特效)
+  shake: true #  open shake (抖动特效)
   mobile: false
 
-# Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
+# Mouse click effects: fireworks (鼠标点击效果: 烟火特效)
 fireworks:
   enable: false
   zIndex: 9999 # -1 or 9999
   mobile: false
 
-# Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
+# Mouse click effects: Heart symbol (鼠标点击效果: 爱心)
 click_heart:
   enable: false
   mobile: false
 
-# Mouse click effects: words (鼠標點擊效果: 文字)
+# Mouse click effects: words (鼠标点击效果: 文字)
 ClickShowText:
   enable: false
   text:
@@ -604,7 +604,7 @@ ClickShowText:
   random: false
   mobile: false
 
-# Default display mode (網站默認的顯示模式)
+# Default display mode (网站默认的显示模式)
 # light (default) / dark
 display_mode: light
 
@@ -624,42 +624,42 @@ font:
   code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
-# 左上角網站名字 主頁居中網站名字
+# 左上角网站名字 主页居中网站名字
 blog_title_font:
   font_link: /extend/Titillium/Titillium.css
   font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
 
-# The setting of divider icon (水平分隔線圖標設置)
+# The setting of divider icon (水平分隔线图标设置)
 hr_icon:
   enable: false
   icon: # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
-# the subtitle on homepage (主頁subtitle)
+# the subtitle on homepage (主页subtitle)
 subtitle:
   enable: false
   # Typewriter Effect (打字效果)
   effect: true
-  # loop (循環打字)
+  # loop (循环打字)
   loop: true
-  # source調用第三方服務
-  # source: false 關閉調用
-  # source: 1  調用搏天api的隨機語錄（簡體）
-  # source: 2  調用一言網的一句話（簡體）
-  # source: 3  調用一句網（簡體）
-  # source: 4  調用今日詩詞（簡體）
-  # subtitle 會先顯示 source , 再顯示 sub 的內容
+  # source调用第三方服务
+  # source: false 关闭调用
+  # source: 1  调用搏天api的随机语录（简体）
+  # source: 2  调用一言网的一句话（简体）
+  # source: 3  调用一句网（简体）
+  # source: 4  调用今日诗词（简体）
+  # subtitle 会先显示 source , 再显示 sub 的内容
   source: false
-  # 如果有英文逗號' , ',請使用轉義字元 &#44;
-  # 如果有英文雙引號' " ',請使用轉義字元 &quot;
-  # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
-  # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
+  # 如果有英文逗号' , ',请使用转义字元 &#44;
+  # 如果有英文双引号' " ',请使用转义字元 &quot;
+  # 开头不允许转义字元，如需要，请把整个句子用双引号包住
+  # 如果关闭打字效果，subtitle只会显示sub的第一行文字
   sub:
 
 # Loading Animation (加载动画)
 preloader: false
 
-# aside (側邊欄)
+# aside (侧边栏)
 # --------------------------------------
 
 aside:
@@ -708,13 +708,13 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
 
 # busuanzi count for PV / UV in site
-# 訪問人數
+# 访问人数
 busuanzi:
   site_uv: false
   site_pv: false
   page_pv: false
 
-# Time difference between publish date and now (網頁運行時間)
+# Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
@@ -739,13 +739,13 @@ newest_comments:
   twikoo: false
   waline: false
 
-# Bottom right button (右下角按鈕)
+# Bottom right button (右下角按钮)
 # --------------------------------------
 
 # Change font size
 change_font_size: false
 
-# Conversion between Traditional and Simplified Chinese (簡繁轉換)
+# Conversion between Traditional and Simplified Chinese (简繁转换)
 translate:
   enable: true
   # The text of a button
@@ -757,9 +757,9 @@ translate:
   # The text of the button when the language is Simplified Chinese
   msgToTraditionalChinese: '繁'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: '简'
 
-# Read Mode (閲讀模式)
+# Read Mode (閲读模式)
 readmode: true
 
 # dark mode
@@ -767,15 +767,15 @@ darkmode:
   enable: true
   # Toggle Button to switch dark/light mode
   button: true
-  # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
+  # Switch dark/light mode automatically (自动切换 dark mode和 light mode)
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
   autoChangeMode: 1
 
-# Lightbox (圖片大圖查看模式)
+# Lightbox (图片大图查看模式)
 # --------------------------------------
-# You can only choose one, or neither (只能選擇一個 或者 兩個都不選)
+# You can only choose one, or neither (只能选择一个 或者 两个都不选)
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
@@ -785,7 +785,7 @@ medium_zoom: false
 # http://fancyapps.com/fancybox/3/
 fancybox: true
 
-# Tag Plugins settings (標籤外掛)
+# Tag Plugins settings (标籤外挂)
 # --------------------------------------
 
 # mermaid
@@ -825,10 +825,10 @@ aplayerInject:
   enable: false
   per_page: false
 
-# Snackbar (Toast Notification 彈窗)
+# Snackbar (Toast Notification 弹窗)
 # https://github.com/polonel/SnackBar
-# position 彈窗位置
-# 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
+# position 弹窗位置
+# 可选 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
   enable: true
   position: bottom-right
@@ -836,16 +836,16 @@ snackbar:
   bg_dark: '#007AFF' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
-# prefetch (預加載)
+# prefetch (预加载)
 instantpage: true
 
 # https://github.com/vinta/pangu.js
-# Insert a space between Chinese character and English character (中英文之間添加空格)
+# Insert a space between Chinese character and English character (中英文之间添加空格)
 pangu:
   enable: false
   field: site # site/post
 
-# Lazyload (圖片懶加載)
+# Lazyload (图片懒加载)
 # https://github.com/verlok/lazyload
 lazyload:
   enable: true
@@ -883,7 +883,7 @@ inject:
 
 # CDN
 # Don't modify the following settings unless you know how they work
-# 非必要請不要修改
+# 非必要请不要修改
 CDN:
   # main
   main_css: /css/index.css
