@@ -113,7 +113,8 @@ html {
 }
 
 #sidebar #sidebar-menus .menus_items .menus_item_child {
-  margin-left: 1rem
+  margin-left: -1.1rem;
+  display: block;
 }
 
 .site-page i.fa-chevron-down {
