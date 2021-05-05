@@ -23,6 +23,7 @@ menu:
     说说: /talking/ || fas fa-bomb
   关于: /about/
 
+title: 数学系的挨踢者  
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: true
 
