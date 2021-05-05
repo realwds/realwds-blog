@@ -9,10 +9,10 @@ categories:
   - 合集
 keywords: 'hexo,butterfly,主题,doc,教程,文件'
 description: Butterfly 美化/优化/魔改 合集
-abbrlink: 7670b080
+copyright: false
+abbrlink: 15934
 date: 2021-01-02 18:11:22
 top_img:
-copyright: false
 ---
 
 {% note blue 'fas fa-bullhorn' flat %}

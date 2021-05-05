@@ -1,12 +1,12 @@
 ---
 title: Code Highlight Style test
-abbrlink: 9db656e5
-date: 2019-07-25 16:43:00
 tags:
   - highlight
 categories:
   - Demo
 description: Code Highlight Style test
+abbrlink: 7835
+date: 2019-07-25 16:43:00
 ---
 
 Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of https://highlightjs.org
