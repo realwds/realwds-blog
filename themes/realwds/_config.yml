@@ -40,14 +40,6 @@ copy:
     enable: true
     limit_count: 150
 
-# social settings (社交图标设置)
-# formal:
-#   icon: link || the description
-social:
-  fab fa-github: https://github.com/realwds || Github
-  fas fa-envelope: mailto:wds@disnot.com || Email
-  fas fa-rss: /atom.xml || RSS
-
 # search (搜索)
 # --------------------------------------
 
@@ -415,15 +407,6 @@ crisp:
   enable: false
   website_id:
 
-# Footer Settings
-# --------------------------------------
-footer:
-  owner:
-    enable: true
-    since: 2020
-  custom_text: '精致的五官是心动的开始，迷人的气质是动情的深渊。<br />精緻な五感は心の动きの始まりで、魅惑的な気质は感动の深渊です。<br />정교 한 이목 구비 는 심 쿵 의 시작 이 고, 사람 을 매혹 시 키 는 기질 은 감동 의 심연 이다.<br />Delicate facial features are the beginning of the heart, charming temperament is the abyss of emotion.<br /> '
-  copyright: true # Copyright of theme and framework
-
 # Analysis
 # --------------------------------------
 
@@ -528,10 +511,7 @@ tag_ui: # 留空或 index
 # Website Background (设置网站背景)
 # can set it to color or image (可设置图片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
-
-# Footer Background
-footer_bg: 'linear-gradient(208deg, #4584ff 0, #4584ff 11%, #ff7676 100%);'
+background: var(--wds-background)
 
 # the position of bottom right button/default unit: px (右下角按钮距离底部的距离/默认单位为px)
 rightside-bottom: 60px
@@ -976,3 +956,30 @@ artitalk:
     title: 随笔
     comments: false
     top_img: false
+
+# social settings (社交图标设置)
+# formal:
+#   icon: link || the description
+social:
+  fab fa-github: https://github.com/realwds || Github
+  fas fa-envelope: mailto:wds@disnot.com || Email
+  fas fa-rss: /atom.xml || RSS
+  left: #底部左侧按钮
+    fab fa-github: https://github.com/realwds || Github
+    fas fa-envelope: mailto:wds@disnot.com || Email
+    fas fa-rss: /atom.xml || RSS
+  right: #底部右侧按钮
+    fab fa-github: https://github.com/realwds || Github
+    fas fa-envelope: mailto:wds@disnot.com || Email
+    fas fa-rss: /atom.xml || RSS
+
+# Footer Settings
+footer:
+  owner:
+    enable: true
+    since: 2020
+  custom_text: 数学系的挨踢者
+  copyright: true # Copyright of theme and framework
+
+# Footer Background
+footer_bg:

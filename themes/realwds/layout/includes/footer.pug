@@ -1,17 +1,67 @@
-#footer-wrap
-  if theme.footer.owner.enable
-    - var now = new Date()
-    - var nowYear = now.getFullYear()
-    if theme.footer.owner.since && theme.footer.owner.since != nowYear
-      .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear} By ${config.author}`
-    else
-      .copyright!= `&copy;${nowYear} By ${config.author}`
-  if theme.footer.copyright
-    .framework-info
-      span= _p('footer.framework') + ' '
-      a(href='https://hexo.io')= 'Hexo'
-      span.footer-separator |
-      span= _p('footer.theme') + ' '
-      a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
-  if theme.footer.custom_text
-    .footer_custom_text!=`${theme.footer.custom_text}`
+#footer-social
+  each url, icon in theme.social.left
+    a.deal_link(href=url_for(trim(url.split('||')[0])) target="_blank" 
+    title=url.split('||')[1] === undefined ? '' : trim(url.split('||')[1]))
+      i(class=icon)
+  if theme.lazyload.enable
+    img.footer_mini_logo(data-lazy-src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt="回到顶部" onclick="btf.scrollToDest(0,500)")
+  else
+    img.footer_mini_logo(src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt="回到顶部" onclick="btf.scrollToDest(0,500)")  
+  each url, icon in theme.social.right
+    a.deal_link(href=url_for(trim(url.split('||')[0])) target="_blank" 
+    title=url.split('||')[1] === undefined ? '' : trim(url.split('||')[1]))
+      i(class=icon)
+
+#footer-container
+  .footer-group
+    h3.footer-title='产品'
+    .footer-links
+      a.footer-item(href='#')='设计报告'
+      a.footer-item(href='#')='优质报告'
+  .footer-group
+    h3.footer-title='关于'
+    .footer-links
+      a.footer-item(href='#')='关于本站'
+      a.footer-item(href='#')='分享一下'
+      a.footer-item(href='#')='赞赏作者'
+  .footer-group
+    h3.footer-title='文库'
+    .footer-links
+      a.footer-item(href='#')='全部文章'
+      a.footer-item(href='#')='全部分类'
+      a.footer-item(href='#')='全部标签'
+  .footer-group
+    h3.footer-title='SiteMap'
+    .footer-links
+      a.footer-item(href='#')='SiteMap'
+      a.footer-item(href='#')='百度蜘蛛'
+      a.footer-item(href='#')='RSS 订阅'
+  .footer-group
+    h3.footer-title='导航'
+    .footer-links
+      a.footer-item(href='#')='友情链接'
+      a.footer-item(href='#')='在线工具'
+      a.footer-item(href='#')='常用网站'
+  .footer-group
+    h3.footer-title='协议'
+    .footer-links
+      a.footer-item(href='#')='隐私协议'
+      a.footer-item(href='#')='Cookies'
+      a.footer-item(href='#')='版权协议'
+#footer-banner
+  .footer-banner-links
+    .footer-banner-left
+      if theme.footer.owner.enable
+      - var now = new Date()
+      - var nowYear = now.getFullYear()
+      if theme.footer.owner.since && theme.footer.owner.since != nowYear
+        span.copyright!= `&copy;${theme.footer.owner.since} - ${nowYear} By ${config.author}`
+      else
+        span.copyright!= `&copy;${nowYear} By ${config.author}`
+      if theme.footer.copyright
+        a.footer-banner-link(target="_blank" href='https://hexo.io/zh-cn/')='Hexo'
+        a.footer-banner-link(target="_blank" href='https://github.com/jerryc127/hexo-theme-butterfly')='Butterfly'
+        a.footer-banner-link(target="_blank" href='https://blog.zhheo.com/')='主题'
+        a.footer-banner-link(target="_blank" href='/about/')='关于'
+    .footer-banner-right
+      a.footer-banner-link(target="_blank" href='#')=theme.footer.custom_text
