@@ -180,23 +180,23 @@ if $site-name-font
   z-index: 1
   transition: color 1s
 
-  &:before
-    position: absolute
-    top: 0
-    right: 0
-    bottom: 0
-    left: 0
-    z-index: -1
-    background: var(--btn-hover-color)
-    content: ''
-    transition: transform .5s ease-out
-    transform: scaleX(0)
-    transform-origin: 0 50%
+  // &:before
+  //   position: absolute
+  //   top: 0
+  //   right: 0
+  //   bottom: 0
+  //   left: 0
+  //   z-index: -1
+  //   background: var(--btn-hover-color)
+  //   content: ''
+  //   transition: transform .5s ease-out
+  //   transform: scaleX(0)
+  //   transform-origin: 0 50%
 
-  &:hover
-    &:before
-      transition-timing-function: cubic-bezier(.45, 1.64, .47, .66)
-      transform: scaleX(1)
+  // &:hover
+  //   &:before
+  //     transition-timing-function: cubic-bezier(.45, 1.64, .47, .66)
+  //     transform: scaleX(1)
 
 img
   max-width: 100%

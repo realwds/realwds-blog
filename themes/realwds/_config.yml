@@ -188,7 +188,7 @@ index_post_content:
 # toc (目录)
 toc:
   enable: true
-  number: true
+  number: false
   style_simple: false
 
 post_copyright:
@@ -202,9 +202,6 @@ reward:
   enable: true
   QR_code:
     - img: /img/reward/wxds.png
-      link:
-      text: 微信赞赏
-    - img: /img/reward/wxzf.png
       link:
       text: 微信
     - img: /img/reward/zfbzf.png
@@ -260,7 +257,7 @@ addThis:
 # Share.js
 # https://github.com/overtrue/share.js
 sharejs:
-  enable: true
+  enable: false
   sites: facebook,twitter,wechat,weibo,qq
 
 # AddToAny
