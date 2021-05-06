@@ -9,7 +9,7 @@ tags:
 categories: 进阶教程
 keywords: 'hexo,butterfly,主题,doc,教程,文档,Aplayer,Aplayer吸底,pjax'
 description: Butterfly添加全局吸底Aplayer教程
-abbrlink: 9ac34011
+abbrlink: 3bd898ff
 ---
 
 {% note info %}

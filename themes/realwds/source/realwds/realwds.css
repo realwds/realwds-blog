@@ -108,8 +108,10 @@ html {
 #nav .menus_items .menus_item .menus_item_child {
   padding: 6px 8px 8px 8px;
   border-radius: 12px;
+  width: auto;
   background: var(--wds-card-bg);
-  box-shadow: var(--wds-shadow-black)
+  box-shadow: var(--wds-shadow-black);
+  white-space: nowrap;
 }
 
 #sidebar #sidebar-menus .menus_items .menus_item_child {
@@ -444,7 +446,7 @@ a.darkmode_switchbutton {
   background: var(--wds-card-bg);
   box-shadow: var(--wds-shadow-light2black);
   border-radius: 12px;
-  height: 14.6em;
+  height: 14em;
 }
 
 #recent-posts>.recent-post-item>.recent-post-info>.content {
@@ -518,4 +520,29 @@ a.darkmode_switchbutton {
 /* 菜单栏居中右边移动 */
 #nav .menus_items .menus_item:nth-child(2) .menus_item_child {
   right: -140px;
+}
+
+/* 页面顶部加载进度条 */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none
+}
+
+.pace-inactive .pace-progress {
+  opacity: 0;
+  transition: .3s
+}
+
+.pace .pace-progress {
+  background: #4584ff;
+  background: var(--wds-logo-color);
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 3px
 }

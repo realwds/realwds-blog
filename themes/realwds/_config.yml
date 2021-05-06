@@ -180,7 +180,7 @@ wordcount:
 # false: do not show the article introduction
 index_post_content:
   method: 3
-  length: 500 # if you set method to 2 or 3, the length need to config
+  length: 400 # if you set method to 2 or 3, the length need to config
 
 # Post
 # --------------------------------------
@@ -873,6 +873,7 @@ inject:
     - <link rel="stylesheet" href="/realwds/realwds.css">
   bottom:
     - <script src="/realwds/realwds.js"></script>
+    - <script src="https://cdn.jsdelivr.net/gh/CodeByZach/pace@1.2.3/pace.min.js"></script>
     # 在需要插入二维码的位置创建一个id为qrcode的div
     # - <script async src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs@master/qrcode.min.js"></script>
     # - <script async src="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/qrcode/qrcode-lu.js"></script>
