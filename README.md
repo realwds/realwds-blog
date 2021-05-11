@@ -21,6 +21,6 @@ hexo clean && hexo s
 # 部署
 hexo g
 
-# 部署加压缩
-hexo cl && hexo g && gulp && hexo d
+# 本地静态资源压缩
+gulp
 ```
