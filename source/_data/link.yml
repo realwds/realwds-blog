@@ -1,0 +1,86 @@
+# 1. 確保你使用 Butterfly 主題
+# 2. Fork [butterfly.js.org 倉庫](https://github.com/jerryc127/butterfly.js.org)
+# 3. 修改 source/_data/link.yml
+# 4. 按要求新增內容
+#     - name: 博客名
+#       link: 博客地址
+#       avatar: 博客頭像
+#       descr: 博客描述
+# 5. 發起 Pull requests ，合併到 butterfly.js.org 倉庫
+
+- class_name: '🔥 本站驱动'
+  class_desc: '<span>本站主题参考以下站点</span>'
+  link_list:
+    - name: 张洪Heo
+      link: https://blog.zhheo.com
+      avatar: https://blog.zhheo.com/img/avatar.png
+      descr: 爱折腾的设计师
+    - name: MYW
+      link: https://immyw.com/
+      avatar: https://immyw.com/img/avatar.png
+      descr: 今日事,今日畢
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、簡單且強大的網誌框架
+    - name: Butterfly
+      link: https://github.com/jerryc127/hexo-theme-butterfly
+      avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-github-avatar.png
+      descr: '🦋 A Hexo Theme: Butterfly'
+
+- class_name: '🔥 旗下产品'
+  class_desc: '<span>Alejandro 作品集系列</span>'
+  link_list:
+    - name: 张洪Heo
+      link: https://blog.zhheo.com
+      avatar: https://blog.zhheo.com/img/avatar.png
+      descr: 爱折腾的设计师
+    - name: MYW
+      link: https://immyw.com/
+      avatar: https://immyw.com/img/avatar.png
+      descr: 今日事,今日畢
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、簡單且強大的網誌框架
+    - name: Butterfly
+      link: https://github.com/jerryc127/hexo-theme-butterfly
+      avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-github-avatar.png
+      descr: '🦋 A Hexo Theme: Butterfly'
+
+- class_name: '🔥 友人帐'
+  class_desc: '<span>优秀站点，排名不分前后</span>'
+  link_list:
+    - name: 张洪Heo
+      link: https://blog.zhheo.com
+      avatar: https://blog.zhheo.com/img/avatar.png
+      descr: 爱折腾的设计师
+    - name: MYW
+      link: https://immyw.com/
+      avatar: https://immyw.com/img/avatar.png
+      descr: 今日事,今日畢
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、簡單且強大的網誌框架
+    - name: Butterfly
+      link: https://github.com/jerryc127/hexo-theme-butterfly
+      avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-github-avatar.png
+      descr: '🦋 A Hexo Theme: Butterfly'
+    - name: 张洪Heo
+      link: https://blog.zhheo.com
+      avatar: https://blog.zhheo.com/img/avatar.png
+      descr: 爱折腾的设计师
+    - name: MYW
+      link: https://immyw.com/
+      avatar: https://immyw.com/img/avatar.png
+      descr: 今日事,今日畢
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、簡單且強大的網誌框架
+    - name: Butterfly
+      link: https://github.com/jerryc127/hexo-theme-butterfly
+      avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-github-avatar.png
+      descr: '🦋 A Hexo Theme: Butterfly' 
+      
