@@ -31,9 +31,9 @@ aside: false
 网站声明
 ----
 
-1、[下饭视频](https://xiafan.disnot.com/)遵守相关法律法规，由于本站资源全部来源于网络，故无法核实资源侵权的真实性；
+1、[realwds's blog](https://realwds-blog.vercel.app)遵守相关法律法规，由于本站资源全部来源于网络，故无法核实资源侵权的真实性；
 
-2、出于传递信息之目的，故[下饭视频](https://xiafan.disnot.com/)可能会误刊发损害或影响您的合法权益，请您积极与我们联系处理；
+2、出于传递信息之目的，故[realwds's blog](https://realwds-blog.vercel.app)可能会误刊发损害或影响您的合法权益，请您积极与我们联系处理；
 
 3、因时间、精力有限，我们无法一一核实每一条消息的真实性，但我们会在发布之前尽最大努力来核实这些信息；
 
@@ -71,8 +71,8 @@ aside: false
 **附件：国家版权局发布的示范格式**
 -------------------
 
-1、[《要求删除或断开链接侵权网络内容的通知》](https://xiafan.disnot.com/wp-content/uploads/2021/02/27061708341.pdf)示例格式：
+1、[《要求删除或断开链接侵权网络内容的通知》](https://cdn.jsdelivr.net/gh/realwds/cdn/pdf/27061708341.pdf)示例格式：
 
-2、[《要求删除或断开链接侵权网络内容的通知》](https://xiafan.disnot.com/wp-content/uploads/2021/02/27061709218.pdf)填写说明：
+2、[《要求删除或断开链接侵权网络内容的通知》](https://cdn.jsdelivr.net/gh/realwds/cdn/pdf/27061709218.pdf)填写说明：
 
 请按照此通知格式填写发至本站的邮箱 admin@disnot.com

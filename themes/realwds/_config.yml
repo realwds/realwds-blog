@@ -17,7 +17,7 @@ menu:
   更多:
     在线工具: /tools/ || fas fa-tools
     友情链接: /link/ || fas fa-heart
-    更新日志: /shuoshuo/ || fas fa-info-circle
+    生活杂谈: /talking/ || fas fa-info-circle
 
 title: 数学系的挨踢者  
 # Hide the child menu items in mobile sidebar
@@ -150,7 +150,7 @@ post_meta:
     date_type: created # created or updated or both 主页文章日期是创建日或者更新日或都显示
     date_format: relative # date/relative 显示日期还是相对日期
     categories: true # true or false 主页是否显示分类
-    tags: false # true or false 主页是否显示标籤
+    tags: true # true or false 主页是否显示标籤
     label: true # true or false 显示描述性文字
   post:
     date_type: created # created or updated or both 文章页日期是创建日或者更新日或都显示
@@ -952,11 +952,11 @@ artitalk:
   enable: true
   appId: lMM2G147us4K8mXILKxKHmHr-MdYXbMMI
   appKey: dGgm6nGrFdRjcvz2tBy7BzWr
-  path: shuoshuo
+  path: talking
   js:
   option:
   front_matter:
-    title: 说说
+    title: 生活杂谈
     comments: false
     top_img: false
 
@@ -982,7 +982,7 @@ footer:
     enable: true
     since: 2020
   custom_text: 数学系的挨踢者
-  copyright: true # Copyright of theme and framework
+  copyright: false # Copyright of theme and framework
 
 # Footer Background
 footer_bg:

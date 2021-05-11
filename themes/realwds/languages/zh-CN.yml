@@ -8,7 +8,7 @@ copy:
   noSupport: 浏览器不支持
 
 page:
-  articles: 文章总览
+  articles: 文章
   tag: 标签
   category: 分类
   archives: 归档
