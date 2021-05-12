@@ -1194,3 +1194,84 @@ ul,li{
     text-decoration: none;
   }
 }
+
+/* 文章页top-img */
+.coverdiv {
+  width: 70%;
+  height: 100%;
+  position: relative;
+  margin: 0 -20% 0 auto;
+  display: none;
+  overflow: hidden;
+}
+.coverdiv.loaded {
+  display: block;
+}
+.post-bg #post-cover {
+  width: 100%!important;
+  height: 100%!important;
+  object-fit: cover;
+  min-width: 50vw;
+  min-height: 20rem;
+  opacity: .8;
+  transform: rotate(10deg) translateY(-30px) scale(1.1);
+}
+.coverdiv:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 330px -220px 300px 60px var(--wds-main) inset;
+}
+#page-header.post-bg:before {
+  transition: 0s;
+  opacity: .93;
+  height: 20rem;
+  background-color: var(--wds-main);
+  opacity: .8;
+}
+#page-header.post-bg {
+  background-color: var(--wds-main);
+  transition: 0s;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px){
+  #page-header.post-bg {
+    height: 15rem;
+  }
+}
+
+#aside-content>.card-widget:first-child {
+  background: var(--wds-main);
+  box-shadow: var(--wds-shadow-black);
+  transition: .3s;
+  color: var(--wds-white);
+}
+
+#aside-content .card-info .card-info-data > .card-info-data-item a .headline {
+  color: var(--wds-white);
+}
+#aside-content .card-info .card-info-data > .card-info-data-item a .length-num {
+  color: var(--wds-white);
+}
+#aside-content .card-info img:hover {
+  transform: none;
+}
+
+#aside-content .card-announcement .item-headline {
+  display: none;
+}
+.card-announcement .announcement_content p {
+  margin: .5rem 0 0 0;
+  line-height: 1.6;
+  font-size: .8rem;
+}
+.card-announcement .content_qrcode {
+  text-align: center;
+}
+.card-announcement .content_qrcode img{
+  width: 180px;
+  margin-top: 10px;
+}

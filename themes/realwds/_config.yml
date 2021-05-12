@@ -127,12 +127,9 @@ cover:
     - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-1.png
     - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-3.png
     - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-6.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-5.png
     - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-4.png
     - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-7.png
     - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-8.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-10.png
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
@@ -651,8 +648,8 @@ aside:
       text: 主页 GitHub
       link: https://github.com/realwds
   card_announcement:
-    enable: false
-    content: 精致的五官是心动的开始，迷人的气质是动情的深渊。
+    enable: true
+    content: '<p>如果你喜欢本主题，可以添加微信了解详情哦（技术交流，不闲聊，服务有偿）</p><div class="content_qrcode"><img src="/img/wechat.png" alt="添加微信"></div>'
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -852,6 +849,7 @@ inject:
     - <link rel="stylesheet" href="/realwds/realwds.css">
     - <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>
   bottom:
+    - <script src="https://cdn.jsdelivr.net/gh/briangonzalez/rgbaster.js@1.1.0/rgbaster.min.js"></script>
     - <script src="/realwds/realwds.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/CodeByZach/pace@1.2.3/pace.min.js"></script>
     # 在需要插入二维码的位置创建一个id为qrcode的div

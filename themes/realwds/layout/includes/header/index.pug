@@ -28,7 +28,9 @@ else
   - var top_img = false
   - var isHomeClass = 'not-top-img'
 
-header#page-header(class=isHomeClass style=bg_img)
+header#page-header(class=isHomeClass)
+  div.coverdiv(id='coverdiv')
+    img#post-cover(src=url_for(top_img) alt='cover')
   !=partial('includes/header/nav', {}, {cache: false})
   if top_img !== false
     if is_post()

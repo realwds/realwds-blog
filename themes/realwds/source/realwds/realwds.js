@@ -51,3 +51,28 @@ document.addEventListener("visibilitychange", function() {
     document.hidden ? (document.title = "realwds's blog",
     clearTimeout(titleTime)) : document.title = OriginTitile
 });
+
+
+window.onload = function() {
+  coverColor()
+}
+
+function coverColor() {
+  var _document$getElementB, path = null === (_document$getElementB = document.getElementById("post-cover")) || void 0 === _document$getElementB ? void 0 : _document$getElementB.src;
+  RGBaster.colors(path, {
+    paletteSize: 30, // 调色板大小
+    exclude: [ 'rgb(255,255,255)', 'rgb(0,0,0)'],  // 不包括白色
+    success: function(payload) {
+      // 包含一些颜色信息(payload)的回调
+      // payload.dominant是主色，RGB形式表示
+      // payload.secondary是次色，RGB形式表示
+      // payload.palette是调色板，含多个主要颜色，数组
+      console.log("#" +payload.dominant.slice(2))
+      document.styleSheets[0].addRule(":root", "--wds-main:" + payload.dominant + "!important")
+      document.getElementById("coverdiv").classList.add("loaded")
+    },
+    error: function(){
+      document.styleSheets[0].addRule(":root", "--wds-main: #286dea!important")
+    }
+  })
+}
