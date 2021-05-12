@@ -48,7 +48,7 @@ function isScrollEnd() {
 
 var OriginTitile = document.title, titleTime;
 document.addEventListener("visibilitychange", function() {
-    document.hidden ? (document.title = "realwds's blog",
+    document.hidden ? (document.title = "(゜-゜)つロ realwds's blog",
     clearTimeout(titleTime)) : document.title = OriginTitile
 });
 

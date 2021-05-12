@@ -1518,3 +1518,33 @@ a.reward-main-btn:hover {
   color: var(--wds-white);
   opacity: .4;
 }
+
+/* 评论样式修改 */
+#post-comment {
+  margin-top: 40px;
+}
+#post-comment .comment-head {
+  margin-bottom: 0;
+}
+#post-comment .comment-head .comment-headline {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: .6rem;
+}
+.v[data-class=v] .txt-right {
+  opacity: 0!important;
+}
+.v[data-class=v] .vwrap {
+  border: 1px solid var(--wds-theme);
+}
+#vcomment .vbtn, #waline .vbtn {
+  border: 1px solid #ededed !important;
+  background: 0 !important;
+  color: var(--wds-fontcolor) !important;
+}
+#vcomment .vbtn:hover, #waline .vbtn:hover {
+  background: 0 !important
+}
+.v[data-class=v] .vcards .vcard .vh .vmeta .vat {
+  color: var(--wds-fontcolor) !important;
+}
