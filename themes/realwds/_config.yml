@@ -182,8 +182,8 @@ toc:
   style_simple: false
 
 post_copyright:
-  enable: false
-  decode: false
+  enable: true
+  decode: true
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -247,8 +247,8 @@ addThis:
 # Share.js
 # https://github.com/overtrue/share.js
 sharejs:
-  enable: false
-  sites: facebook,twitter,wechat,weibo,qq
+  enable: true
+  sites: wechat,weibo,qq
 
 # AddToAny
 # https://www.addtoany.com/

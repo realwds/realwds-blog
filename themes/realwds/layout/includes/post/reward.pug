@@ -1,16 +1,19 @@
 .post-reward
   .reward-button.button--animated
-    i.fas.fa-qrcode
+    i.fas.fa-hamburger
     = ' ' + _p('donate')
   .reward-main
     ul.reward-all
-      each item in theme.reward.QR_code
-        - var clickTo = item.link ? item.link : item.img
-        li.reward-item
-          a(href=url_for(clickTo) target='_blank')
-            if theme.lazyload.enable
-              img.post-qr-code-img(data-lazy-src=url_for(item.img) alt=item.text)
-            else
-              img.post-qr-code-img(src=url_for(item.img) alt=item.text)
-          .post-qr-code-desc=item.text
-
+      ul.reward-group
+        each item in theme.reward.QR_code
+          - var clickTo = item.link ? item.link : item.img
+          li.reward-item
+            a(href=url_for(clickTo) target='_blank')
+              if theme.lazyload.enable
+                img.post-qr-code-img(data-lazy-src=url_for(item.img) alt=item.text)
+              else
+                img.post-qr-code-img(src=url_for(item.img) alt=item.text)
+            .post-qr-code-desc=item.text
+      a.reward-main-btn(href='/about/')
+        .reward-text='赞赏名单'
+        .reward-dec='感谢给予支持的朋友，您的支持是我前进的动力。'

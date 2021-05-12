@@ -32,7 +32,7 @@
   --wds-lighttext: #ef794f;
   --wds-secondtext: rgba(60, 60, 67, 0.6);
   --wds-scrollbar: rgba(60, 60, 67, 0.4);
-  --wds-card-btn-bg: #f1f2f2;
+  --wds-card-btn-bg: #edf0f7;
   --wds-post-blockquote-bg: #fafcff;
   --wds-post-tabs-bg: #f2f5f8;
   --wds-secondbg: #edf0f7;
@@ -57,7 +57,7 @@
   --wds-lighttext: #f2b94b;
   --wds-secondtext: #a1a2b8;
   --wds-scrollbar: rgba(200, 200, 223, 0.4);
-  --wds-card-btn-bg: #2e2d38;
+  --wds-card-btn-bg: #30343f;
   --wds-post-blockquote-bg: #000;
   --wds-post-tabs-bg: #121212;
   --wds-secondbg: #30343f;
@@ -555,14 +555,6 @@ a.darkmode_switchbutton {
   height: 3px
 }
 
-/* 页面标签赞赏 */
-#post .tag_share{
-  margin-top: 3rem;
-}
-#post .post-reward {
-  margin-top: 1rem;
-}
-
 /* 猜你喜欢样式 */
 .relatedPosts > .headline {
   font-weight: 600;
@@ -581,17 +573,6 @@ a.darkmode_switchbutton {
 }
 #aside-content .item-headline span{
   margin-left: .3em;
-}
-/* 赞赏样式 */
-.post-reward .reward-button {
-  background: var(--wds-red);
-  color: var(--wds-white);
-  border-radius: 8px;
-}
-.post-reward .reward-button:hover {
-  color: var(--wds-white);
-  background: var(--wds-blue);
-  box-shadow: var(--wds-shadow-blue);
 }
 
 /* 文章标签样式 */
@@ -1367,4 +1348,173 @@ h1, h2, h3, h4, h5, h6 {
   background: 0 0;
   opacity: 1;
   border-bottom: none;
+}
+
+/* 文章底部打赏 */
+.post-tools {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.post-tools-left {
+  white-space: nowrap;
+  display: flex;
+  text-overflow: ellipsis;
+  margin-top: 1rem;
+}
+.post-tools-right {
+  margin-top: 1.3rem;
+  overflow: scroll;
+  overflow-x: overlay;
+  white-space: nowrap;
+}
+.post-reward {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+.post_share {
+  margin-left: 20px;
+}
+.post_share a {
+  background: var(--wds-card-btn-bg) !important;
+  color: var(--wds-fontcolor) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  cursor: pointer;
+  transition: .3s;
+  width: 56px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+}
+.post_share a:hover {
+  background: var(--wds-theme) !important;
+  color: var(--wds-white) !important;
+  transition: .3s;
+  box-shadow: var(--wds-shadow-blue);
+}
+@media screen and (max-width: 769px) {
+  .post_share .social-share .icon-wechat {
+    display: none !important;
+  }
+}
+/* 赞赏样式 */
+.post-reward .reward-button {
+  background: var(--wds-red);
+  color: var(--wds-white);
+  padding: 0;
+  width: 133px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 8px!important;
+}
+.post-reward .reward-button:hover {
+  color: var(--wds-white);
+  background: var(--wds-blue);
+  box-shadow: var(--wds-shadow-blue);
+}
+
+.post-reward .reward-main .reward-all {
+  border-radius: 12px;
+  background: var(--wds-background);
+}
+.reward-group {
+  display: flex;
+}
+a.reward-main-btn {
+  background: var(--wds-secondbg);
+  width: 100%;
+  color: var(--wds-fontcolor);
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 4px 0;
+}
+a.reward-main-btn:hover {
+  color: var(--wds-white);
+  background: var(--wds-red);
+  background-image: url(https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/reward.2emkfzy7hvgg.gif);
+}
+.reward-text {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.reward-dec {
+  font-size: .6rem;
+}
+
+/* 版权样式修改 */
+#post .post-copyright {
+  background: var(--wds-black);
+  padding: .9rem 1.4rem;
+  overflow: hidden;
+}
+#post .post-copyright .post-copyright-info {
+  padding-left: 0;
+  color: var(--wds-white);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+#post>div.post-copyright>div.post-copyright__author>span>span {
+  padding: 0;
+  color: var(--wds-white);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.38;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+#post>div.post-copyright>div.post-copyright__type {
+  line-height: 16px;
+  display: flex;
+  margin-top: 8px;
+}
+#post .post-copyright .post-copyright-info {
+  padding-left: 0;
+  color: var(--wds-white);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+#post>div.post-copyright>div.post-copyright__type>span>a {
+  font-size: 14px;
+  opacity: .6;
+  line-height: 16px;
+}
+#post .post-copyright .post-copyright-info a {
+  padding: 0;
+  color: var(--wds-white);
+  font-weight: 700;
+  text-decoration: none;
+}
+#post .post-copyright .post-copyright-info a:hover {
+  opacity: 1;
+  background: 0 0;
+  color: var(--wds-white);
+}
+#post>div.post-copyright>div.post-copyright__notice {
+  font-size: .7rem;
+  line-height: 1rem;
+  margin: .5rem 0;
+}
+#post .post-copyright:before {
+  display: none;
+}
+#post .post-copyright:after {
+  position: absolute;
+  right: 12px;
+  top: -37px;
+  content: '\f25e';
+  font-size: 100px;
+  font-family: 'Font Awesome 5 Brands';
+  opacity: .2;
+  color: var(--wds-white);
+  opacity: .4;
 }
