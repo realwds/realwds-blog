@@ -1243,6 +1243,7 @@ ul,li{
   }
 }
 
+/* 侧边栏样式 */
 #aside-content>.card-widget:first-child {
   background: var(--wds-main);
   box-shadow: var(--wds-shadow-black);
@@ -1274,4 +1275,96 @@ ul,li{
 .card-announcement .content_qrcode img{
   width: 180px;
   margin-top: 10px;
+}
+
+/* 文章样式 */
+#page-header #post-info {
+  bottom: 13rem;
+  position: inherit;
+  padding: 0 6%;
+  max-width: 95vw;
+  margin: 0 auto;
+  z-index: 10;
+  color: var(--wds-white);
+}
+#post-firstinfo {
+  text-align: left;
+}
+#post-info .post-title {
+  color: var(--wds-white);
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  text-align: left;
+  margin: 1rem 0!important;
+  -webkit-line-clamp: 1;
+}
+#post-firstinfo>div>span.post-meta-categories>a {
+  margin-left: .4rem;
+  font-weight: 600;
+  color: var(--wds-white);
+}
+#post-firstinfo>div>span.post-meta-date>time {
+  margin-left: .5rem;
+  opacity: .6;
+}
+#post-info #post-meta {
+  color: var(--wds-white);
+}
+#post-meta>div {
+  text-align: left;
+  margin-top: .4rem;
+}
+
+#post-info #post-meta>.meta-secondline>span:first-child {
+  display: inline;
+  margin-left: -1rem;
+}
+#post-info #post-meta .post-meta-icon {
+  margin-right: .4rem;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #page-header #post-info {
+    padding: 0 4%;
+    bottom: 10rem!important;
+  }
+  #post-info .post-title {
+    font-size: 1.4rem;
+    -webkit-line-clamp: 2;
+    margin: .2rem 0!important;
+  }
+}
+
+#article-container p {
+  font-size: 18px;
+  line-height: 2.14;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+#article-container.post-content h1:before, #article-container.post-content h2:before, #article-container.post-content h3:before, #article-container.post-content h4:before, #article-container.post-content h5:before, #article-container.post-content h6:before {
+  top: calc(50% - .45rem);
+  content: '';
+}
+h1, h2, h3, h4, h5, h6 {
+  padding-left: 0 !important;
+}
+#article-container .headerlink {
+  float: right;
+  opacity: .08;
+  border-bottom-style: none;
+  border-bottom: none;
+  position: relative;
+}
+#article-container .headerlink::before {
+  content: "\f0c1";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+#article-container .headerlink:hover {
+  background: 0 0;
+  opacity: 1;
+  border-bottom: none;
 }
