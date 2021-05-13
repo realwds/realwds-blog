@@ -1671,3 +1671,69 @@ a.reward-main-btn:hover {
 #pagination.pagination-post {
   background: var(--wds-main);
 }
+
+.hometop-group .hometop-item {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 6px 6px 16px;
+  transition: .3s;
+  border-radius: 12px;
+  width: calc(100% / 4 - 12px);
+  height: 100px;
+  line-height: 100px;
+  transition-timing-function: ease-in-out;
+}
+
+.hometop-group .hometop-item:nth-child(odd){
+  background: linear-gradient(to right,#2f80ed,#56ccf2);
+}
+.hometop-group .hometop-item:nth-child(even){
+  background: linear-gradient(to right,#f12711,#f5af19);
+}
+@media (max-width: 620px) {
+  .hometop-group .hometop-item {
+    width: calc(100% / 2 - 12px);
+  }
+}
+
+.hometop-group .hometop-item .hometop-button {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  font-weight: 700;
+  font-size: .9rem;
+  color: var(--wds-white);
+  transition: all .4s cubic-bezier(.39,.575,.565,1);
+  transform: scale(1);
+}
+
+.hometop-group .hometop-item .hometop-button span {
+  padding-left: 25px;
+}
+.hometop-group .hometop-item .hometop-button i{
+  font-size: 5rem;
+  opacity: .4;
+  position: absolute;
+  right: 0;
+  top: 20%;
+  transition: .3s;
+}
+.hometop-group .hometop-item .hometop-button span:after{
+  top: 66px;
+  width: 1.2rem;
+  left: 25px;
+  height: 2px;
+  background: var(--wds-white);
+  content: "";
+  border-radius: 1px;
+  position: absolute;
+  transition: .3s;
+}
+
+.hometop-group .hometop-item:hover .hometop-button span:after{
+  width: 3rem;
+}
+.hometop-group .hometop-item:hover .hometop-button i{
+  transform: scale(1.1);
+}

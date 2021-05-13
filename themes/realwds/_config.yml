@@ -803,8 +803,8 @@ aplayerInject:
 snackbar:
   enable: true
   position: bottom-right
-  bg_light: '#007AFF' # The background color of Toast Notification in light mode
-  bg_dark: '#007AFF' # The background color of Toast Notification in dark mode
+  bg_light: var(--wds-main) # The background color of Toast Notification in light mode
+  bg_dark: var(--wds-main) # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (预加载)
