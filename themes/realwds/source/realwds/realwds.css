@@ -1738,6 +1738,10 @@ a.reward-main-btn:hover {
 #page .category-lists .category-title,.tag-cloud-title{
   font-weight: 600;
   font-size: 2em;
+  text-align: left;
+}
+.tag-cloud-list {
+  text-align: left;
 }
 .article-sort-title {
   position: static;

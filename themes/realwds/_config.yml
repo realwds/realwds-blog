@@ -13,11 +13,12 @@ menu:
   #   全部分类: /categories/ || fas fa-folder-open
   #   全部标签: /tags/ || fas fa-tags
   随笔: /essay/
+  友链: /link/
   关于: /about/
-  更多:
-    在线工具: /tools/ || fas fa-tools
-    友情链接: /link/ || fas fa-heart
-    生活杂谈: /talking/ || fas fa-info-circle
+  # 更多:
+  #   在线工具: /tools/ || fas fa-tools
+  #   友情链接: /link/ || fas fa-heart
+  #   生活杂谈: /talking/ || fas fa-info-circle
 
 title: 数学系的挨踢者  
 # Hide the child menu items in mobile sidebar
