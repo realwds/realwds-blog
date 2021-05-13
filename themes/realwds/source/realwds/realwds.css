@@ -1521,7 +1521,7 @@ a.reward-main-btn:hover {
 
 /* 评论样式修改 */
 #post-comment {
-  margin-top: 40px;
+  margin-top: 1.2rem;
 }
 #post-comment .comment-head {
   margin-bottom: 0;
@@ -1547,4 +1547,111 @@ a.reward-main-btn:hover {
 }
 .v[data-class=v] .vcards .vcard .vh .vmeta .vat {
   color: var(--wds-fontcolor) !important;
+}
+
+/* 猜你喜欢样式修改 */
+.relatedPosts > .relatedPosts-list > div {
+  height: auto;
+  margin: 0 10px 20px;
+  background: #fff;
+  box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+  position: relative;
+  border-radius: 3px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all .3s ease 0s;
+  width: calc(33.333% - 20px);
+}
+@media (max-width: 620px) {
+  .relatedPosts > .relatedPosts-list > div {
+    width: calc(50% - 20px);
+    margin: 0 10px 15px;
+  }
+}
+
+.relatedPosts > .relatedPosts-list > div .grid-img {
+  height: 166px;
+  overflow: hidden;
+  border-radius: 3px 3px 0 0;
+  position: relative;
+}
+
+.relatedPosts > .relatedPosts-list > div .grid-img a {
+  display: block;
+  height: 100%;
+}
+
+.relatedPosts > .relatedPosts-list > div .grid-img a img {
+  opacity: 1;
+  border-radius: 3px 3px 0 0;
+  transition: all .3s ease-out 0s;
+  object-fit: cover;
+  background: #fff;
+  display: block;
+  font-size: 0;
+}
+
+.relatedPosts > .relatedPosts-list > div .grid-cat {
+  padding: 10px 10px 0 10px;
+  display: block;
+  font-size: 14px;
+  color: var(--wds-secondtext);
+  margin-left: 18px;
+  height: 30px;
+  position: relative;
+}
+.relatedPosts > .relatedPosts-list > div .grid-cat:after{
+  content: " ";
+  width: 4px;
+  height: 4px;
+  display: block;
+  border-radius: 15px;
+  position: relative;
+  left: -16px;
+  top: -17px;
+  border: 2px solid var(--wds-black);
+}
+.relatedPosts > .relatedPosts-list > div .grid-title {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 12px 10px 10px;
+  position: relative;
+}
+.relatedPosts > .relatedPosts-list > div .grid-title a{
+  color: var(--wds-fontcolor);
+  line-height: 20px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  height: 20px;
+}
+.relatedPosts > .relatedPosts-list > div .grid-title a:hover{
+  color: var(--wds-hovertext);
+}
+.relatedPosts > .relatedPosts-list > div .grid-meta{
+  color: var(--wds-secondtext);
+  padding: 0 10px 10px 10px;
+  font-size: 13px;
+  height: 32px;
+  overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .relatedPosts > .relatedPosts-list > div .grid-img {
+    height: 120px;
+  }
+  .relatedPosts > .relatedPosts-list > div .grid-cat {
+    padding: 8px 6px 0;
+  }
+  .relatedPosts > .relatedPosts-list > div .grid-title {
+    margin: 6px 6px 4px;
+    font-size: 14px;
+  }
+  .relatedPosts > .relatedPosts-list > div .grid-meta {
+    padding: 0 6px 8px;
+  }
 }

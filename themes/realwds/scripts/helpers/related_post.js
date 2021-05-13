@@ -18,7 +18,9 @@ hexo.extend.helper.register('related_posts', function (currentPost, allPosts) {
           randomcover: post.randomcover,
           weight: 1,
           updated: post.updated,
-          created: post.date
+          created: post.date,
+          cate: post.categories.data[0].name,
+          cateurl: post.categories.data[0].path
         }
         const index = findItem(relatedPosts, 'path', post.path)
         if (index !== -1) {
@@ -60,7 +62,7 @@ hexo.extend.helper.register('related_posts', function (currentPost, allPosts) {
           ? relatedPosts[i].randomcover
           : relatedPosts[i].cover
       result +=
-        '<div><a href="' +
+        '<div class="post grid"><div class="grid-img"><a href="' +
         hexoConfig.root +
         relatedPosts[i].path +
         '" title="' +
@@ -71,23 +73,32 @@ hexo.extend.helper.register('related_posts', function (currentPost, allPosts) {
         lazySrc +
         '="' +
         this.url_for(cover) +
-        '" alt="cover"><div class="content is-center">'
-      // if (dateType === 'created') {
-      //   result +=
-      //     '<div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i>' +
-      //     ' ' +
-      //     this.date(relatedPosts[i].created, hexoConfig.date_format) +
-      //     '</div>'
-      // } else {
-      //   result +=
-      //     '<div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i>' +
-      //     ' ' +
-      //     this.date(relatedPosts[i].updated, hexoConfig.date_format) +
-      //     '</div>'
-      // }
+        '" alt="cover"></a></div><a class="grid-cat" href="/'+relatedPosts[i].cateurl+'">'+relatedPosts[i].cate+'</a>'
+        
       result +=
-        '<div class="title">' + relatedPosts[i].title + '</div>'
-      result += '</div></a></div>'
+        '<div class="grid-title"><a href="' +
+        hexoConfig.root +
+        relatedPosts[i].path +
+        '" title="' +
+        relatedPosts[i].title +
+        '">' + relatedPosts[i].title + '</a></div><div class="grid-meta">'
+
+      if (dateType === 'created') {
+        result +=
+          '<span class="times"><i class="far fa-calendar-alt fa-fw"></i>' +
+          ' ' +
+          this.date(relatedPosts[i].created, hexoConfig.date_format) +
+          '</span>'
+      } else {
+        result +=
+          '<span class="times"><i class="fas fa-history fa-fw"></i>' +
+          ' ' +
+          this.date(relatedPosts[i].updated, hexoConfig.date_format) +
+          '</span>'
+      }
+        
+      result += '</div></div>'
+
     }
 
     result += '</div></div>'
