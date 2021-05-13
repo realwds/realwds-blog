@@ -1450,6 +1450,7 @@ a.reward-main-btn:hover {
   background: var(--wds-black);
   padding: .9rem 1.4rem;
   overflow: hidden;
+  border: none;
 }
 #post .post-copyright .post-copyright-info {
   padding-left: 0;
@@ -1639,7 +1640,6 @@ a.reward-main-btn:hover {
   height: 32px;
   overflow: hidden;
 }
-
 @media (max-width: 480px) {
   .relatedPosts > .relatedPosts-list > div .grid-img {
     height: 120px;
@@ -1654,4 +1654,20 @@ a.reward-main-btn:hover {
   .relatedPosts > .relatedPosts-list > div .grid-meta {
     padding: 0 6px 8px;
   }
+}
+
+/* 上一篇下一篇样式 */
+
+#pagination.pagination-post {
+  overflow: hidden;
+  color: var(--wds-fontcolor);
+  font-size: .8rem;
+  border-radius: 3px;
+}
+
+#pagination .prev-post a, #pagination .next-post a {
+  height: 80px;
+}
+#pagination.pagination-post {
+  background: var(--wds-main);
 }
