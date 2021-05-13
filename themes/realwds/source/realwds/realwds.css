@@ -1742,3 +1742,87 @@ a.reward-main-btn:hover {
 .article-sort-title {
   position: static;
 }
+#aside-content .item-headline {
+  display: none;
+}
+#aside-content .card-tag-cloud a:hover {
+  background: var(--wds-theme);
+  transform: scale(1);
+  color: var(--wds-white)!important;
+  border-radius: 12px;
+  box-shadow: var(--wds-shadow-blue);
+}
+
+#page .category-lists ul li {
+  font-size: 1.1rem;
+}
+#page .category-lists ul li:before {
+  top: 0.8em;
+}
+
+/* 404样式修改 */
+#error-wrap{
+  top: 40%;
+}
+#error-wrap .error-content .error-info .error_title{
+  margin-top: -3rem!important;
+}
+#error-wrap .error-content{
+  box-shadow: none!important;
+  border-radius: 12px;
+  background: var(--hassan-card-bg)!important;
+}
+.aside-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  bottom: 0;
+  position: absolute;
+  padding: 1rem;
+  width: 100%;
+  overflow: scroll;
+}
+.aside-list .aside-list-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.aside-list .aside-list-item{
+  padding: .5rem;
+}
+.aside-list .aside-list-item img{
+  width: 100%;
+  object-fit: cover;
+  transition: .3s;
+}
+.aside-list .aside-list-item img:hover {
+  transform: scale(1.1);
+}
+.aside-list .aside-list-item .thumbnail{
+  overflow: hidden;
+  width: 230px;
+  height: 143px;
+  display: flex;
+  background: var(--wds-card-bg);
+  border-radius: 12px;
+}
+.aside-list .aside-list-item .content .title{
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-height: 1.5;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+  padding-top: .5rem;
+}
+.aside-list .aside-list-item .content time{
+  display: none;
+}
+#error-wrap .error-content .error-info a {
+  border-radius: 10px;
+  overflow: hidden;
+}
