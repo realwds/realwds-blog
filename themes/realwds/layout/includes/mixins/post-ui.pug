@@ -1,7 +1,7 @@
 mixin postUI(posts)
   each article , index in page.posts.data
     if article .hide !== true
-      .recent-post-item
+      .recent-post-item(class= (article.large === true) ? 'post-card-large' : '')
         - let link = article.link || article.path
         - let title = article.title || _p('no_title')
         - let leftOrRight = index%2 == 0 ? 'left_radius' : 'right_radius'

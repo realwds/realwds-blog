@@ -1,13 +1,13 @@
 ---
 title: Butterfly 主题 404 页面增加最近文章
-date: 2021-05-13 17:08:31
 tags:
   - Hexo
   - butterfly
   - 精选
 categories: Butterfly魔改
 keywords: 'hexo,butterfly,主题,doc,教程,文档'
-abbrlink: 727feacf
+abbrlink: 2c9bc301
+date: 2021-05-13 17:08:31
 ---
 
 404页面是在文件不存在的时候产生的。设想一个场景，用户急于寻找问题的答案，那么当用户通过例如搜索引擎和错误的内链进入到404网页时，用户可能下意识就会关闭网站。如何在404页面留住用户呢？

@@ -1826,3 +1826,21 @@ a.reward-main-btn:hover {
   border-radius: 10px;
   overflow: hidden;
 }
+
+@media screen and (min-width: 768px) {
+  #recent-posts>.post-card-large {
+    height: 16em!important;
+  }
+  
+  #recent-posts > .post-card-large >.recent-post-info > .content{
+    -webkit-line-clamp: 3!important;
+    opacity: 1 !important;
+  }
+  #recent-posts > .post-card-large:hover >.recent-post-info > .content {
+    opacity: 1;
+    -webkit-line-clamp: 5!important;
+  }
+  #recent-posts .post-card-large .article-meta__categories {
+    margin-top: -3rem;
+  }
+}
