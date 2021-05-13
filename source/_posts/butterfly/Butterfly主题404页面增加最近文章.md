@@ -48,7 +48,7 @@ html(lang=config.language data-theme=theme.display_mode)
             i.fas.fa-rocket
             = _p('error404.back_button')
 
-    .aside-list
+    .aside-list-404
       .aside-list-group
         - let postLimit = theme.aside.card_recent_post.limit === 0 ? site.posts.length : theme.aside.card_recent_post.limit || 5
         - let sort = theme.aside.card_recent_post.sort === 'updated' ? 'updated' : 'date'
@@ -88,7 +88,7 @@ html(lang=config.language data-theme=theme.display_mode)
   border-radius: 12px;
   background: var(--hassan-card-bg)!important;
 }
-.aside-list{
+.aside-list-404{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -98,25 +98,25 @@ html(lang=config.language data-theme=theme.display_mode)
   width: 100%;
   overflow: scroll;
 }
-.aside-list .aside-list-group {
+.aside-list-404 .aside-list-group {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   max-width: 1200px;
   margin: 0 auto;
 }
-.aside-list .aside-list-item{
+.aside-list-404 .aside-list-item{
   padding: .5rem;
 }
-.aside-list .aside-list-item img{
+.aside-list-404 .aside-list-item img{
   width: 100%;
   object-fit: cover;
   transition: .3s;
 }
-.aside-list .aside-list-item img:hover {
+.aside-list-404 .aside-list-item img:hover {
   transform: scale(1.1);
 }
-.aside-list .aside-list-item .thumbnail{
+.aside-list-404 .aside-list-item .thumbnail{
   overflow: hidden;
   width: 230px;
   height: 143px;
@@ -124,7 +124,7 @@ html(lang=config.language data-theme=theme.display_mode)
   background: var(--wds-card-bg);
   border-radius: 12px;
 }
-.aside-list .aside-list-item .content .title{
+.aside-list-404 .aside-list-item .content .title{
   -webkit-line-clamp: 2;
   overflow: hidden;
   display: -webkit-box;
@@ -135,7 +135,7 @@ html(lang=config.language data-theme=theme.display_mode)
   align-content: center;
   padding-top: .5rem;
 }
-.aside-list .aside-list-item .content time{
+.aside-list-404 .aside-list-item .content time{
   display: none;
 }
 #error-wrap .error-content .error-info a {

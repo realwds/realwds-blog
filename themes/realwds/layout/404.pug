@@ -25,7 +25,7 @@ html(lang=config.language data-theme=theme.display_mode)
             i.fas.fa-rocket
             = _p('error404.back_button')
 
-    .aside-list
+    .aside-list-404
       .aside-list-group
         - let postLimit = theme.aside.card_recent_post.limit === 0 ? site.posts.length : theme.aside.card_recent_post.limit || 5
         - let sort = theme.aside.card_recent_post.sort === 'updated' ? 'updated' : 'date'
