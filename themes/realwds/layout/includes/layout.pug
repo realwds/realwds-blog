@@ -38,8 +38,6 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
       footer#footer(style=footer_bg)
         !=partial('includes/footer', {}, {cache: true})
     
-    div.back-top(onclick='btf.scrollToDest(0,500)')
-
     include ./rightside.pug
     !=partial('includes/third-party/search/index', {}, {cache: true})
     include ./additional-js.pug

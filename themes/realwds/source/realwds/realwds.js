@@ -77,11 +77,3 @@ function coverColor() {
     })
   ) : document.styleSheets[0].addRule(":root", "--wds-main: #286dea!important")
 }
-
-
-var sticky = document.querySelector('.back-top');
-var origOffsetY = sticky.offsetTop;
-function onScroll(e) {
-    window.scrollY >= origOffsetY ? sticky.classList.add('fixed') : sticky.classList.remove('fixed');
-}
-document.addEventListener('scroll', onScroll);
