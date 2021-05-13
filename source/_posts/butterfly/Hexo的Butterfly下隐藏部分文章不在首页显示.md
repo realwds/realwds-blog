@@ -4,6 +4,7 @@ date: 2021-05-08 08:58:31
 tags:
   - Hexo
   - butterfly
+  - 精选
 categories: Butterfly魔改
 keywords: 'hexo,butterfly,主题,doc,教程,文档'
 abbrlink: 727feacf
