@@ -20,7 +20,7 @@ date: 2021-05-12 08:58:31
 
 文件地址：```themes/butterfly/layout/includes/mixins/post-ui.pug```
 
-``` pug
+``` diff
 mixin postUI(posts)
   each article , index in page.posts.data
     if article.hide !== true
