@@ -523,10 +523,10 @@ a.darkmode_switchbutton {
 }
 
 /* 菜单栏居中右边移动 */
-#nav .menus_items .menus_item:nth-child(2) .menus_item_child {
+/* #nav .menus_items .menus_item:nth-child(2) .menus_item_child {
   right: -150px;
-}
-#nav .menus_items .menus_item:nth-child(5) .menus_item_child {
+} */
+#nav .menus_items .menus_item:nth-child(4) .menus_item_child {
   right: -150px;
 }
 
@@ -1657,14 +1657,12 @@ a.reward-main-btn:hover {
 }
 
 /* 上一篇下一篇样式 */
-
 #pagination.pagination-post {
   overflow: hidden;
   color: var(--wds-fontcolor);
   font-size: .8rem;
   border-radius: 3px;
 }
-
 #pagination .prev-post a, #pagination .next-post a {
   height: 80px;
 }
@@ -1672,6 +1670,7 @@ a.reward-main-btn:hover {
   background: var(--wds-main);
 }
 
+/* 首页自定义顶部样式 */
 .hometop-group .hometop-item {
   position: relative;
   float: left;
@@ -1684,7 +1683,6 @@ a.reward-main-btn:hover {
   line-height: 100px;
   transition-timing-function: ease-in-out;
 }
-
 .hometop-group .hometop-item:nth-child(odd){
   background: linear-gradient(to right,#2f80ed,#56ccf2);
 }
@@ -1696,7 +1694,6 @@ a.reward-main-btn:hover {
     width: calc(100% / 2 - 12px);
   }
 }
-
 .hometop-group .hometop-item .hometop-button {
   width: 100%;
   height: 100%;
@@ -1730,10 +1727,18 @@ a.reward-main-btn:hover {
   position: absolute;
   transition: .3s;
 }
-
 .hometop-group .hometop-item:hover .hometop-button span:after{
   width: 3rem;
 }
 .hometop-group .hometop-item:hover .hometop-button i{
   transform: scale(1.1);
+}
+
+/* 分类标签页面标题 */
+#page .category-lists .category-title,.tag-cloud-title{
+  font-weight: 600;
+  font-size: 2em;
+}
+.article-sort-title {
+  position: static;
 }

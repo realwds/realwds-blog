@@ -8,10 +8,10 @@
 
 menu:
   首页: /
-  文章:
-    文章列表: /archives/ || fas fa-book-open
-    全部分类: /categories/ || fas fa-folder-open
-    全部标签: /tags/ || fas fa-tags
+  # 文章:
+  #   文章列表: /archives/ || fas fa-book-open
+  #   全部分类: /categories/ || fas fa-folder-open
+  #   全部标签: /tags/ || fas fa-tags
   随笔: /essay/
   关于: /about/
   更多:
@@ -38,7 +38,7 @@ code_word_wrap: false
 copy:
   enable: true
   copyright:
-    enable: true
+    enable: false
     limit_count: 150
 
 # search (搜索)

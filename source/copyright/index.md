@@ -1,6 +1,7 @@
 ---
 title: 版权协议
 aside: false
+comments: false
 ---
 
 引言

@@ -9,6 +9,7 @@ block content
   else
     include ./includes/mixins/article-sort.pug
     #tag
+      include includes/hometop.pug
       .article-sort-title= _p('page.tag') + ' - ' + page.tag
       +articleSort(page.posts)
       include includes/pagination.pug
