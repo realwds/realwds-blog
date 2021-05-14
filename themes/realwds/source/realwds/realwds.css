@@ -1553,7 +1553,7 @@ a.reward-main-btn:hover {
 /* 猜你喜欢样式修改 */
 .relatedPosts > .relatedPosts-list > div {
   height: auto;
-  margin: 0 10px 20px;
+  margin: 0 5px 10px;
   background: #fff;
   box-shadow: 0 0 15px rgb(0 0 0 / 8%);
   position: relative;
@@ -1562,12 +1562,12 @@ a.reward-main-btn:hover {
   background-position: center;
   background-repeat: no-repeat;
   transition: all .3s ease 0s;
-  width: calc(33.333% - 20px);
+  width: calc(33.333% - 10px);
 }
 @media (max-width: 620px) {
   .relatedPosts > .relatedPosts-list > div {
-    width: calc(50% - 20px);
-    margin: 0 10px 15px;
+    width: calc(50% - 10px);
+    margin: 0 5px 10px;
   }
 }
 

@@ -14,7 +14,7 @@ script.
         meta: '#{theme.valine.guest_info }'.split(','),
         pageSize: '#{theme.valine.pageSize}',
         lang: '#{theme.valine.lang}',
-        recordIP: '#{theme.valine.recordIP}',
+        recordIP: #{theme.valine.recordIP},
         serverURLs: '#{theme.valine.serverURLs}',
         emojiCDN: '#{theme.valine.emojiCDN}',
         emojiMaps: {
@@ -67,10 +67,10 @@ script.
           "tb48":"i_f48.png",
           "tb49":"i_f49.png"
         },
-        enableQQ: '#{theme.valine.enableQQ}',
+        enableQQ: #{theme.valine.enableQQ},
         path: window.location.pathname,
         requiredFields: [!{theme.valine.requiredFields ? JSON.stringify(theme.valine.requiredFields).split(',') : ''}],
-        visitor: '#{theme.valine.visitor}'
+        visitor: #{theme.valine.visitor}
       }, !{JSON.stringify(theme.valine.option)}))
     }
 
@@ -87,4 +87,3 @@ script.
     }
   }
   
-
