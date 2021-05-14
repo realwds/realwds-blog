@@ -32,8 +32,6 @@ header#page-header(class=isHomeClass)
   !=partial('includes/header/nav', {}, {cache: false})
   if top_img !== false
     if is_post()
-      div.coverdiv(id='coverdiv')
-        img#post-cover(src=url_for(top_img) alt='cover')
       include ./post-info.pug
     else if is_home() 
       #site-info

@@ -67,3 +67,10 @@
         a.footer-banner-link(target="_blank" href='/about/')='关于'
     .footer-banner-right
       a.footer-banner-link(target="_blank" href='https://realwds.vercel.app')=theme.footer.custom_text
+
+script(src='https://cdn.jsdelivr.net/gh/briangonzalez/rgbaster.js@1.1.0/rgbaster.min.js')
+script(data-pjax, src='/realwds/realwds.js')
+
+.js-pjax
+  script.
+    coverColor()

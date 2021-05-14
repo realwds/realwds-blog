@@ -788,7 +788,7 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     - /talking/
 
@@ -850,12 +850,7 @@ inject:
     - <link rel="stylesheet" href="/realwds/realwds.css">
     - <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>
   bottom:
-    - <script src="https://cdn.jsdelivr.net/gh/briangonzalez/rgbaster.js@1.1.0/rgbaster.min.js"></script>
-    - <script src="/realwds/realwds.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/CodeByZach/pace@1.2.3/pace.min.js"></script>
-    # 在需要插入二维码的位置创建一个id为qrcode的div
-    # - <script async src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs@master/qrcode.min.js"></script>
-    # - <script async src="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/qrcode/qrcode-lu.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
