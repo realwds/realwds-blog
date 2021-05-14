@@ -52,9 +52,13 @@ document.addEventListener("visibilitychange", function() {
     clearTimeout(titleTime)) : document.title = OriginTitile
 });
 
-
-window.onload = function() {
-  coverColor()
+var getTimeState = function() {
+  var e = (new Date).getHours() , t = "";
+  return 0 <= e && e <= 5 ? t = "夜深了" : 5 < e && e <= 10 ? t = "早上好" : 10 < e && e <= 13 ? t = "中午好" : 13 < e && e <= 18 ? t = "下午好" : 18 < e && e <= 24 && (t = "晚上好"),
+  t
+};
+function sayhi() {
+  document.querySelector("#author-info__sayhi") && (document.getElementById("author-info__sayhi").innerHTML = "👋 " + getTimeState() + "！这里是")
 }
 
 function coverColor() {

@@ -597,9 +597,9 @@ font:
 
 # Font settings for the site title and site subtitle
 # 左上角网站名字 主页居中网站名字
-blog_title_font:
-  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
-  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+# blog_title_font:
+#   font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+#   font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
 
 # The setting of divider icon (水平分隔线图标设置)
 hr_icon:
@@ -642,12 +642,18 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    description: 数学系的挨踢者
+    avatar: https://realwds-info.vercel.app/includes/images/realwds.png
+    sayhi: 👋 你好！我是
+    name: realwds's blog
+    description: 前端打字员，分享踩过的坑，干货笔记，以及生活中的感悟、吐槽、看法，与君共勉。
+    description2: 精致的五官是心动的开始，迷人的气质是动情的深渊。
     button:
-      enable: false
-      icon: fab fa-github
-      text: 主页 GitHub
-      link: https://github.com/realwds
+      enable: true
+      # text: 主页 GitHub
+      icon: fab fa-edge
+      link: https://realwds.vercel.app
+      icon2: fab fa-github
+      link2: https://github.com/realwds
   card_announcement:
     enable: true
     content: '<p>如果你喜欢本主题，可以添加微信了解详情哦（技术交流，不闲聊，服务有偿）</p><div class="content_qrcode"><img src="/img/wechat.png" alt="添加微信"></div>'
