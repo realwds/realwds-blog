@@ -1,14 +1,13 @@
-name: AutoBuild
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ gh-pages ]
+    branches: 
+      - master
+
 jobs:
-  
   build:
-    name: build
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest    
     steps:    
     - uses: actions/checkout@v2    
@@ -23,9 +22,9 @@ jobs:
        cp ./README.md ./public/README.md
 
     - name: publish
-      uses: s0/git-publish-subdir-action@master
+      uses: s0/git-publish-subdir-action@develop
       env:
-        REPO: https://github.com/realwds/blog.git
+        REPO: git@github.com:realwds/blog.git
         BRANCH: gh-pages
         FOLDER: public        
         SSH_PRIVATE_KEY: ${{ secrets.publish }}
