@@ -9,6 +9,7 @@ keywords: 'hexo,butterfly,主题,doc,教程,文档'
 large: true
 abbrlink: 48bb9713
 date: 2021-05-12 08:58:31
+cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-1.png
 ---
 
 

@@ -10,6 +10,7 @@ categories:
 keywords: 'Butterfly,标签,tag'
 description: 主题标签外挂使用样例
 abbrlink: b8a0d4e7
+cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png
 ---
 
 ## Tabs

@@ -8,6 +8,7 @@ tags:
 categories: Butterfly魔改
 keywords: 'hexo,butterfly,主题,doc,教程,文档'
 abbrlink: 727feacf
+cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-3.png
 ---
 
 
