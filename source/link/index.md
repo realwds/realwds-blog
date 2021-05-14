@@ -1,7 +1,7 @@
 ---
 title: 友情链接
 type: "link"
-aside: false
+aside: true
 ---
 
 ### 友链要求

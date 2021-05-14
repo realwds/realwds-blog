@@ -3,7 +3,7 @@ title: 关于本站
 date: 2021-05-01 15:39:25
 top_img: false
 comments: false
-aside: false
+aside: true
 ---
 
 {% note blue no-icon %}
