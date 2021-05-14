@@ -13,12 +13,12 @@ jobs:
     - uses: actions/checkout@v2    
     - name: npm install
       run: |
-        sudo npm install -g hexo-cli
         npm install
     - name: hexo deploy
       run: |
        hexo cl
        hexo g
+       gulp
        cp ./README.md ./public/README.md
 
     - name: publish
