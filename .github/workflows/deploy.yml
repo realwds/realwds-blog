@@ -20,7 +20,7 @@ jobs:
       run: |
        hexo cl
        hexo g
-       cp README.MD ./public/README.MD
+       cp ./README.md ./public/README.md
 
     - name: publish
       uses: s0/git-publish-subdir-action@master
