@@ -1534,6 +1534,9 @@ a.reward-main-btn:hover {
   transition: all .3s ease 0s;
   width: calc(33.333% - 10px);
 }
+.relatedPosts > .relatedPosts-list > div:hover{
+  box-shadow: var(--card-hover-box-shadow);
+}
 @media (max-width: 620px) {
   .relatedPosts > .relatedPosts-list > div {
     width: calc(50% - 10px);
