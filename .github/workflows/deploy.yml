@@ -17,6 +17,7 @@ jobs:
         npm install
     - name: hexo deploy
       run: |
+        mv ./env.yml ./_config.yml
         hexo cl
         hexo g
         gulp
