@@ -1,0 +1,31 @@
+name: AutoBuild
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ gh-pages ]
+jobs:
+  
+  build:
+    name: build
+    runs-on: ubuntu-latest    
+    steps:    
+    - uses: actions/checkout@v2    
+    - name: npm install
+      run: |
+        sudo npm install -g hexo-cli
+        npm install
+    - name: hexo deploy
+      run: |
+       hexo cl
+       hexo g
+       cp README.MD ./public/README.MD
+
+    - name: publish
+      uses: s0/git-publish-subdir-action@master
+      env:
+        REPO: https://github.com/realwds/blog.git
+        BRANCH: gh-pages
+        FOLDER: public        
+        SSH_PRIVATE_KEY: ${{ secrets.publish }}
