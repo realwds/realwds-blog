@@ -69,7 +69,7 @@
 }
 
 #page {
-  min-height: calc(100vh - 464px)
+  min-height: calc(100vh - 100px)
 }
 
 ::-webkit-scrollbar {
@@ -855,113 +855,11 @@ ul,li{
   color: var(--font-color);
   font-weight: 600;
   display: inline;
-  width: 6rem;
+  width: 180px;
 }
 #bbTimeList i {
-  width: 4rem;
+  width: 120px;
   text-align: right;
-}
-
-/* bb哔哔 */
-/* bb样式 */
-
-.timeline ul li{
-  position: relative;
-  padding-left: 2.5rem;
-}
-
-/* 标题 */
-.bb-info{
-  display: inline;
-  float: right;
-  line-height: 3.7rem;
-  color: var(--wds-secondtext);
-}
-
-/* 每条动态 */
-#bber > section > ul > div > li > div{
-  display: flex;
-  flex-direction: initial;
-  flex-wrap: wrap;
-  background: var(--wds-post-blockquote-bg);
-  box-shadow: var(--wds-shadow-lightblack);
-  border-radius: 12px;
-  padding: 8px 16px;
-  margin-top: 12px;
-}
-
-#bber p{
-  margin: 0;
-}
-
-#bber .datafrom i{
-  margin-right: 4px;
-}
-
-/* 时间 */
-#bber > section > ul > div > li > div .datatime{
-  order: 1;
-  color: var(--wds-secondtext);
-  font-size: 0.6rem;
-}
-
-/* 内容 */
-#bber > section > ul > div > li > div .datacont{
-  order: 0;
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--wds-lighttext);
-  width: 100%;
-  line-height: 1.38;
-  margin: 8px 0;
-}
-
-/* 设备 */
-#bber > section > ul > div > li > div .datafrom{
-  order: 2;
-  color: var(--wds-secondtext);
-  font-size: 0.6rem!important;
-  margin-left: 8px;
-}
-#bber > section > ul > div > li > div .datafrom small{
-  font-size: 100%;
-}
-
-/* 时间线 */
-.timeline ul li::before {
-  position: absolute;
-  top: 0.5rem;
-  left: 0rem;
-  z-index: 1;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 8px;
-  background: var(--card-bg);
-  content: "";
-  background-size: 2rem;
-}
-
-/* 加载更多 */
-.load-btn.button-load{
-  background: var(--wds-card-btn-bg);
-  color: var(--wds-fontcolor);
-  padding: 12px 12px;
-  margin: 8px 0;
-  width: 100%;
-  text-align: center;
-  border-radius: 12px;
-  transition: 0.3s;
-  font-weight: bold;
-}
-
-.load-btn.button-load:hover{
-  background: var(--wds-main);
-  color: var(--wds-white);
-  transition: 0.3s;
-  box-shadow: var(--wds-shadow-blue);
-}
-.timeline ul li::before{
-  background-image: url(/img/avatar.png);
 }
 
 /* 图片加载虚化处理 */
