@@ -20,8 +20,8 @@ function getbbdata(){
       }
       })
       // console.log(fundsArray)
-      saveToLocal.set('zhheo-bb', JSON.stringify(bbArray), 5 / (60 * 24))
-      const data = saveToLocal.get('zhheo-bb');
+      saveToLocal.set('realwds-post', JSON.stringify(bbArray), 5 / (60 * 24))
+      const data = saveToLocal.get('realwds-post');
       generateBBHtml(JSON.parse(data))
   }
   };
@@ -58,7 +58,7 @@ var generateBBHtml = array => {
 var bbInit = () => {
 // console.log('运行')
 if (document.querySelector('#bber-talk')) {
-    const data = saveToLocal.get('zhheo-bb');
+    const data = saveToLocal.get('realwds-post');
     if (data) {
     generateBBHtml(JSON.parse(data))
     } else {

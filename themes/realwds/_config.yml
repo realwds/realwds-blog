@@ -853,7 +853,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-    - <link rel="stylesheet" href="/realwds/realwds.css">
+    - <link rel="stylesheet" href="/css/custom/realwds.css">
     - <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>
   bottom:
     - <script src="https://cdn.jsdelivr.net/gh/CodeByZach/pace@1.2.3/pace.min.js"></script>
