@@ -1938,3 +1938,23 @@ a.reward-main-btn:hover {
 .v[data-class=v] .status-bar, .v[data-class=v] .veditor, .v[data-class=v] .vinput, .v[data-class=v] p, .v[data-class=v] pre code {
   color: var(--wds-fontcolor) !important;
 }
+
+/* 侧边栏评论样式修改 */
+#aside-content .aside-list > .aside-list-item .content > .title, #aside-content .aside-list > .aside-list-item .content > .comment {
+  font-size: .7rem;
+}
+#aside-content .aside-list > .aside-list-item .content > time, #aside-content .aside-list > .aside-list-item .content > .name {
+  color: var(--wds-secondtext);
+  font-size: .68rem;
+}
+#aside-content .aside-list>.aside-list-item:hover .name {
+  color: var(--wds-white);
+}
+#aside-content .aside-list > .aside-list-item .thumbnail {
+  width: 3.8em;
+  height: 3.8em;
+}
+
+#card-newest-comments .aside-list>.aside-list-item {
+  cursor: pointer;
+}
