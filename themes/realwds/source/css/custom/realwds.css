@@ -1029,6 +1029,7 @@ ul,li{
   height: 40px;
   text-overflow: ellipsis;
   opacity: .7;
+  font-size: .76rem;
 }
 #article-container .flink .flink-list > .flink-list-item:hover a .flink-item-desc {
   color: var(--wds-white);
