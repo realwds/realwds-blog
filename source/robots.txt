@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://realwds-blog.vercel.com/sitemap.xml
-Sitemap: https://realwds-blog.vercel.com/baidusitemap.xml
+Sitemap: https://blog.realwds.com/sitemap.xml
+Sitemap: https://blog.realwds.com/baidusitemap.xml

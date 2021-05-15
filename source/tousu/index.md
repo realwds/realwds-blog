@@ -32,9 +32,9 @@ comments: false
 网站声明
 ----
 
-1、[realwds's blog](https://realwds-blog.vercel.app)遵守相关法律法规，由于本站资源全部来源于网络，故无法核实资源侵权的真实性；
+1、[realwds's blog](https://blog.realwds.com) 遵守相关法律法规，由于本站资源全部来源于网络，故无法核实资源侵权的真实性；
 
-2、出于传递信息之目的，故[realwds's blog](https://realwds-blog.vercel.app)可能会误刊发损害或影响您的合法权益，请您积极与我们联系处理；
+2、出于传递信息之目的，故 [realwds's blog](https://blog.realwds.com) 可能会误刊发损害或影响您的合法权益，请您积极与我们联系处理；
 
 3、因时间、精力有限，我们无法一一核实每一条消息的真实性，但我们会在发布之前尽最大努力来核实这些信息；
 

@@ -62,7 +62,7 @@ cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png
 {% link <链接名>, <链接地址>, <链接图像> %}
 ```
 
-{% link realwds, https://realwds.vercel.app, https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png %}
+{% link realwds, https://blog.realwds.com, https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png %}
 
 ## 行内图片 Inline Image
 
