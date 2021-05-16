@@ -1412,7 +1412,7 @@ a.reward-main-btn:hover {
   background: #fff;
   box-shadow: 0 0 15px rgb(0 0 0 / 8%);
   position: relative;
-  border-radius: 3px;
+  border-radius: 8px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1443,7 +1443,7 @@ a.reward-main-btn:hover {
 
 .relatedPosts > .relatedPosts-list > div .grid-img a img {
   opacity: 1;
-  border-radius: 3px 3px 0 0;
+  border-radius: 8px 8px 0 0;
   transition: all .3s ease-out 0s;
   object-fit: cover;
   background: #fff;
@@ -1824,6 +1824,9 @@ a.reward-main-btn:hover {
 .v[data-class=v] .status-bar, .v[data-class=v] .veditor, .v[data-class=v] .vinput, .v[data-class=v] p, .v[data-class=v] pre code {
   color: var(--wds-fontcolor) !important;
 }
+.v[data-class=v] .veditor {
+  min-height: 5em !important;
+}
 
 /* 侧边栏评论样式修改 */
 #aside-content .aside-list > .aside-list-item .content > .title, #aside-content .aside-list > .aside-list-item .content > .comment {
@@ -1842,4 +1845,35 @@ a.reward-main-btn:hover {
 }
 #card-newest-comments .aside-list>.aside-list-item {
   cursor: pointer;
+}
+
+/* 页码样式修改 */
+#pagination .page-number {
+  width: 2rem;
+  background: var(--wds-card-bg);
+  height: 2rem;
+  line-height: calc(2rem - 2px);
+  border-radius: 8px!important;
+  margin: 0 .3rem;
+  box-shadow: var(--wds-shadow-lightblack);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--wds-none);
+}
+#pagination a.extend.next, #pagination a.extend.prev {
+    width: 4rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 8px!important;
+    background: var(--wds-card-bg);
+    box-shadow: var(--wds-shadow-lightblack);
+}
+a.extend.prev {
+  float: left;
+}
+a.extend.next {
+  float: right;
+}
+#pagination .page-number.current {
+  background: var(--wds-theme);
 }
