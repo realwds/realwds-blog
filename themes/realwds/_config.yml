@@ -651,7 +651,7 @@ aside:
       enable: true
       # text: 主页 GitHub
       icon: fab fa-edge
-      link: https://realwds.vercel.app
+      link: https://realwds.com
       icon2: fab fa-github
       link2: https://github.com/realwds
   card_announcement:

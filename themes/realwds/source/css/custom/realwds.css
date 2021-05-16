@@ -1622,10 +1622,11 @@ a.reward-main-btn:hover {
 }
 
 #page .category-lists ul li {
-  font-size: 1.1rem;
+  font-size: 1.2em;
 }
-#page .category-lists ul li:before {
-  top: 0.8em;
+
+#page .category-lists ul {
+  padding: 0 0 0 .5rem;
 }
 
 /* 404样式修改 */

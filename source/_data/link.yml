@@ -28,7 +28,7 @@
   class_desc: '<span>鄙人做过的网站</span>'
   link_list:
     - name: realwds's website
-      link: https://realwds.vercel.app/
+      link: https://realwds.com/
       avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png
       descr: 数学系的挨踢者
     - name: realwds's info
