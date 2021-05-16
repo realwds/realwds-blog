@@ -48,5 +48,4 @@ hide: true
 
 问题：这个只影响了渲染，但是不影响生成器生成，所以如果你每页文章为 10 篇，而你第一页隐藏了 4 篇，那么首页第一页只会展示 6 篇。
 
-
-参考文档：https://blog.zhheo.com/p/451ff5e9.html
+- [参考文献](https://blog.zhheo.com/p/451ff5e9.html)

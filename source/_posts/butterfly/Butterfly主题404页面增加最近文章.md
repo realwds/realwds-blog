@@ -146,6 +146,7 @@ html(lang=config.language data-theme=theme.display_mode)
 ```
 
 ## 大功告成
+
 [DEMO 查看](/404/)
 
-参考文档：https://blog.zhheo.com/p/f48e518b.html
+- [参考文献](https://blog.zhheo.com/p/f48e518b.html)

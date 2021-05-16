@@ -47,4 +47,4 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
 ```
 
-GitHub 地址：https://github.com/s0/git-publish-subdir-action
+- [GitHub 地址](https://github.com/s0/git-publish-subdir-action)
