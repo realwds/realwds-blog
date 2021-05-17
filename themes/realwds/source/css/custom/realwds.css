@@ -311,17 +311,16 @@ a.darkmode_switchbutton {
   margin: 10px 8px;
 }
 
-#search-mask {
-  backdrop-filter: blur(3px);
-  background: var(--wds-maskbg)
+#local-search .search-dialog .local-search__hit-item:before {
+  border: 0.15rem solid var(--wds-main);
 }
 
-.search-dialog {
-  border-radius: 12px !important;
-  box-shadow: var(--wds-shadow-lightblack);
-  background: var(--wds-card-bg)
+#local-search .search-dialog .local-search__hit-item a:hover {
+  color: var(--wds-main);
 }
-
+.search-dialog span.search-close-button:hover {
+  color: var(--wds-main);
+}
 
 /* 文章列表修改 */
 .article-sort-title:before {
@@ -1906,4 +1905,10 @@ div.timenode .meta::after {
 }
 #local-search .search-dialog .local-search-box input {
   border: 2px solid var(--wds-main);
+}
+/* 隐藏右边栏 */
+@media screen and (max-width: 900px) {
+  #aside-content {
+    display: none;
+  }
 }
