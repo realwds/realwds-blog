@@ -1989,3 +1989,17 @@ ul li:hover:before {
 .tabs ul.nav-tabs li:before {
   display: none;
 }
+/* 侧边栏归档ul样式修改 */
+.card-archives ul.card-archive-list li {
+  padding: 0 !important;
+}
+.card-archives ul.card-archive-list li:before {
+  display: none;
+}
+/* 侧边栏分类ul样式修改 */
+.card-categories ul.card-category-list li {
+  padding: 0 !important;
+}
+.card-categories ul.card-category-list li:before {
+  display: none;
+}
