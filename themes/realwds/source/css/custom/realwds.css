@@ -14,7 +14,7 @@
 }
 
 ::selection {
-  background: var(--wds-blue);
+  background: var(--wds-main);
   color: var(--wds-white)
 }
 
@@ -229,7 +229,7 @@ a {
 }
 
 a:hover {
-  color: var(--wds-hovertext)
+  color: var(--wds-main)
 }
 
 hr {
@@ -455,7 +455,7 @@ a.darkmode_switchbutton {
 #article-container a:hover {
   text-decoration: none;
   border-bottom: 2px solid var(--wds-none);
-  color: var(--wds-hovertext);
+  color: var(--wds-main);
   background: var(--wds-post-blockquote-bg);
   border-radius: 4px;
 }
@@ -516,13 +516,13 @@ a.darkmode_switchbutton {
 /* 文章标签样式 */
 #post .tag_share .post-meta__tags {
   background: var(--wds-card-btn-bg);
-  border: 0 solid var(--wds-blue);
+  border: 0 solid var(--wds-main);
   color: var(--wds-fontcolor);
   margin: 0 0 0 .3rem;
 }
 
 #post .tag_share .post-meta__tags:hover {
-  background: var(--wds-blue);
+  background: var(--wds-main);
   box-shadow: 0 4px 8px -3px rgb(40 109 234 / 20%);
   color: var(--wds-white);
 }
@@ -536,7 +536,7 @@ a.darkmode_switchbutton {
 #aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:hover, 
 #aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover {
   color: var(--wds-white);
-  background-color: var(--wds-blue);
+  background-color: var(--wds-main);
   box-shadow: var(--wds-shadow-blue);
   border-radius: 12px;
 }
@@ -550,7 +550,7 @@ a.darkmode_switchbutton {
 #aside-content #card-toc .toc-content .toc-link.active {
   line-height: 1.2;
   border-radius: 12px;
-  border-left-color: var(--wds-hovertext);
+  border-left-color: var(--wds-main);
   background-color: var(--wds-main);
   font-weight: 600
 }
@@ -637,7 +637,7 @@ a.deal_link {
   color: var(--wds-secondtext);
 }
 a.deal_link:hover i{
-  color: var(--wds-hovertext) !important;
+  color: var(--wds-main) !important;
 }
 #footer-social i {
   font-size: 1.3rem;
@@ -676,7 +676,7 @@ a.deal_link:hover i{
   margin-right: auto;
 }
 #footer-container .footer-item:hover {
-  color: var(--wds-theme);
+  color: var(--wds-main);
 }
 
 #footer-banner {
@@ -710,7 +710,7 @@ a.deal_link:hover i{
   white-space: nowrap;
 }
 #footer-banner .footer-banner-link:hover {
-  color: var(--wds-theme);
+  color: var(--wds-main);
 }
 @media screen and (max-width: 769px){
   div#footer-social {
@@ -769,7 +769,7 @@ a.deal_link:hover i{
 }
 
 .li-style:hover{
-  color: #49b1f5;
+  color: var(--wds-main)
 }
 
 ul,li{
@@ -834,7 +834,7 @@ ul,li{
 }
 #article-container .flink .flink-list > .flink-list-item:hover {
   transform: scale(1);
-  background: var(--wds-blue) !important;
+  background: var(--wds-main) !important;
 }
 .flink#article-container .flink-list>.flink-list-item:before {
   background: #286dea;
@@ -943,7 +943,7 @@ ul,li{
     color: var(--wds-fontcolor);
   }
   #recent-posts .recent-post-item .article-meta__categories:hover {
-    background: var(--wds-blue);
+    background: var(--wds-main);
     color: var(--wds-white);
     box-shadow: var(--wds-shadow-blue);
   }
@@ -1006,7 +1006,7 @@ ul,li{
   }
   #recent-posts>.recent-post-item>.recent-post-info>.article-meta-wrap a:hover {
     background-color: var(--wds-post-blockquote-bg);
-    color: var(--wds-hovertext);
+    color: var(--wds-main);
     cursor: pointer;
     border-radius: 4px;
     text-decoration: none;
@@ -1227,7 +1227,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 40px !important;
 }
 .post_share a:hover {
-  background: var(--wds-theme) !important;
+  background: var(--wds-main) !important;
   color: var(--wds-white) !important;
   transition: .3s;
   box-shadow: var(--wds-shadow-blue);
@@ -1249,7 +1249,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .post-reward .reward-button:hover {
   color: var(--wds-white);
-  background: var(--wds-blue);
+  background: var(--wds-main);
   box-shadow: var(--wds-shadow-blue);
 }
 
@@ -1442,7 +1442,7 @@ a.reward-main-btn:hover {
   height: 20px;
 }
 .relatedPosts > .relatedPosts-list > div .grid-title a:hover{
-  color: var(--wds-hovertext);
+  color: var(--wds-main);
 }
 .relatedPosts > .relatedPosts-list > div .grid-meta{
   color: var(--wds-secondtext);
@@ -1566,8 +1566,11 @@ a.reward-main-btn:hover {
 #aside-content .item-headline {
   display: none;
 }
+#aside-content .card-tag-cloud a {
+  border-radius: 12px;
+}
 #aside-content .card-tag-cloud a:hover {
-  background: var(--wds-theme);
+  background: var(--wds-main);
   transform: scale(1);
   color: var(--wds-white)!important;
   border-radius: 12px;
@@ -1667,13 +1670,6 @@ a.reward-main-btn:hover {
   }
 }
 
-@media screen and (max-width: 900px) {
-  .layout>div:first-child:not(.recent-posts) {
-    border-radius: 0;
-    padding: 0 1rem!important;
-  }
-}
-
 /* 右侧aside样式修改 */
 #aside-content .card-info {
     min-height: 340px;
@@ -1761,7 +1757,7 @@ a.reward-main-btn:hover {
   opacity: 0!important;
 }
 .v[data-class=v] .vwrap {
-  border: 1px solid var(--wds-theme);
+  border: 1px solid var(--wds-main);
 }
 #vcomment .vbtn, #waline .vbtn {
   border: 1px solid #ededed !important;
@@ -1828,29 +1824,25 @@ a.extend.next {
   float: right;
 }
 #pagination .page-number.current {
-  background: var(--wds-theme);
+  background: var(--wds-main);
 }
 
+/* 修改顶部header样式 */
 #page-header.not-top-img {
   background: var(--wds-main)
 }
 #page-header.not-top-img #nav a {
   color:var(--wds-white)
 }
-
 #page-header{
   transition: 0s;
 }
-
 #page-header.nav-fixed #nav {
   top: 0;
-  /* transition: .2s; */
   background: var(--wds-main);
-  /* background: var(--wds-card-bg) !important; */
   box-shadow: var(--wds-shadow-nav) !important;
   opacity: .9;
 }
-
 #page-header #nav {
   box-shadow: none;
   transition: .2s;
@@ -1858,7 +1850,6 @@ a.extend.next {
   justify-content: center;
   background: var(--wds-main);
 }
-
 #nav a {
   border-radius: 12px;
   color: var(--wds-white);
@@ -1866,10 +1857,6 @@ a.extend.next {
 #page-header.nav-fixed #nav a, #page-header.nav-fixed #nav #site-name, #page-header.nav-fixed #nav #toggle-menu {
   color: var(--wds-white);
 }
-/* .nav-fixed #nav a {
-  color: var(--wds-white)
-} */
-
 #nav.show {
   transform: translate3d(0, 0, 0) !important;
   top: 0;
@@ -1877,16 +1864,34 @@ a.extend.next {
   position: fixed;
   z-index: 91
 }
-
-/* #page-header.not-top-img #nav {
-  background: 0 0;
-} */
-
 #page-header.nav-fixed #nav #menus>div.menus_items {
   transition: .3s;
   margin-bottom: 4px
 }
-
 #page-header.not-top-img {
   margin-bottom: 0;
+}
+
+#recent-posts > .recent-post-item >.recent-post-info > .article-title:hover {
+  color: var(--wds-main)
+}
+
+/* 修改timeline样式 */
+div.timenode::before, div.timenode::after {
+  background: var(--wds-main);
+  opacity: .5;
+}
+div.timenode .meta::before {
+  background: var(--wds-main);
+  opacity: .5;
+}
+div.timenode .meta::after {
+  background: var(--wds-main);
+}
+
+#article-container.post-content ul > li:not(.tab):hover:before {
+  border: 0.21em solid var(--wds-main);
+}
+#article-container.post-content ul > li:not(.tab):before {
+  border: 0.21em solid var(--wds-lighttext);
 }
