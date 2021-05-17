@@ -816,6 +816,14 @@ ul,li{
   will-change: opacity;
   animation: realImg .5s linear;
 }
+.flink-list-item a img {
+  filter: blur(15px);
+}
+.flink-list-item a img.loaded {
+  filter: blur(0);
+  will-change: opacity;
+  animation: realImg .5s linear;
+}
 /* 友情链接样式修改 */
 #article-container .flink .flink-list{
   padding: 0;
