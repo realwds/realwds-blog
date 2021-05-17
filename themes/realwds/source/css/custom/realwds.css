@@ -4,7 +4,7 @@
   --wds-none: rgba(0, 0, 0, 0);
   --wds-gray: #999999;
   --wds-yellow: #ffc93e;
-  --wds-main: #007AFF;
+  --wds-main: #057748;
   --wds-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, .20);
   --wds-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, .20);
   --wds-shadow-black: 0 0 12px 4px rgba(0, 0, 0, .05);
@@ -447,7 +447,7 @@ a.darkmode_switchbutton {
 /* 页面内链接样式 */
 #article-container a {
   text-decoration: none;
-  border-bottom: 2px solid var(--wds-lighttext);
+  border-bottom: 2px solid var(--wds-main);
   color: var(--wds-fontcolor);
   font-weight: 700;
 }
@@ -708,9 +708,6 @@ a.deal_link:hover i{
   font-size: .8rem;
   font-weight: 700;
   white-space: nowrap;
-}
-#footer-banner .footer-banner-link:hover {
-  color: var(--wds-main);
 }
 @media screen and (max-width: 769px){
   div#footer-social {
@@ -1888,10 +1885,25 @@ div.timenode .meta::before {
 div.timenode .meta::after {
   background: var(--wds-main);
 }
-
-#article-container.post-content ul > li:not(.tab):hover:before {
+/* 悬浮主题颜色 */
+#article-container.post-content ul > li:not(.tab):before {
   border: 0.21em solid var(--wds-main);
 }
-#article-container.post-content ul > li:not(.tab):before {
-  border: 0.21em solid var(--wds-lighttext);
+.article-sort-item-title:hover {
+  color: var(--wds-main);
+}
+#page .category-lists .category-list a:hover {
+  color: var(--wds-main);
+}
+#page .category-lists ul li:before {
+  border: 0.215em solid var(--wds-main);
+}
+.tag-cloud-list a:hover {
+  color: var(--wds-main) !important;
+}
+.search-dialog__title {
+  color: var(--wds-main);
+}
+#local-search .search-dialog .local-search-box input {
+  border: 2px solid var(--wds-main);
 }
