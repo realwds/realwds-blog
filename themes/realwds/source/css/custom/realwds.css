@@ -1972,3 +1972,17 @@ ul li:hover:before {
 #operare_artitalk .at_button, #artitalk_main .at_button {
   background: var(--wds-main) !important;
 }
+/* 文章赞赏样式修改 */
+.reward-main ul.reward-group li {
+  padding: 0px 8px !important;
+}
+.reward-main ul.reward-group li:before {
+  display: none;
+}
+/* tab ul样式修改 */
+.tabs ul.nav-tabs li {
+  padding: 0 !important;
+}
+.tabs ul.nav-tabs li:before {
+  display: none;
+}
