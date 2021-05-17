@@ -1847,11 +1847,14 @@ a.extend.next {
 #page-header{
   transition: 0s;
 }
-#page-header.nav-fixed #nav {
+#page-header.post-bg.nav-fixed #nav,#page-header.nav-fixed #nav {
   top: 0;
   background: var(--wds-main);
   box-shadow: var(--wds-shadow-nav) !important;
   opacity: .9;
+}
+#page-header.post-bg #nav {
+  background: 0;
 }
 #page-header #nav {
   box-shadow: none;
