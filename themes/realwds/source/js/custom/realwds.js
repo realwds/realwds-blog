@@ -24,28 +24,6 @@ var navFn = {
   }
 }
 
-
-//滚动条自动隐藏
-var t1 = 0;
-var t2 = 0;
-var timer = null; // 定时器
-document.styleSheets[0].addRule('*::-webkit-scrollbar-thumb','display:none;');
-
-// scroll监听
-document.onscroll = function() {
-  clearTimeout(timer);
-  timer = setTimeout(isScrollEnd, 1000);
-  t1 = document.documentElement.scrollTop || document.body.scrollTop;
-  document.styleSheets[0].addRule('*::-webkit-scrollbar-thumb','display:block;');
-}
-
-function isScrollEnd() {
-  t2 = document.documentElement.scrollTop || document.body.scrollTop;
-  if(t2 == t1){
-    document.styleSheets[0].addRule('*::-webkit-scrollbar-thumb','display:none;');
-  }
-}
-
 var OriginTitile = document.title, titleTime;
 document.addEventListener("visibilitychange", function() {
     document.hidden ? (document.title = "(゜-゜)つロ realwds's blog",
@@ -68,10 +46,6 @@ function coverColor() {
       paletteSize: 30, // 调色板大小
       exclude: [ 'rgb(255,255,255)', 'rgb(0,0,0)'],  // 不包括白色
       success: function(payload) {
-        // 包含一些颜色信息(payload)的回调
-        // payload.dominant是主色，RGB形式表示
-        // payload.secondary是次色，RGB形式表示
-        // payload.palette是调色板，含多个主要颜色，数组
         document.styleSheets[0].addRule(":root", "--wds-main:" + payload.dominant + "!important")
         document.getElementById("coverdiv").classList.add("loaded")
       },

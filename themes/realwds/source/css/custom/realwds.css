@@ -86,7 +86,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--wds-main);
   opacity: 1;
-  display: block !important
 }
 
 ::-webkit-scrollbar-track {
