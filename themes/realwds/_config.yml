@@ -318,11 +318,11 @@ valine:
   pageSize: 10 # comment list page size
   avatar: mp # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 留下你想说的话吧^_^ # valine comment input placeholder (like: Please leave your footprints)
+  placeholder: 昵称处填QQ号可自动获取昵称头像邮箱哦 ^_^ # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: https://cdn.jsdelivr.net/gh/realwds/cdn/img/20210414100654.png # valine background
+  bg: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/valine.6d6lywmsnew0.webp # valine background
   emojiCDN: https://tb2.bdstatic.com/tb/editor/images/face/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
@@ -645,7 +645,7 @@ aside:
     avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/person/realwds232.png
     sayhi: 👋 你好！我是
     name: realwds's blog
-    description: 前端打字员，分享踩过的坑，干货笔记，以及生活中的感悟、吐槽、看法，与君共勉。
+    description: 我会在这里分享踩过的坑，干货笔记，以及生活中的感悟、吐槽、看法，与君共勉。
     description2: 精致的五官是心动的开始，迷人的气质是动情的深渊。
     button:
       enable: true
@@ -959,6 +959,7 @@ artitalk:
     title: 生活杂谈
     comments: false
     top_img: false
+    aside: false
 
 # social settings (社交图标设置)
 # formal:

@@ -11,10 +11,6 @@
 - class_name: '本站驱动'
   class_desc: '<span>本站主题参考以下站点</span>'
   link_list:
-    - name: 张洪Heo
-      link: https://blog.zhheo.com
-      avatar: https://blog.zhheo.com/img/avatar.png
-      descr: 爱折腾的设计师
     - name: Hexo
       link: https://hexo.io/zh-tw/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
@@ -23,6 +19,10 @@
       link: https://github.com/jerryc127/hexo-theme-butterfly
       avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-github-avatar.png
       descr: 'A Hexo Theme: Butterfly'
+    - name: 张洪Heo
+      link: https://blog.zhheo.com
+      avatar: https://blog.zhheo.com/img/avatar.png
+      descr: 爱折腾的设计师
 
 - class_name: '旗下产品'
   class_desc: '<span>鄙人做过的网站</span>'

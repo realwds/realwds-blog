@@ -1,5 +1,5 @@
 ---
-title: 关于本站
+title: 关于博主
 date: 2021-05-01 15:39:25
 top_img: false
 comments: false
@@ -13,6 +13,9 @@ aside: false
 
 {% endnote %}
 
+
+{% image https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/about-me.6d8vhx692l80.jpg, width=200px %}
+
 ## 仓库提交
 
 <a href="https://github.com/realwds" target="_blank">
@@ -24,15 +27,6 @@ aside: false
 - [**vuepress 主题博客**](https://realwds.github.io/vuepress-blog/)
 - [**hexo 主题博客**](https://realwds.github.io/hexo-blog/)
 - [**gulp 粒子个人介绍页**](https://realwds.github.io/gulp-person-website/) -->
-
-## 文章统计
-
-<!-- 文章发布时间统计图 -->
-<div id="posts-chart" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;margin-bottom:20px"></div>
-<!-- 文章标签统计图 -->
-<div id="tags-chart" data-length="10" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;margin-bottom:20px"></div>
-<!-- 文章分类统计图 -->
-<div id="categories-chart" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;"></div>
 
 <style>
 .githubCard {

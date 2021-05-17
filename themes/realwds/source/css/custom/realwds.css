@@ -18,6 +18,10 @@
   color: var(--wds-white)
 }
 
+::placeholder {
+  color: #b3b3b3;
+}
+
 [data-theme=light] {
   --wds-theme: #425AEF;
   --wds-blue: #425AEF;
@@ -97,7 +101,7 @@ html {
 }
 
 .layout.hide-aside {
-  max-width: 1200px
+  max-width: 1000px
 }
 
 #nav {
@@ -824,7 +828,7 @@ ul,li{
   margin: 6px 6px;
   transition: .3s;
   border-radius: 12px;
-  width: calc(100% / 4 - 12px);
+  width: calc(100% / 3 - 12px);
   transition-timing-function: ease-in-out;
 }
 #article-container .flink .flink-list > .flink-list-item:hover {
@@ -887,16 +891,11 @@ ul,li{
   transition: .3s;
 }
 @media screen and (max-width: 1200px) {
-  #article-container .flink .flink-list > .flink-list-item {
-    width: calc(100% / 4 - 12px)!important;
-  }
-}
-@media screen and (max-width: 1024px) {
   #article-container .flink .flink-list > .flink-list-item  {
     width: calc(100% / 3 - 12px)!important;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #article-container .flink .flink-list > .flink-list-item  {
     width: calc(100% / 2 - 12px)!important;
   }
@@ -1768,8 +1767,24 @@ a.reward-main-btn:hover {
 .v[data-class=v] .status-bar, .v[data-class=v] .veditor, .v[data-class=v] .vinput, .v[data-class=v] p, .v[data-class=v] pre code {
   color: var(--wds-fontcolor) !important;
 }
-.v[data-class=v] .veditor {
-  min-height: 5em !important;
+.v[data-class=v] .vcards .vcard .vquote, .v[data-class=v] .vcards .vcard .vh {
+  border: none !important;
+  padding: 0 !important;
+}
+.v[data-class=v] .vcards .vcard .vcontent {
+  padding: 0 !important;
+}
+.v[data-class=v] * {
+  line-height: 1.6 !important;
+}
+.v[data-class=v] .vcards .vcard {
+  padding-top: 1em !important;
+}
+.v[data-class=v] .vwrap {
+  border: 1px solid #c6c6c6 !important;
+}
+.v[data-class=v] .vsys, .v[data-class=v] .vtime {
+  color: var(--wds-secondtext) !important;
 }
 
 /* 侧边栏评论样式修改 */
@@ -1910,4 +1925,50 @@ div.timenode .meta::after {
   #aside-content {
     display: none;
   }
+}
+
+/* ul样式修改 */
+ul li {
+  padding: 0.12em 0.4em 0.12em 1.4em !important;
+}
+
+ul li:before {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  top: 0.7em;
+  width: 0.43em;
+  height: 0.43em;
+  border: 0.215em solid var(--wds-main);
+  border-radius: 0.43em;
+  background: transparent;
+  content: '';
+}
+
+ul li:hover:before {
+  border-color: #ff7242;
+}
+/* 生活杂谈样式修改 */
+#artitalk_main ul#maina li {
+  padding: 0 !important;
+}
+#artitalk_main ul#maina li:before {
+  display: none;
+}
+#artitalk_main #shuoshuo_content {
+  padding: 0 !important;
+}
+#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel {
+  background: var(--wds-main) !important;
+}
+#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:after {
+  border-right-color: var(--wds-main) !important;
+}
+#operare_artitalk .at_button, #artitalk_main .at_button {
+  background: var(--wds-main) !important;
 }
