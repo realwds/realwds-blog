@@ -2011,3 +2011,7 @@ ul li:hover:before {
 .card-categories ul.card-category-list li:before {
   display: none;
 }
+/* 时间线时间样式 */
+div.timenode .meta p {
+  font-size: .68rem;
+}

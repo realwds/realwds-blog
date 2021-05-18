@@ -14,6 +14,8 @@ abbrlink: b8a0d4e7
 cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png
 ---
 
+简单精美的图标样式会为博文增色不少，以下是我在博文中常用的 Butterfly 主题标签外挂。
+
 ## 引用 node
 
 ``` markdown
