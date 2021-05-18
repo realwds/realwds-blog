@@ -26,7 +26,7 @@ date: 2021-05-14 21:04:15
 - gitee 私人令牌获取方法，点开右上角头像。设置 => 私人令牌
 - gitlab 私人令牌获取方法，点开右上角头像。Preferences => 访问令牌
 
-![获取私人令牌](https://cdn.jsdelivr.net/gh/realwds/cdn@master/realwds-blog/3d9e5d49d1ef49fdbf3e482fb5c50c9c.76le68kg3hs0.png)
+![获取私人令牌](https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/3d9e5d49d1ef49fdbf3e482fb5c50c9c.76le68kg3hs0.62vsm3idncg0.png)
 
 ## 新建 github 仓库
 
