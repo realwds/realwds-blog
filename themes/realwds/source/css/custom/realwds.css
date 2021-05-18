@@ -916,7 +916,9 @@ ul,li{
 
 /* 文章列表样式 */
 .article-sort-item-img {
-  border-radius: 12px;
+  border-radius: 8px;
+  width: 88px;
+  height: 88px;
 }
 .article-sort-item-time i {
   display: none;

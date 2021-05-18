@@ -44,7 +44,7 @@ function coverColor() {
   void 0 !== path ?(
     RGBaster.colors(path, {
       paletteSize: 30, // 调色板大小
-      exclude: [ 'rgb(255,255,255)', 'rgb(0,0,0)'],  // 不包括白色
+      exclude: [ 'rgb(255,255,255)', 'rgb(0,0,0)', 'rgb(254,254,254)'],  // 不包括颜色
       success: function(payload) {
         document.styleSheets[0].addRule(":root", "--wds-main:" + payload.dominant + "!important")
         document.getElementById("coverdiv").classList.add("loaded")
