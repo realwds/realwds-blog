@@ -2017,3 +2017,9 @@ ul li:hover:before {
 div.timenode .meta p {
   font-size: .68rem;
 }
+/* 手机端layout样式 */
+@media screen and (max-width: 768px){
+  .layout > div:first-child:not(.recent-posts) {
+    padding: .6rem !important;
+  }
+}

@@ -16,45 +16,30 @@ youtube-dl 是一个命令行程序，可以从 YouTube.com 和其他一些网�
 
 ## 安装
 
-macOS 系统：
-
 ``` sh
+# macOS 系统：
 brew install youtube-dl
-```
 
-windows 系统：
-
-``` sh
+# windows 系统：
 scoop install youtube-dl
 ```
 
 ## 使用
 
 ``` sh
+# 使用
 youtube-dl [OPTIONS] URL [URL...]
-```
 
-无选项，直接下载视频，默认是最高清晰度，如：
-
-``` sh
+# 无选项，直接下载视频，默认是最高清晰度，如：
 youtube-dl https://www.youtube.com/watch?v=-wNyEUrxzFU
-```
 
--i 选项，仅显示信息但不下载，如：
-
-``` sh
+#-i 选项，仅显示信息但不下载，如：
 youtube-dl -i https://www.youtube.com/watch?v=-wNyEUrxzFU
-```
 
-更多选项，，可以运行以下命令查看
-
-``` sh
+# 更多选项，，可以运行以下命令查看
 youtube-dl -help
-```
 
-下载中文字幕带视频（前提视频包含中文字幕）
-
-``` sh
+# 下载中文字幕带视频（前提视频包含中文字幕）
 youtube-dl --sub-lang zh-Hans --write-auto-sub https://www.youtube.com/watch?v=DpETCg3YquA
 ```
 
