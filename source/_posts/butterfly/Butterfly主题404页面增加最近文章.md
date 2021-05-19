@@ -3,7 +3,6 @@ title: Butterfly 主题 404 页面增加最近文章
 tags:
   - Hexo
   - butterfly
-  - 精选
 categories: Butterfly魔改
 keywords: 'hexo,butterfly,主题,doc,教程,文档'
 abbrlink: 2c9bc301

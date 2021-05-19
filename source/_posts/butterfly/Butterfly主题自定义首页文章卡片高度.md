@@ -3,7 +3,6 @@ title: Butterfly 主题自定义首页文章卡片高度
 tags:
   - Hexo
   - butterfly
-  - 精选
 categories: Butterfly魔改
 keywords: 'hexo,butterfly,主题,doc,教程,文档'
 large: true
