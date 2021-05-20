@@ -1,14 +1,12 @@
-# realwds-blog
+# realwds's blog
 
-- hexo
-- hexo-theme-butterfly
+⛔ 个人博客，此仓库禁止 Fork !!!
+
+访问地址：https://blog.realwds.com
 
 ## Usage
 
 ``` sh
-# 克隆项目
-git clone https://github.com/realwds/realwds-blog.git
-
 # 进入文件目录
 cd source
 
