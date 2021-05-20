@@ -12,15 +12,18 @@ git clone https://github.com/realwds/realwds-blog.git
 # 进入文件目录
 cd source
 
-# 新建文件
-hexo new page about
-
 # 启动
-hexo clean && hexo s
+npm run dev
+
+# 新建文件夹
+hexo new page <文件夹名称>
+
+# 新建文件
+hexo new <文章标题>
 
 # 部署
-hexo g
+npm run build
 
-# 本地静态资源压缩
-gulp
+# 提交
+npm run upload <提交信息说明>
 ```

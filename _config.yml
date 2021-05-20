@@ -110,6 +110,10 @@ theme: realwds
 #   repo: git@github.com:realwds/realwds-blog.git
 #   branch: master
   # other deployer
+deploy:
+  type: git
+  repo: git@github.com:hiwego/hiwego.github.io.git # 推送到 hiwego 组织仓库
+  branch: master
 
 search:
   path: search.xml

@@ -1,11 +1,17 @@
 {
   "name": "realwds-blog",
-  "version": "v1.0.0",
+  "version": "v2.2.0",
+  "description": "realwds's blog private",
+  "author": "Alejandro",
+  "keywords": [
+    "realwds",
+    "realwds-blog",
+    "realwds's blog"
+  ],
   "scripts": {
+    "dev": "hexo clean && hexo s",
     "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "upload": "hexo clean && hexo g && gulp && hexo d && git config --global user.name 'Alejandro' && git config --global user.email 'wds@disnot.com' && git add . && git commit -am"
   },
   "hexo": {
     "version": "5.4.0"
