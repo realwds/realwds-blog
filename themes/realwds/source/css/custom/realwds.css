@@ -2019,7 +2019,20 @@ div.timenode .meta p {
 }
 /* 手机端layout样式 */
 @media screen and (max-width: 768px){
-  .layout > div:first-child:not(.recent-posts) {
-    padding: .6rem !important;
+  /* 手机端隐藏首页随笔 */
+  #bbTimeList .bblogo {
+    display: none;
   }
+
+  .layout > div:first-child:not(.recent-posts) {
+    padding: .6rem 1rem !important;
+  }
+  .layout > div:first-child:not(.recent-posts):hover {
+    box-shadow: none;
+  }
+
+  #body-wrap.post .layout {
+    padding: 0 !important;
+  }
+  
 }
