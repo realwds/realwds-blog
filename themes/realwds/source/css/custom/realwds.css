@@ -4,7 +4,7 @@
   --wds-none: rgba(0, 0, 0, 0);
   --wds-gray: #999999;
   --wds-yellow: #ffc93e;
-  --wds-main: #1b6d75;
+  --wds-main: #303643;
   --wds-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, .20);
   --wds-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, .20);
   --wds-shadow-black: 0 0 12px 4px rgba(0, 0, 0, .05);
@@ -2027,12 +2027,20 @@ div.timenode .meta p {
   .layout > div:first-child:not(.recent-posts) {
     padding: .6rem 1rem !important;
   }
-  .layout > div:first-child:not(.recent-posts):hover {
-    box-shadow: none;
-  }
 
   #body-wrap.post .layout {
     padding: 0 !important;
   }
   
+}
+
+/* 移除鼠标悬浮阴影 */
+#aside-content .card-widget:hover {
+  box-shadow: none;
+}
+#recent-posts > .recent-post-item:hover {
+  box-shadow: none;
+}
+.layout > div:first-child:not(.recent-posts):hover {
+  box-shadow: none;
 }
