@@ -326,7 +326,7 @@ valine:
   emojiCDN: https://tb2.bdstatic.com/tb/editor/images/face/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
-  visitor: false
+  visitor: true
   option:
 
 # waline - A simple comment system with backend support fork from Valine
