@@ -987,3 +987,5 @@ footer:
 
 # Footer Background
 footer_bg:
+# 网站变灰  
+grayTheme: true

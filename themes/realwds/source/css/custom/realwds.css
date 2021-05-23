@@ -2044,3 +2044,12 @@ div.timenode .meta p {
 .layout > div:first-child:not(.recent-posts):hover {
   box-shadow: none;
 }
+/* 网站全站变灰 */
+.htmlGrayTheme {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}

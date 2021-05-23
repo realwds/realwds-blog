@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "hexo clean && hexo s",
     "build": "hexo generate",
-    "upload": "hexo clean && hexo g && copy README.md public\\README.md && gulp && hexo d && git config --global user.name 'Alejandro' && git config --global user.email 'wds@disnot.com' && git add . && git commit -am"
+    "upload": "hexo clean && hexo g && copy README.md public\\README.md && gulp && hexo d && git config --global user.name 'Alejandro' && git config --global user.email 'wds@disnot.com' && git add . && git commit -am",
+    "upload:mac": "hexo clean && hexo g && cp README.md public\\README.md && gulp && hexo d && git config --global user.name 'Alejandro' && git config --global user.email 'wds@disnot.com' && git add . && git commit -am"
   },
   "hexo": {
     "version": "5.4.0"

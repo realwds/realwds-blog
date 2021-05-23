@@ -1,9 +1,10 @@
 - var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-aside' : ''
 - var hideAside = !theme.aside.enable || page.aside === false ? 'hide-aside' : ''
 - var pageType = is_post() ? 'post' : 'page'
+- var htmlGrayTheme = theme.grayTheme ? 'htmlGrayTheme' : ''
 
 doctype html
-html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside)
+html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside class=htmlGrayTheme)
   head
     include ./head.pug
   body
