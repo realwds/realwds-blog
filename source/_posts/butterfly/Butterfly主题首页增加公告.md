@@ -188,6 +188,50 @@ div.timenode .meta:after
         })
 ```
 
+### 引入 CSS 样式
+
+``` css
+/* 主页哔哔bb */
+#notice-item {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+}
+#notice-item .li-style {
+  width: 100%;
+  height: 25px;
+  font-weight: 500;
+  text-align: center;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.3s;
+}
+#noticeList {
+  background: var(--card-bg);
+  color: var(--font-color);
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+#noticeList .nlogo{
+  color: var(--font-color);
+  font-weight: 600;
+  display: inline;
+}
+#noticeList .swiper-container{
+  display: flex;
+  flex: 1;
+}
+#noticeList i {
+  text-align: right;
+}
+```
+
 ### 引入 homeNotice 模板
 
 文件地址：```themes/butterfly/layout/index.pug```
