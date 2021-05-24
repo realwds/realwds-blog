@@ -749,13 +749,13 @@ a.deal_link:hover i{
 }
 
 /* 主页哔哔bb */
-#bber-talk {
+#notice-item {
   width: 100%;
   height: 25px;
   line-height: 25px;
 }
 
-#bber-talk .li-style {
+#notice-item .li-style {
   width: 100%;
   height: 25px;
   font-weight: 500;
@@ -778,7 +778,7 @@ ul,li{
   padding: 0;
 }
 
-#bbTimeList {
+#noticeList {
   background: var(--card-bg);
   color: var(--font-color);
   margin-top: 1rem;
@@ -788,14 +788,16 @@ ul,li{
   display: flex;
   align-items: center;
 }
-#bbTimeList .bblogo{
+#noticeList .nlogo{
   color: var(--font-color);
   font-weight: 600;
   display: inline;
-  width: 180px;
 }
-#bbTimeList i {
-  width: 120px;
+#noticeList .swiper-container{
+  display: flex;
+  flex: 1;
+}
+#noticeList i {
   text-align: right;
 }
 
@@ -2043,11 +2045,6 @@ div.timenode .meta p {
 }
 /* 手机端layout样式 */
 @media screen and (max-width: 768px){
-  /* 手机端隐藏首页随笔 */
-  #bbTimeList .bblogo {
-    display: none;
-  }
-
   .layout > div:first-child:not(.recent-posts) {
     padding: .6rem 1rem !important;
   }

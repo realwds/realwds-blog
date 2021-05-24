@@ -1,0 +1,20 @@
+#noticeList.container(onclick=`window.open('/notice/','_self')`)
+    .nlogo="公告"
+    .swiper-container
+        #notice-item.swiper-wrapper
+            if site.data.notice
+                each i in site.data.notice
+                    .li-style.swiper-slide=i.msg
+    i.fas.fa-arrow-circle-right(onclick="location='/notice/'",title="查看全文")
+
+.js-pjax
+    script(src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js',data-pjax='')
+    script.
+        new Swiper('.swiper-container', {
+            direction: 'vertical', // 垂直切换选项
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: true,
+            }
+        })
