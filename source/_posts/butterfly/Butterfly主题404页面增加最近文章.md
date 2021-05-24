@@ -144,4 +144,7 @@ html(lang=config.language data-theme=theme.display_mode)
 
 [DEMO 查看](/404/)
 
-- [参考文献](https://blog.zhheo.com/p/f48e518b.html)
+
+## 参考文献
+
+- [《Butterfly魔改：404页面展示最近文章》 - 张洪Heo](https://blog.zhheo.com/p/f48e518b.html)

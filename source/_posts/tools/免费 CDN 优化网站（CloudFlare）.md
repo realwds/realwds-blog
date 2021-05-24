@@ -47,4 +47,6 @@ CloudFlare 是一家美国的跨国科技企业，总部位于旧金山，在英
 
 国外用户访问国内网站不会变卡了！
 
-[参考文献](https://www.zhihu.com/topic/19579622/intro)
+## 参考文献
+
+- [《 CloudFlare 》 - 知乎](https://www.zhihu.com/topic/19579622/intro)

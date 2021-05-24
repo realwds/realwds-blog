@@ -43,4 +43,6 @@ youtube-dl -help
 youtube-dl --sub-lang zh-Hans --write-auto-sub https://www.youtube.com/watch?v=DpETCg3YquA
 ```
 
-- [GitHub 地址](https://github.com/ytdl-org/youtube-dl)
+## 参考文献
+
+- [《 youtube-dl 》 - GitHub](https://github.com/ytdl-org/youtube-dl)

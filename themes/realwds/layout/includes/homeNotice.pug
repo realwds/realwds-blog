@@ -5,7 +5,7 @@
             if site.data.notice
                 each i in site.data.notice
                     .li-style.swiper-slide=i.msg
-    i.fas.fa-arrow-circle-right(onclick="location='/notice/'",title="查看全文")
+    i.fas.fa-arrow-circle-right(title="查看全文")
 
 .js-pjax
     script(src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js',data-pjax='')
