@@ -69,7 +69,7 @@ script.
         },
         enableQQ: #{theme.valine.enableQQ},
         path: window.location.pathname,
-        requiredFields: [!{theme.valine.requiredFields ? JSON.stringify(theme.valine.requiredFields).split(',') : ''}],
+        requiredFields: ['nick','mail'],
         visitor: #{theme.valine.visitor}
       }, !{JSON.stringify(theme.valine.option)}))
     }

@@ -1809,6 +1809,9 @@ a.reward-main-btn:hover {
 .v[data-class=v] .vsys, .v[data-class=v] .vtime {
   color: var(--wds-secondtext) !important;
 }
+.v[data-class=v] .vrow .vcol {
+  color: #eb5055 !important;
+}
 
 /* 侧边栏评论样式修改 */
 #aside-content .aside-list > .aside-list-item .content > .title, #aside-content .aside-list > .aside-list-item .content > .comment {
