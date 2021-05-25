@@ -12,4 +12,5 @@ block content
       include includes/homeTop.pug
       .article-sort-title= page.tag
       +articleSort(page.posts)
-      include includes/pagination.pug
+      if(page.posts.length>9)
+        include includes/pagination.pug
