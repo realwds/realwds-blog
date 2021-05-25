@@ -6,8 +6,6 @@ comments: false
 aside: false
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>
-
 ### 仓库提交
 
 <a href="https://github.com/realwds" target="_blank">
