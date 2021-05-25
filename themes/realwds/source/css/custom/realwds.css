@@ -1956,39 +1956,7 @@ div.timenode .meta::after {
   }
 }
 
-/* ul样式修改 */
-ul li {
-  padding: 0.12em 0.4em 0.12em 1.4em !important;
-}
-
-ul li:before {
-  position: absolute;
-  left: 0;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  top: 0.7em;
-  width: 0.43em;
-  height: 0.43em;
-  border: 0.215em solid var(--wds-main);
-  border-radius: 0.43em;
-  background: transparent;
-  content: '';
-}
-
-ul li:hover:before {
-  border-color: #ff7242;
-}
 /* 生活杂谈样式修改 */
-#artitalk_main ul#maina li {
-  padding: 0 !important;
-}
-#artitalk_main ul#maina li:before {
-  display: none;
-}
 #artitalk_main #shuoshuo_content {
   padding: 0 !important;
 }
@@ -2001,34 +1969,7 @@ ul li:hover:before {
 #operare_artitalk .at_button, #artitalk_main .at_button {
   background: var(--wds-main) !important;
 }
-/* 文章赞赏样式修改 */
-.reward-main ul.reward-group li {
-  padding: 0px 8px !important;
-}
-.reward-main ul.reward-group li:before {
-  display: none;
-}
-/* tab ul样式修改 */
-.tabs ul.nav-tabs li {
-  padding: 0 !important;
-}
-.tabs ul.nav-tabs li:before {
-  display: none;
-}
-/* 侧边栏归档ul样式修改 */
-.card-archives ul.card-archive-list li {
-  padding: 0 !important;
-}
-.card-archives ul.card-archive-list li:before {
-  display: none;
-}
-/* 侧边栏分类ul样式修改 */
-.card-categories ul.card-category-list li {
-  padding: 0 !important;
-}
-.card-categories ul.card-category-list li:before {
-  display: none;
-}
+
 /* 时间线时间样式 */
 div.timenode .meta p {
   font-size: .68rem;
