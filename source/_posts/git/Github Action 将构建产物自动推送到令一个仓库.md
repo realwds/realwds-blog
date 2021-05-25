@@ -48,4 +48,4 @@ jobs:
 
 ## 参考文献
 
-- [《 git-publish-subdir-action 》 - GitHub](https://github.com/s0/git-publish-subdir-action)
+[《 git-publish-subdir-action 》 - GitHub](https://github.com/s0/git-publish-subdir-action)

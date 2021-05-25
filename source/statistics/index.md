@@ -6,6 +6,12 @@ comments: false
 aside: false
 ---
 
+### 仓库提交
+
+<a href="https://github.com/realwds" target="_blank">
+  <img class="githubCard" src="https://ghchart.rshah.org/realwds" alt="github" />
+</a> 
+
 ### 文章发布时间统计图
 <div id="posts-chart" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;"></div>
 
@@ -14,3 +20,15 @@ aside: false
 
 ### 文章分类统计图
 <div id="categories-chart" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;"></div>
+
+<style>
+.githubCard {
+  padding: 10px;
+  margin-top: 20px;
+  border: 4px dotted #929d99;
+  box-sizing: border-box;
+}
+.githubCard.loaded {
+  width: 100%;
+}
+</style>

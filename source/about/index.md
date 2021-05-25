@@ -13,23 +13,17 @@ aside: false
 
 {% endnote %}
 
-{% image https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/about-me.6d8vhx692l80.jpg, width=200px %}
+![](https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165804.jpg)
 
+<!-- ## 上菜
 
-## 仓库提交
-
-<a href="https://github.com/realwds" target="_blank">
-  <img class="githubCard" src="https://ghchart.rshah.org/realwds" alt="github" />
-</a> 
-
-<style>
-.githubCard {
-  padding: 10px;
-  margin-top: 20px;
-  border: 4px dotted #929d99;
-  box-sizing: border-box;
-}
-.githubCard.loaded {
-  width: 100%;
-}
-</style>
+{% note blue no-icon %}
+我是一条酸菜鱼，又酸又菜又多余。
+我是一只黄焖鸡，又黄又闷又垃圾。
+我是一条土豆丝，又土又逗有屌丝。
+我是一个剑齿鲨，又贱又痴又很傻。
+我是一份小炒肉，又小又吵又有肉。
+我是一碗回锅肉，又灰又裹又多肉。
+我是一瓶二锅头，又二又乖又上头。
+我是一份香辣鱼，再香再辣也多余。
+{% endnote %} -->

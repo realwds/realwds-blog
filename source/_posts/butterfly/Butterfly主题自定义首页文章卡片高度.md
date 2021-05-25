@@ -52,4 +52,4 @@ mixin postUI(posts)
 
 ## 参考文献
 
-- [《基于Hexo的Butterfly下自定义指定首页文章卡片高度》 - 张洪Heo](https://blog.zhheo.com/p/77ebd8b5.html)
+[《基于Hexo的Butterfly下自定义指定首页文章卡片高度》 - 张洪Heo](https://blog.zhheo.com/p/77ebd8b5.html)

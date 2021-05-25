@@ -293,5 +293,5 @@ comments: false
 
 ## 参考文献
 
-- [《Hexo-Butterfly 说说朋友圈适配》 - 张洪Heo](https://blog.zhheo.com/p/a6947667.html#%E5%BC%95%E5%85%A5%E5%88%B0%E4%B8%BB%E9%A1%B5)
-- [《基于 Butterfly 的外挂标签引入》 - Akilar](https://akilar.top/posts/615e2dec/#%E6%97%B6%E9%97%B4%E8%BD%B4-timeline)
+[《Hexo-Butterfly 说说朋友圈适配》 - 张洪Heo](https://blog.zhheo.com/p/a6947667.html#%E5%BC%95%E5%85%A5%E5%88%B0%E4%B8%BB%E9%A1%B5)
+[《基于 Butterfly 的外挂标签引入》 - Akilar](https://akilar.top/posts/615e2dec/#%E6%97%B6%E9%97%B4%E8%BD%B4-timeline)

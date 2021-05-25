@@ -449,17 +449,16 @@ a.darkmode_switchbutton {
 /* 页面内链接样式 */
 #article-container a {
   text-decoration: none;
-  border-bottom: 2px solid var(--wds-main);
   color: var(--wds-fontcolor);
   font-weight: 700;
+  background-color: rgba(187,239,253,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 #article-container a:hover {
   text-decoration: none;
-  border-bottom: 2px solid var(--wds-none);
-  color: var(--wds-main);
-  background: var(--wds-post-blockquote-bg);
-  border-radius: 4px;
+  background-color: #bbeffd;
+  border-bottom-color: var(--wds-main);
 }
 
 /* 菜单栏居中右边移动 */

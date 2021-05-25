@@ -24,21 +24,21 @@
       avatar: https://blog.zhheo.com/img/avatar.png
       descr: 爱折腾的设计师
 
-- class_name: '旗下产品'
-  class_desc: '<span>鄙人做过的网站</span>'
-  link_list:
-    - name: realwds's website
-      link: https://realwds.com/
-      avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png
-      descr: 数学系的挨踢者
-    - name: realwds's info
-      link: https://realwds-info.vercel.app/
-      avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165809.jpg
-      descr: 数学系的挨踢者
-    - name: realwds's blog
-      link: https://blog.realwds.com/
-      avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165755.jpg
-      descr: 数学系的挨踢者
+# - class_name: '旗下产品'
+#   class_desc: '<span>鄙人做过的网站</span>'
+#   link_list:
+#     - name: realwds's website
+#       link: https://realwds.com/
+#       avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png
+#       descr: 数学系的挨踢者
+#     - name: realwds's info
+#       link: https://realwds-info.vercel.app/
+#       avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165809.jpg
+#       descr: 数学系的挨踢者
+#     - name: realwds's blog
+#       link: https://blog.realwds.com/
+#       avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165755.jpg
+#       descr: 数学系的挨踢者
 
 - class_name: '仰望大佬'
   class_desc: '<span>给阿姨倒上一杯卡布奇诺</span>'
