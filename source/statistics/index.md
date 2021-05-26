@@ -6,6 +6,8 @@ comments: false
 aside: false
 ---
 
+<script data-pjax src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>
+
 ### 仓库提交
 
 <a href="https://github.com/realwds" target="_blank">
@@ -14,15 +16,15 @@ aside: false
 
 ### 文章发布时间统计图
 
-<div id="posts-chart" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;"></div>
+<div class="js-pjax" id="posts-chart" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;"></div>
 
 ### 文章标签统计图
 
-<div id="tags-chart" data-length="10" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;"></div>
+<div class="js-pjax" id="tags-chart" data-length="10" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;"></div>
 
 ### 文章分类统计图
 
-<div id="categories-chart" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;"></div>
+<div class="js-pjax" id="categories-chart" style="background-color: #20232a; border-radius: 8px; height: 300px; padding: 0.5rem;"></div>
 
 <style>
 .githubCard {
