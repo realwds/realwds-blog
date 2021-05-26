@@ -7,12 +7,12 @@
 #   name || link || icon
 
 menu:
-  首页: /
+  文章: /
   # 文章:
   #   文章列表: /archives/ || fas fa-book-open
   #   全部分类: /categories/ || fas fa-folder-open
   #   全部标签: /tags/ || fas fa-tags
-  随笔: /essay/
+  娱乐: /media/
   友链: /link/
   关于: /about/
   # 更多:
