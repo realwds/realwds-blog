@@ -7,14 +7,15 @@
 #   name || link || icon
 
 menu:
-  文章: /
+  首页: /
+  文章: /archives/
   # 文章:
   #   文章列表: /archives/ || fas fa-book-open
   #   全部分类: /categories/ || fas fa-folder-open
   #   全部标签: /tags/ || fas fa-tags
-  娱乐: /media/
   友链: /link/
-  关于: /about/
+  娱乐: /media/
+  # 关于: /about/
   # 更多:
   #   在线工具: /tools/ || fas fa-tools
   #   友情链接: /link/ || fas fa-heart
