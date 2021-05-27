@@ -7,8 +7,8 @@
                     .li-style.swiper-slide=i.msg
     i.fas.fa-arrow-circle-right(title="查看全文")
 
+script(src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js', data-pjax)
 .js-pjax
-    script(src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js',data-pjax='')
     script.
         new Swiper('.swiper-container', {
             direction: 'vertical', // 垂直切换选项
@@ -18,3 +18,4 @@
                 disableOnInteraction: true,
             }
         })
+       

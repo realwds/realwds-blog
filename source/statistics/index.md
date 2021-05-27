@@ -6,7 +6,7 @@ comments: false
 aside: false
 ---
 
-<script data-pjax src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>
 
 ### 仓库提交
 
