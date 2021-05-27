@@ -5,7 +5,7 @@ tags:
   - 持续集成
   - CI/CD
 categories: Git相关
-keywords: 'github,action,ci,cd,持续集成'
+keywords: github,action,ci,cd,持续集成
 description: GitHub Action 利用 CI/CD 持续集成，自动部署到 github、gitlab、gitee 平台
 cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/github-action.37jx8hg50fs0.png
 abbrlink: 4b365e6c

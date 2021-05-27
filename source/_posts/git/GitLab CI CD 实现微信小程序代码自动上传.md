@@ -6,7 +6,7 @@ tags:
   - 持续集成
   - CI/CD
 categories: Git相关
-keywords: 'gitlab,小程序,ci,cd,持续集成'
+keywords: gitlab,小程序,ci,cd,持续集成
 description: miniprogram+GitLab CI/CD 持续集成实现微信小程序代码自动上传
 cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/gitlab.132o7usr5uuo.png
 abbrlink: 7d6b9bff

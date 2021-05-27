@@ -5,9 +5,9 @@ tags:
   - butterfly
 categories:
   - Butterfly魔改
-keywords: 'Butterfly,tag,公告'
-description: Butterfly主题首页增加公告
-cover: 'https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-1.png'
+keywords: Butterfly,tag,公告
+description: 给 Butterfly 主题首页增加公告
+cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-1.png
 abbrlink: 39c5cc87
 date: 2021-05-24 16:20:31
 ---

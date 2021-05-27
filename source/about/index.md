@@ -35,7 +35,7 @@ new Player({
   id: 'mse-video',
   autoplay: false,
   volume: 0.3, //初始音量
-  url:'https://cdn.jsdelivr.net/gh/realwds/cdn/video/geu.mp4',
+  url:'https://cdn.jsdelivr.net/gh/realwds/cdn@master/video/geu.mp4',
   poster: "https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165804.jpg",
   playsinline: true,
   fluid: true, //流式布局

@@ -4,7 +4,8 @@ tags:
   - Hexo
   - butterfly
 categories: Butterfly魔改
-keywords: 'hexo,butterfly,主题,doc,教程,文档'
+keywords: hexo,butterfly,主题,doc,教程,文档
+description: 页面有时候会时效或者用户输入不存在的 url 地址，那么网站就会出现无法访问，也就是 404。Butterfly 主题 404 页面增加最近文章
 abbrlink: 2c9bc301
 date: 2021-05-13 17:08:31
 cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/404.5edup5k17zw0.png

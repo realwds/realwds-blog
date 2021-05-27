@@ -78,11 +78,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /img/favicon.png
+favicon: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/favicon.png
 
 # Avatar (头像)
 avatar:
-  img: /img/avatar.png
+  img: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165755.jpg
   effect: false
 
 # Disable all banner image
@@ -125,18 +125,18 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-2.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-1.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-3.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-6.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-4.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-7.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png
+    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-1.png
+    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-2.png
+    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-3.png
+    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-4.png
+    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-6.png
+    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-7.png
+    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-9.png
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  flink: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/404.jpg
+  post_page: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/404.jpg
 
 # A simple 404 page
 error_404:
@@ -193,10 +193,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: /img/reward/wxds.png
+    - img: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210413174753.png
       link:
       text: 微信
-    - img: /img/reward/zfbzf.png
+    - img: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210413174751.png
       link:
       text: 支付宝
 
@@ -643,7 +643,7 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/person/realwds232.png
+    avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/person/realwds232-.png
     sayhi: 👋 你好！我是
     name: realwds's blog
     description: 我会在这里分享踩过的坑，干货笔记，以及生活中的感悟、吐槽、看法，与君共勉。
@@ -657,7 +657,7 @@ aside:
       link2: https://github.com/realwds
   card_announcement:
     enable: true
-    content: '<p>有问题评论留言，微信不解答问题，添加请注明来意。</p><div class="content_qrcode"><img src="/img/wechat.png" alt="添加微信"></div>'
+    content: '<p>有问题评论留言，微信不解答问题，添加请注明来意。</p><div class="content_qrcode"><img src="https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/wechat.png" alt="添加微信"></div>'
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -828,7 +828,7 @@ pangu:
 # https://github.com/verlok/lazyload
 lazyload:
   enable: true
-  post: /img/loading.png
+  post: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/loading.png
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
