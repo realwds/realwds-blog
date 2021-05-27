@@ -1108,6 +1108,7 @@ a.deal_link:hover i{
 }
 .card-announcement .content_qrcode img{
   width: 180px;
+  height: 180px;
   margin-top: 10px;
 }
 
@@ -1722,8 +1723,8 @@ a.reward-main-btn:hover {
   bottom: -40px;
 }
 #aside-content .author-info__avatar img{
-  width: 100%;
-  height: auto;
+  width: 128px;
+  height: 192px;
   border-radius: 0;
 }
 #aside-content .author-info__description,.author-info__description2 b {
@@ -1954,7 +1955,6 @@ div.timenode .meta::after {
     display: none;
   }
 }
-
 /* 生活杂谈样式修改 */
 #artitalk_main #shuoshuo_content {
   padding: 0 !important;
@@ -1968,7 +1968,6 @@ div.timenode .meta::after {
 #operare_artitalk .at_button, #artitalk_main .at_button {
   background: var(--wds-main) !important;
 }
-
 /* 时间线时间样式 */
 div.timenode .meta p {
   font-size: .68rem;
@@ -1984,7 +1983,6 @@ div.timenode .meta p {
   }
   
 }
-
 /* 移除鼠标悬浮阴影 */
 #aside-content .card-widget:hover {
   box-shadow: none;
@@ -2005,6 +2003,9 @@ div.timenode .meta p {
   filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
 }
 /* 文章目录页吸顶 */
-#aside-content .sticky_layout {
+.post-bg + #content-inner #aside-content .sticky_layout {
   top: 80px;
+}
+#aside-content .sticky_layout {
+  top: 60px;
 }

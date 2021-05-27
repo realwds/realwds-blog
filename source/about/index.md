@@ -27,7 +27,7 @@ aside: false
 我是一份香辣鱼，再香再辣也多余。
 {% endnote %} -->
 
-<div id="mse-video" style="z-index:1"></div>
+<div class="js-pjax" id="mse-video" style="z-index:1"></div>
 <script data-pjax src="//sf1-ttcdn-tos.pstatp.com/obj/unpkg/xgplayer/2.9.6/browser/index.js" charset="utf-8"></script>
 <script data-pjax src="//sf1-ttcdn-tos.pstatp.com/obj/unpkg/xgplayer-mp4/1.1.8/browser/index.js" charset="utf-8"></script>
 <script type="text/javascript">
