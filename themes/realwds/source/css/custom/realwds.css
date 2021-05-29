@@ -473,7 +473,7 @@ a.darkmode_switchbutton {
   right: -150px;
 }
 #nav .menus_items .menus_item:nth-child(3) .menus_item_child {
-  right: -85px;
+  right: -150px;
 }
 #nav .menus_items .menus_item:nth-child(4) .menus_item_child {
   right: -85px;
@@ -2017,4 +2017,22 @@ div.timenode .meta p {
 }
 #aside-content .sticky_layout {
   top: 60px;
+}
+
+/* 图库样式修改 */
+.gallery-group-img {
+  filter: blur(15px);
+}
+.gallery-group-img.loaded {
+  filter: blur(0);
+  will-change: opacity;
+  animation: realImg .5s linear;
+}
+.justified-gallery img{
+  filter: blur(15px);
+}
+.justified-gallery img.loaded {
+  filter: blur(0);
+  will-change: opacity;
+  animation: realImg .5s linear;
 }
