@@ -7,19 +7,20 @@
 #   name || link || icon
 
 menu:
-  # 首页: /
-  文章: /
-  # 文章:
-  #   文章列表: /archives/ || fas fa-book-open
-  #   全部分类: /categories/ || fas fa-folder-open
-  #   全部标签: /tags/ || fas fa-tags
-  娱乐: /media/
-  友链: /link/
-  关于: /about/
-  # 更多:
-  #   在线工具: /tools/ || fas fa-tools
-  #   友情链接: /link/ || fas fa-heart
-  #   生活杂谈: /talking/ || fas fa-info-circle
+  首页: /
+  文章:
+    文章列表: /archives/ || fas fa-book-open
+    全部分类: /categories/ || fas fa-folder-open
+    全部标签: /tags/ || fas fa-tags
+  娱乐: 
+    视频解析: /media/ || fas fa-video
+    音乐鉴赏: /music/ || fas fa-music
+  # 友链: /link/
+  # 关于: /about/
+  网站:
+    友情链接: /link/ || fas fa-heart
+    在线工具: /tools/ || fas fa-tools
+    # 生活杂谈: /talking/ || fas fa-info-circle
 
 title: 数学系的挨踢者  
 # Hide the child menu items in mobile sidebar
