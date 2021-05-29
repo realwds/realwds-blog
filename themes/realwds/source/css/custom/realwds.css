@@ -124,6 +124,13 @@ html {
   display: block;
 }
 
+@media screen and (max-width: 600px) {
+  #sidebar #sidebar-menus .menus_items .menus_item_child {
+    margin-left: -1rem;
+    display: block;
+  }
+}
+
 .site-page i.fa-chevron-down {
   display: none
 }
