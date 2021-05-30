@@ -14,7 +14,7 @@ menu:
   娱乐: 
     音乐鉴赏: /music/ || fas fa-music
     视频解析: /media/ || fas fa-film
-    道听图说: /gallery/ || fas fa-images
+    # 道听图说: /gallery/ || fas fa-images
   网站:
     友情链接: /link/ || fas fa-heart
     在线工具: /tools/ || fas fa-bookmark

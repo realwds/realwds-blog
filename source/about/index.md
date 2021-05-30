@@ -29,8 +29,7 @@ aside: false
 
 <div id="mse-video" style="z-index:1"></div>
 <script data-pjax src="//sf1-ttcdn-tos.pstatp.com/obj/unpkg/xgplayer/2.9.6/browser/index.js" charset="utf-8"></script>
-<script data-pjax src="//sf1-ttcdn-tos.pstatp.com/obj/unpkg/xgplayer-mp4/1.1.8/browser/index.js" charset="utf-8"></script>
-<script>
+<script data-pjax >
   new Player({
     id: 'mse-video',
     autoplay: false,
