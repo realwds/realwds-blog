@@ -469,13 +469,13 @@ a.darkmode_switchbutton {
 }
 
 /* 菜单栏居中右边移动 */
+#nav .menus_items .menus_item:nth-child(1) .menus_item_child {
+  right: -150px;
+}
 #nav .menus_items .menus_item:nth-child(2) .menus_item_child {
   right: -150px;
 }
 #nav .menus_items .menus_item:nth-child(3) .menus_item_child {
-  right: -150px;
-}
-#nav .menus_items .menus_item:nth-child(4) .menus_item_child {
   right: -85px;
 }
 /* 页面顶部加载进度条 */
