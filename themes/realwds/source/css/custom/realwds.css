@@ -162,17 +162,13 @@ html {
   justify-content: space-between;
 }
 
-#page-header.nav-fixed #nav div.menus_items {
-  display: inline;
-  opacity: 0;
-  transition: .15s;
+#page-header.nav-fixed #nav div#menus {
+  transition: .3s;
   transform: translateY(-60px)
 }
 
-#page-header.nav-fixed.nav-visible #nav div.menus_items {
-  display: inline;
-  opacity: 1;
-  transition: .15s;
+#page-header.nav-fixed.nav-visible #nav div#menus {
+  transition: .3s;
   transform: translateY(0)
 }
 
@@ -187,7 +183,7 @@ html {
   display: none;
   justify-content: center;
   align-items: center;
-  transition: .15s;
+  transition: .3s;
 }
 
 #page-header #page-name-text {
@@ -1876,7 +1872,6 @@ a.extend.next {
   top: 0;
   background: var(--wds-main);
   box-shadow: var(--wds-shadow-nav) !important;
-  opacity: .9;
 }
 [data-theme="dark"] #page-header.not-top-img.nav-fixed > #nav {
   background: var(--wds-card-bg);

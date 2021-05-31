@@ -50,8 +50,8 @@ function coverColor() {
         document.getElementById("coverdiv").classList.add("loaded")
       },
       error: function(){
-        document.styleSheets[0].addRule(":root", "--wds-main: var(--wds-main)")
+        document.styleSheets[0].addRule(":root", "--wds-main: #057748 !important")
       }
     })
-  ) : document.styleSheets[0].addRule(":root", "--wds-main: var(--wds-main)")
+  ) : document.styleSheets[0].addRule(":root", "--wds-main: #057748 !important")
 }
