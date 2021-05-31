@@ -13,3 +13,22 @@
       link: https://realwds-info.vercel.app/
       avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165809.jpg
       descr: 数学系的挨踢者
+- class_name: '常用网站'
+  class_desc: '<span>常用网站合集</span>'
+  link_list:
+    - name: Emoji searcher
+      link: https://emoji.muan.co/
+      avatar: https://emoji.muan.co/fav.png
+      descr: 表情查找网站
+    - name: Font Awesome
+      link: https://fontawesome.cc/
+      avatar: https://fontawesome.cc/favicon.ico
+      descr: 字体图标查找网站
+    - name: Paste to Markdown
+      link: https://euangoddard.github.io/clipboard2markdown/
+      avatar: https://euangoddard.github.io/clipboard2markdown/favicon.ico
+      descr: 粘贴内容自动转 markdown 格式
+    - name: Recompressor
+      link: https://zh.recompressor.com/
+      avatar: https://dinficfagt18c.cloudfront.net/p/assets/m/drawings/recompressor-favicon-48_078ca8e3500147f5a4e6cfb1376406c0.png
+      descr: 在线图片压缩工具   

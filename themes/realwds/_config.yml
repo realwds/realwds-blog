@@ -16,9 +16,12 @@ menu:
     视频解析: /media/ || fas fa-film
     # 道听图说: /gallery/ || fas fa-images
   网站:
-    友情链接: /link/ || fas fa-heart
-    在线工具: /tools/ || fas fa-bookmark
-  关于: /about/
+    友情链接: /link/ || fas fa-user-friends
+    在线工具: /tools/ || fas fa-tools
+  我的: 
+    关于本站: /about/ || fas fa-user-circle
+    博客统计: /statistics/ || fas fa-chart-pie
+    随笔说说: /essay/ || fab fa-twitch
 
 title: 数学系的挨踢者  
 # Hide the child menu items in mobile sidebar

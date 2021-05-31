@@ -113,10 +113,15 @@ html {
 #nav .menus_items .menus_item .menus_item_child {
   padding: 6px 8px 8px 8px;
   border-radius: 12px;
-  width: auto;
+  width: 150px;
   background: var(--wds-card-bg);
-  box-shadow: var(--wds-shadow-black);
   white-space: nowrap;
+  box-shadow: 0 0 12px 4px rgb(0 0 0 / 40%);
+  right: -35px;
+}
+
+#sidebar #sidebar-menus .menus_items .site-page span:hover {
+  color: var(--wds-main);
 }
 
 #sidebar #sidebar-menus .menus_items .menus_item_child {
@@ -143,10 +148,6 @@ html {
 
 #nav .menus_items .menus_item {
   padding: 0 .4rem
-}
-
-#nav .menus_items .menus_item .menus_item_child li {
-  display: inline-flex
 }
 
 .layout {
@@ -468,16 +469,6 @@ a.darkmode_switchbutton {
   border-bottom-color: var(--wds-main);
 }
 
-/* 菜单栏居中右边移动 */
-#nav .menus_items .menus_item:nth-child(1) .menus_item_child {
-  right: -150px;
-}
-#nav .menus_items .menus_item:nth-child(2) .menus_item_child {
-  right: -85px;
-}
-#nav .menus_items .menus_item:nth-child(3) .menus_item_child {
-  right: -85px;
-}
 /* 页面顶部加载进度条 */
 .pace {
   -webkit-pointer-events: none;
