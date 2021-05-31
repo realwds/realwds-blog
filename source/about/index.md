@@ -26,3 +26,14 @@ aside: false
 我是一瓶二锅头，又二又乖又上头。
 我是一份香辣鱼，再香再辣也多余。
 {% endnote %} -->
+
+<style>
+.fancybox img {
+  filter: blur(15px);
+}
+.fancybox img.loaded {
+  filter: blur(0);
+  will-change: opacity;
+  animation: realImg .3s linear;
+}
+</style>

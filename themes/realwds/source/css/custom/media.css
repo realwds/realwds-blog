@@ -24,7 +24,7 @@
 }
 .select-container .btn button{
   color: #fff;
-  background-color: #67c23a;
+  background-color: var(--wds-main);
   padding: 12px 20px;
   font-size: 14px;
   border-radius: 4px;

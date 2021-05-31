@@ -20,6 +20,7 @@ menu:
     在线工具: /tools/ || fas fa-tools
   我的: 
     关于本站: /about/ || fas fa-user-circle
+    赞赏博主: /sponsor/ || fab fa-bitcoin
     博客统计: /statistics/ || fas fa-chart-pie
     随笔说说: /essay/ || fab fa-twitch
 

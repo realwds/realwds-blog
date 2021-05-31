@@ -32,8 +32,12 @@ aside: false
   margin-top: 20px;
   border: 4px dotted #929d99;
   box-sizing: border-box;
+  filter: blur(15px);
 }
 .githubCard.loaded {
   width: 100%;
+  filter: blur(0);
+  will-change: opacity;
+  animation: realImg .5s linear;
 }
 </style>
