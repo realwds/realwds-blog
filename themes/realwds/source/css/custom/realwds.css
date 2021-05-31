@@ -765,7 +765,7 @@ a.deal_link:hover i{
   transition: 0.3s;
 }
 #noticeList {
-  background: var(--card-bg);
+  background: var(--wds-card-bg);
   color: var(--font-color);
   margin-top: 1rem;
   padding: 0.6rem 1rem;
@@ -1752,7 +1752,6 @@ a.reward-main-btn:hover {
   color: var(--wds-main);
 }
 #aside-content .card-info .card-info-social-icons i:hover {
-  background: var(--wds-secondbg);
   transform: scale(.95);
   color: var(--wds-main);
   box-shadow: none;
@@ -1879,6 +1878,13 @@ a.extend.next {
   box-shadow: var(--wds-shadow-nav) !important;
   opacity: .9;
 }
+[data-theme="dark"] #page-header.not-top-img.nav-fixed > #nav {
+  background: var(--wds-card-bg);
+}
+[data-theme="dark"] #page-header.not-top-img > #nav {
+  background: #08080a
+}
+
 #page-header.post-bg #nav {
   background: 0;
 }
@@ -2026,4 +2032,17 @@ div.timenode .meta p {
   filter: blur(0);
   will-change: opacity;
   animation: realImg .5s linear;
+}
+/* 手机端隐藏头像 */
+@media screen and (max-width: 768px) {
+  #sidebar-menus>div.author-avatar {
+    display: none;
+  }
+  #sidebar #sidebar-menus .site-data {
+    margin: 1rem 0;
+    padding: .6rem .5rem;
+  }
+  #page-header.not-top-img {
+    height: 59px;
+  }
 }
