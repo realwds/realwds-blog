@@ -24,11 +24,61 @@
       link: https://fontawesome.cc/
       avatar: https://fontawesome.cc/favicon.ico
       descr: 字体图标查找网站
-    - name: Paste to Markdown
+    - name: Paste to MD
       link: https://euangoddard.github.io/clipboard2markdown/
       avatar: https://euangoddard.github.io/clipboard2markdown/favicon.ico
       descr: 粘贴内容自动转 markdown 格式
     - name: Recompressor
       link: https://zh.recompressor.com/
       avatar: https://dinficfagt18c.cloudfront.net/p/assets/m/drawings/recompressor-favicon-48_078ca8e3500147f5a4e6cfb1376406c0.png
-      descr: 在线图片压缩工具   
+      descr: 在线图片压缩工具
+    - name: Thum.io
+      link: https://www.thum.io/
+      avatar: https://www.thum.io/favicon.ico
+      descr: 获取网站预览缩略图
+    - name: Carbon
+      link: https://carbon.now.sh/
+      avatar: https://carbon.now.sh/favicon.ico
+      descr: 在线代码转图片
+    - name: U钙网
+      link: http://www.uugai.com/
+      avatar: http://www.uugai.com/favicon.ico
+      descr: 免费logo在线制作
+    - name: 别字
+      link: http://www.biezi.com/
+      avatar: https://p.zhheo.com/a8396459e2cf40b35201190ba6cc36f070c87f44.png!cover_mini
+      descr: 错别字检测
+    - name: 轻闪PDF
+      link: https://lightpdf.cn/
+      avatar: https://qncdnimg.aoscdn.com/local/lightpdf.cn/img/favicon.png?1583114300.114
+      descr: PDF转换和处理
+    - name: 诚华OCR
+      link: https://zhcn.109876543210.com/
+      avatar: https://zhcn.109876543210.com/favicon.ico
+      descr: 免费的OCR识别
+
+    - name: Unsplash
+      link: https://unsplash.com/
+      avatar: https://unsplash.com/favicon-32x32.png
+      descr: 可商用摄影者社区  
+    - name: Pexels
+      link: https://www.pexels.com/zh-cn/
+      avatar: https://www.pexels.com/favicon.ico
+      descr: 可商用摄影者社区
+    - name: pixabay
+      link: https://pixabay.com/
+      avatar: https://pixabay.com/favicon-32x32.png
+      descr: 可商用摄影者社区 
+    - name: 100font
+      link: https://www.100font.com/
+      avatar: https://www.100font.com/view/img/favicon.ico
+      descr: 免费可商用字体下载
+
+    - name: MacWk
+      link: https://www.macwk.com/soft/all/p1
+      avatar: https://www.macwk.com/favicon.ico
+      descr: mac软件下载站，免费无广告  
+    - name: 柠檬精选
+      link: https://lemon.qq.com/lab/
+      avatar: https://lemon.qq.com/images/lemon/logo.png
+      descr: 收录免费、正版、好用的Mac产品
