@@ -1,6 +1,5 @@
 ---
 title: 赞赏博主
-date: 2021-05-17 15:40:03
 top_img: false
 comments: false
 aside: false
@@ -22,7 +21,6 @@ aside: false
 | 晚风 | ¥288.00| 20210526 |
 | Adil  | ¥50.00 | 20210514 |  
 | 熊Sir | ¥2.68  | 20210508 |  
-| Alejandro | $6.66  | 20210429 |  
 
 <!-- {% image https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/about-sponsor.30m4bkbaijc0.jpg, width=180px %} -->
 

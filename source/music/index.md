@@ -2,6 +2,8 @@
 title: 音乐鉴赏
 aside: false
 comments: false
+keywords: 音乐鉴赏,music,好听的音乐
+description: realwds's blog 收集好听的音乐！
 ---
 
 <link rel="stylesheet" href="/css/custom/music.css">
@@ -11,7 +13,7 @@ comments: false
       <div class="player__top">
         <div class="player-cover">
           <transition-group :name="transitionName">
-              <div class="player-cover__item" v-if="$index === currentTrackIndex" :style="{ backgroundImage: `url(${track.cover})` }"  v-for="(track, $index) in tracks" :key="$index"></div>
+            <div class="player-cover__item" v-if="$index === currentTrackIndex" :style="{ backgroundImage: `url(${track.cover})` }"  v-for="(track, $index) in tracks" :key="track.id"></div>
           </transition-group>
         </div>
         <div class="player-controls">

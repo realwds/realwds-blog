@@ -10,6 +10,7 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
+          id: 1,  
           name: "Mekanın Sahibi",
           artist: "Norm Ender",
           cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/1.jpg",
@@ -18,6 +19,7 @@ new Vue({
           favorited: false
         },
         {
+          id: 2, 
           name: "Everybody Knows",
           artist: "Leonard Cohen",
           cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/2.jpg",
@@ -26,6 +28,7 @@ new Vue({
           favorited: true
         },
         {
+          id: 3, 
           name: "Extreme Ways",
           artist: "Moby",
           cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/3.jpg",
@@ -34,6 +37,7 @@ new Vue({
           favorited: false
         },
         {
+          id: 4, 
           name: "Butterflies",
           artist: "Sia",
           cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/4.jpg",
@@ -42,6 +46,7 @@ new Vue({
           favorited: false
         },
         {
+          id: 5, 
           name: "The Final Victory",
           artist: "Haggard",
           cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/5.jpg",
@@ -50,6 +55,7 @@ new Vue({
           favorited: true
         },
         {
+          id: 6, 
           name: "Genius ft. Sia, Diplo, Labrinth",
           artist: "LSD",
           cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/6.jpg",
@@ -58,6 +64,7 @@ new Vue({
           favorited: false
         },
         {
+          id: 7, 
           name: "The Comeback Kid",
           artist: "Lindi Ortega",
           cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/7.jpg",
@@ -66,6 +73,7 @@ new Vue({
           favorited: true
         },
         {
+          id: 8, 
           name: "Overdose",
           artist: "Grandson",
           cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/8.jpg",
@@ -74,6 +82,7 @@ new Vue({
           favorited: false
         },
         {
+          id: 9, 
           name: "Rag'n'Bone Man",
           artist: "Human",
           cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/9.jpg",
