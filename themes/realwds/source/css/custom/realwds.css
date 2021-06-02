@@ -45,6 +45,8 @@
   --wds-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0.00);
   --wds-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0.00);
   --wds-footer-bg: linear-gradient(208deg,#4584ff 0,#4584ff 11%,#ff7676 100%);
+  --wds-box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+  --wds-box-shadow-hover: 0 3px 8px 6px rgba(7,17,27,0.15);
 }
 
 [data-theme=dark] {
@@ -70,6 +72,8 @@
   --wds-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0.0);
   --wds-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0.0);
   --wds-footer-bg: linear-gradient(208deg,#40333d 0,#4a3b3b 20%,#342965 100%);
+  --wds-box-shadow: 0 0 15px rgb(48,52,63);
+  --wds-box-shadow-hover: 0 3px 8px 6px rgba(165,178,191,0.15);
 }
 
 #page {
@@ -1375,8 +1379,8 @@ a.reward-main-btn:hover {
 .relatedPosts > .relatedPosts-list > div {
   height: auto;
   margin: 0 5px 10px;
-  background: #fff;
-  box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+  background: var(--wds-card-bg);
+  box-shadow: var(--wds-box-shadow);
   position: relative;
   border-radius: 8px;
   background-size: cover;
@@ -1386,7 +1390,7 @@ a.reward-main-btn:hover {
   width: calc(33.333% - 10px);
 }
 .relatedPosts > .relatedPosts-list > div:hover{
-  box-shadow: var(--card-hover-box-shadow);
+  box-shadow: var(--wds-box-shadow-hover);
 }
 @media (max-width: 620px) {
   .relatedPosts > .relatedPosts-list > div {
