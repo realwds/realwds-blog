@@ -2,9 +2,10 @@ extends includes/layout.pug
 
 block content
   include ./includes/mixins/article-sort.pug
-  #archive
-    include includes/hometop.pug
-    .article-sort-title= _p('page.articles') + ' - ' + site.posts.length
-    +articleSort(page.posts)
-    include includes/pagination.pug
+  #recent-posts.recent-posts
+    include includes/homeTop.pug     
+    #archive
+      .article-sort-title= _p('page.articles') + ' - ' + site.posts.length
+      +articleSort(page.posts)
+      include includes/pagination.pug
 

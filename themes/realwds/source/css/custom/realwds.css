@@ -28,7 +28,7 @@
   --wds-red: #D8213C;
   --wds-green: #008200;
   --wds-fontcolor: #363636;
-  --wds-background: #f7f9fe;
+  --wds-background: #edf0f7;
   --wds-reverse: #000;
   --wds-maskbg: rgba(255, 255, 255, 0.6);
   --wds-hovertext: #5374ff;
@@ -466,6 +466,12 @@ a.darkmode_switchbutton {
 #article-container a:hover {
   text-decoration: none;
   background-color: #bbeffd;
+  border-bottom-color: var(--wds-main);
+}
+
+[data-theme="dark"] #article-container a:hover {
+  text-decoration: none;
+  background-color: var(--wds-main);
   border-bottom-color: var(--wds-main);
 }
 
@@ -1499,6 +1505,9 @@ a.reward-main-btn:hover {
 }
 
 /* 首页自定义顶部样式 */
+.hometop-group {
+  display: inline-block;
+}
 .hometop-group .hometop-item {
   position: relative;
   float: left;
@@ -1543,11 +1552,11 @@ a.reward-main-btn:hover {
   padding-left: 25px;
 }
 .hometop-group .hometop-item .hometop-button i{
-  font-size: 5rem;
+  font-size: 4rem;
   opacity: .4;
   position: absolute;
   right: 0;
-  top: 20%;
+  top: 40%;
   transition: .3s;
 }
 .hometop-group .hometop-item .hometop-button span:after{
@@ -2044,4 +2053,13 @@ div.timenode .meta p {
   #page-header.not-top-img {
     height: 59px;
   }
+}
+
+.layout #recent-posts #archive,
+.layout #recent-posts #category,
+.layout #recent-posts #tag{
+  box-shadow: var(--wds-shadow-lightblack);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  background: var(--wds-card-bg);
 }

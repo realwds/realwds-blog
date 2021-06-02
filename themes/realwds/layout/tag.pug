@@ -8,9 +8,10 @@ block content
       include includes/pagination.pug
   else
     include ./includes/mixins/article-sort.pug
-    #tag
+    #recent-posts.recent-posts
       include includes/homeTop.pug
-      .article-sort-title= page.tag
-      +articleSort(page.posts)
-      if(page.posts.length>9)
-        include includes/pagination.pug
+      #tag
+        .article-sort-title= page.tag
+        +articleSort(page.posts)
+        if(page.posts.length>9)
+          include includes/pagination.pug
