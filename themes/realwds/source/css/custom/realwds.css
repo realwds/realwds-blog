@@ -2079,12 +2079,19 @@ div.timenode .meta p {
     height: 59px;
   }
 }
-
-.layout #recent-posts #archive,
-.layout #recent-posts #category,
-.layout #recent-posts #tag{
+/* 分类，标签页面样式更改 */
+.layout .recent-posts #archive,
+.layout .recent-posts #category,
+.layout .recent-posts #tag{
   box-shadow: var(--wds-shadow-lightblack);
   padding: 1rem 2rem;
   border-radius: 12px;
   background: var(--wds-card-bg);
+}
+@media screen and (max-width: 768px) {
+  .layout .recent-posts #archive,
+  .layout .recent-posts #category,
+  .layout .recent-posts #tag{
+    padding: .6rem 1rem !important;
+  }
 }

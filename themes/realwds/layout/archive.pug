@@ -2,7 +2,7 @@ extends includes/layout.pug
 
 block content
   include ./includes/mixins/article-sort.pug
-  #recent-posts.recent-posts
+  .recent-posts
     include includes/homeTop.pug     
     #archive
       .article-sort-title= _p('page.articles') + ' - ' + site.posts.length
