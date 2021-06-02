@@ -773,7 +773,7 @@ a.deal_link:hover i{
 #noticeList {
   background: var(--wds-card-bg);
   color: var(--font-color);
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 0.6rem 1rem;
   border-radius: 12px;
   cursor: pointer;
@@ -1505,14 +1505,10 @@ a.reward-main-btn:hover {
 }
 
 /* 首页自定义顶部样式 */
-.hometop-group {
-  display: inline-block;
-}
 .hometop-group .hometop-item {
-  position: relative;
-  float: left;
+  display: inline-block;
   overflow: hidden;
-  margin: 6px 6px 16px;
+  margin: 0 6px 8px 6px;
   transition: .3s;
   border-radius: 12px;
   width: calc(100% / 4 - 12px);
@@ -1578,10 +1574,20 @@ a.reward-main-btn:hover {
 }
 
 /* 分类标签页面标题 */
-#page .category-lists .category-title,.tag-cloud-title{
+#category .category-lists .category-title,#tag .tag-cloud-title{
   font-weight: 600;
   font-size: 2em;
   text-align: left;
+}
+#category .category-lists .category-list .category-list-count {
+  margin-left: .4rem;
+  color: #858585;
+}
+#category .category-lists .category-list .category-list-count:before {
+  content: '(';
+}
+#category .category-lists .category-list .category-list-count:after {
+  content: ')';
 }
 .tag-cloud-list {
   text-align: left;
@@ -1603,12 +1609,18 @@ a.reward-main-btn:hover {
   box-shadow: var(--wds-shadow-blue);
 }
 
-#page .category-lists ul li {
+#category .category-lists ul li {
   font-size: 1.2em;
+  position: relative;
+  margin: .3rem 0;
+  padding: .12em .4em .12em 1.4em;
 }
 
-#page .category-lists ul {
+#category .category-lists ul {
   padding: 0 0 0 .5rem;
+  margin-top: .4rem;
+  list-style: none;
+  counter-reset: li;
 }
 
 /* 404样式修改 */
@@ -1948,10 +1960,23 @@ div.timenode .meta::after {
 .article-sort-item-title:hover {
   color: var(--wds-main);
 }
-#page .category-lists .category-list a:hover {
+#category .category-lists .category-list a:hover {
   color: var(--wds-main);
 }
-#page .category-lists ul li:before {
+#category .category-lists ul li:hover:before {
+  border-color: #ff7242;
+}
+#category .category-lists ul li:before {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+  transition: all .3s ease-out;
+  top: .7em;
+  width: .43em;
+  height: .43em;
+  border-radius: .43em;
+  background: 0 0;
+  content: '';
   border: 0.215em solid var(--wds-main);
 }
 .tag-cloud-list a:hover {
