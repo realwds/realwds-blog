@@ -14,10 +14,16 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
 }
 .select-container .select select {
   border: 1px solid #ccc;
-  padding: 8px 20px;
+  padding: 10px 20px;
   font-size: 14px;
   outline: none;
   color: #333;
+  -webkit-appearance: none;  
+  /*清除select默认样式*/
+  background: url("https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/down.6r9p72o1uw80.jpeg")no-repeat right;
+  /*注：上一步清除样式后，select中的三角符号也会被清除，所以需要自己添加下三角，我在此出用一个下三角背景图片填充*/
+  background-size: 0.3rem;
+  background-position-x: 96%;
 }
 .select-container .url-input {
   flex: 1;
@@ -79,7 +85,8 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   display: flex;
 }
 .others a {
-  width: calc(100% / 6);
+  width: calc(100% / 2);
+  float: left;
   border-bottom: none !important ;
   background-color: #fff !important;
 }

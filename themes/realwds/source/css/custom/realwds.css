@@ -780,8 +780,10 @@ a.deal_link:hover i{
   display: flex;
   align-items: center;
 }
+#noticeList:hover .swiper-container{
+  color: var(--wds-main);
+}
 #noticeList .nlogo{
-  color: var(--font-color);
   font-weight: 600;
   display: inline;
 }
@@ -828,6 +830,7 @@ a.deal_link:hover i{
 }
 #aside-content .aside-list > .aside-list-item .thumbnail > img {
   filter: blur(15px);
+  border-radius: 8px;
 }
 #aside-content .aside-list > .aside-list-item .thumbnail > img.loaded {
   filter: blur(0);
@@ -836,6 +839,7 @@ a.deal_link:hover i{
 }
 .article-sort-item-img img {
   filter: blur(15px);
+  border-radius: 8px;
 }
 .article-sort-item-img img.loaded {
   filter: blur(0);
@@ -1513,8 +1517,7 @@ a.reward-main-btn:hover {
 /* 首页自定义顶部样式 */
 .hometop-group .hometop-item {
   display: inline-block;
-  overflow: hidden;
-  margin: 0 6px 8px 6px;
+  margin: 0 6px 1rem 6px;
   transition: .3s;
   border-radius: 12px;
   width: calc(100% / 4 - 12px);
@@ -1548,6 +1551,7 @@ a.reward-main-btn:hover {
   color: var(--wds-white);
   transition: all .4s cubic-bezier(.39,.575,.565,1);
   transform: scale(1);
+  overflow: hidden;
 }
 
 .hometop-group .hometop-item .hometop-button span {
@@ -1575,7 +1579,7 @@ a.reward-main-btn:hover {
 .hometop-group .hometop-item:hover .hometop-button span:after{
   width: 3rem;
 }
-.hometop-group .hometop-item:hover .hometop-button i{
+.hometop-group .hometop-item:hover .hometop-button i {
   transform: scale(1.1);
 }
 
