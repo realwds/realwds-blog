@@ -1,31 +1,29 @@
 extends includes/layout.pug
 
 block content
-  case page.type
-    when 'tags'
-      #recent-posts.recent-posts
-        include includes/homeTop.pug
-        include includes/page/tags.pug
-    when 'link'
-      #page
-        include includes/page/flink.pug
-    when 'categories'
-      #recent-posts.recent-posts
-        include includes/homeTop.pug
-        include includes/page/categories.pug
-    when 'bb'
-      #page
-        include includes/page/bb.pug
-    when 'notice'
-      #page
-        include includes/page/notice.pug
-    when 'tools'
-      #page
-        include includes/page/tools.pug
-    default
-      #page
-        include includes/page/default-page.pug
 
-  if page.comments !== false && theme.comments && theme.comments.use
-    - var commentsJsLoad = true
-    !=partial('includes/third-party/comments/index', {}, {cache: true})
+  if page.type=='tags' 
+    #recent-posts.recent-posts
+      include includes/homeTop.pug
+      include includes/page/tags.pug
+  else if page.type=='categories'
+    #recent-posts.recent-posts
+      include includes/homeTop.pug
+      include includes/page/categories.pug
+  else
+    #page
+      case page.type
+        when 'link'
+          include includes/page/flink.pug
+        when 'bb'
+          include includes/page/bb.pug
+        when 'notice'
+          include includes/page/notice.pug
+        when 'tools'
+          include includes/page/tools.pug
+        default
+          include includes/page/default-page.pug
+
+      if page.comments !== false && theme.comments && theme.comments.use
+        - var commentsJsLoad = true
+        !=partial('includes/third-party/comments/index', {}, {cache: true})
