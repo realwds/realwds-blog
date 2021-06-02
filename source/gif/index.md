@@ -48,7 +48,7 @@ description: 每日新浪搞笑动图分享！
 
 function refresh(page){
   var script = document.createElement('script')
-  script.src = 'https://interface.sina.cn/tech/gif/album.d.json?num='+5+'&page='+page+'&jsoncallback=jsonp1&_=1570606601560'
+  script.src = 'https://interface.sina.cn/tech/gif/album.d.json?num='+10+'&page='+page+'&jsoncallback=jsonp1'
   document.querySelector('.gif-script').insertBefore(script, document.querySelector('.gif-script').firstChild)
 }
 
