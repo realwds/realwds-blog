@@ -18,6 +18,11 @@ description: 每日新浪搞笑动图分享！
   will-change: opacity;
   animation: realImg .2s linear;
 }
+@media screen and (min-width: 600px) {
+  .gif-page .gif-con img {
+    min-width: 280px;
+  }
+}
 .gif-page .gif-cop {
   display: flex;
   justify-content: center;

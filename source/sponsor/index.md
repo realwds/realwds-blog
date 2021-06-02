@@ -9,9 +9,9 @@ aside: false
 感谢给予支持的朋友，您的支持是我前进的动力。
 {% endnote %}
 
-| ![微信赞赏](https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210413174753.png) |![支付宝](https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210413174751.png) | ![Paypal](https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210531174752.png) |
+| ![微信赞赏](https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210413174753.png) |![支付宝](https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210413174751.png) | ![Paypal](https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/qrcode-paypal.png) |
 | :-----: | :-----:|:-----:|  
-| 微信赞赏 | 支付宝 | Paypal | 
+| 微信 | 支付宝 | 贝宝 |
 
 ## 特别鸣谢
 
@@ -25,10 +25,11 @@ aside: false
 <!-- {% image https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/about-sponsor.30m4bkbaijc0.jpg, width=180px %} -->
 
 <style>
-  .fancybox img {
+  #article-container .fancybox img {
     filter: blur(15px);
+    margin: 0 auto;
   }
-  .fancybox img.loaded {
+  #article-container .fancybox img.loaded {
     filter: blur(0);
     will-change: opacity;
     animation: realImg .3s linear;

@@ -105,7 +105,7 @@ html {
 }
 
 .layout.hide-aside {
-  max-width: 1000px
+  max-width: 1200px
 }
 
 #nav {
@@ -854,7 +854,7 @@ a.deal_link:hover i{
   margin: 6px 6px;
   transition: .3s;
   border-radius: 12px;
-  width: calc(100% / 3 - 12px);
+  width: calc(100% / 4 - 12px);
   transition-timing-function: ease-in-out;
 }
 #article-container .flink .flink-list > .flink-list-item:hover {
@@ -917,6 +917,11 @@ a.deal_link:hover i{
   transition: .3s;
 }
 @media screen and (max-width: 1200px) {
+  #article-container .flink .flink-list > .flink-list-item  {
+    width: calc(100% / 4 - 12px)!important;
+  }
+}
+@media screen and (max-width: 1024px) {
   #article-container .flink .flink-list > .flink-list-item  {
     width: calc(100% / 3 - 12px)!important;
   }
@@ -1282,6 +1287,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .reward-group {
   display: flex;
+  padding: 0;
 }
 a.reward-main-btn {
   background: var(--wds-secondbg);
