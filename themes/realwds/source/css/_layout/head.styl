@@ -126,7 +126,6 @@
       // box-shadow: 0 5px 6px -5px rgba(133, 133, 133, .6)
 
       a
-        color: var(--font-color)
         text-shadow: none
 
   &.nav-fixed
@@ -141,7 +140,6 @@
       a,
       #site-name,
       #toggle-menu
-        color: var(--font-color)
         text-shadow: none
 
         &:hover
@@ -264,8 +262,6 @@ _:future,
 
   #toggle-menu
     display: none
-    padding: .1rem 0 0 .3rem
-    vertical-align: top
 
     &:hover
       color: var(--white)
@@ -333,9 +329,6 @@ _:future,
     #toggle-menu
       display: inline-block !important
 
-      .site-page
-        font-size: inherit
-
     .menus_items
       position: absolute
       left: 0
@@ -345,32 +338,6 @@ _:future,
     #search-button span
       display: none !important
 
-  #search-button
-    display: inline
-    padding: 0 .4rem
-    .site-page
-      padding: .35rem .4rem .4rem
-      border-radius: 12px; 
-
   .site-page
-    position: relative
-    padding-bottom: .3rem
-    text-shadow: .05rem .05rem .1rem rgba($dark-black, .3)
     font-size: .78em
     cursor: pointer
-
-    // &:not(.child)
-    //   &:after
-    //     position: absolute
-    //     bottom: 0
-    //     left: 0
-    //     z-index: -1
-    //     width: 0
-    //     height: 3px
-    //     background-color: lighten($theme-color, 30%)
-    //     content: ''
-    //     transition: all .3s ease-in-out
-
-    //   &:hover
-    //     &:after
-    //       width: 100%

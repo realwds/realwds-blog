@@ -646,7 +646,7 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/person/realwds232-.png
+    avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/person/awds-79k.png
     sayhi: 👋 你好！我是
     name: realwds's blog
     description: 我会在这里分享踩过的坑，干货笔记，以及生活中的感悟、吐槽、看法，与君共勉。
