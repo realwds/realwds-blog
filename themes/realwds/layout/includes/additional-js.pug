@@ -3,10 +3,10 @@ div
   script(src=url_for(theme.CDN.main))
 
   if theme.translate.enable
-    script(src=url_for(theme.CDN.translate))
+    script(defer src=url_for(theme.CDN.translate))
 
   if theme.medium_zoom
-    script(src=url_for(theme.CDN.medium_zoom))
+    script(defer src=url_for(theme.CDN.medium_zoom))
 
   if theme.instantpage
     script(src=url_for(theme.CDN.instantpage) type="module")
@@ -22,9 +22,9 @@ div
 
   //- search
   if theme.algolia_search.enable
-    script(src=url_for(theme.CDN.algolia_js))
+    script(defer src=url_for(theme.CDN.algolia_js))
   else if theme.local_search.enable
-    script(src=url_for(theme.CDN.local_search))
+    script(defer src=url_for(theme.CDN.local_search))
 
   if theme.preloader
     !=partial('includes/loading/loading-js', {}, {cache: true})
