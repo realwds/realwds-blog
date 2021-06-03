@@ -1047,6 +1047,7 @@ a.deal_link:hover i{
   margin: 0 -20% 0 auto;
   display: none;
   overflow: hidden;
+  filter: blur(2px);
 }
 .coverdiv.loaded {
   display: block;
@@ -1614,7 +1615,7 @@ a.reward-main-btn:hover {
 }
 #aside-content .card-tag-cloud a:hover {
   background: var(--wds-main);
-  transform: scale(1);
+  transform: scale(.9);
   color: var(--wds-white)!important;
   border-radius: 12px;
   box-shadow: var(--wds-shadow-blue);
@@ -1986,7 +1987,10 @@ div.timenode .meta::after {
   border: 0.215em solid var(--wds-main);
 }
 .tag-cloud-list a:hover {
-  color: var(--wds-main) !important;
+  color: var(--wds-white) !important;
+  background: var(--wds-main);
+  border-radius: 12px;
+  transform: scale(.9);
 }
 .search-dialog__title {
   color: var(--wds-main);

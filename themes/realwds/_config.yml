@@ -326,7 +326,7 @@ valine:
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/valine.6d6lywmsnew0.webp # valine background
+  bg: https://cdn.jsdelivr.net/gh/realwds/cdn/img/20210414100654.png # valine background
   emojiCDN: https://tb2.bdstatic.com/tb/editor/images/face/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)

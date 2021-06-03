@@ -1,18 +1,18 @@
-- class_name: '旗下产品'
-  class_desc: '<span>鄙人做过的网站</span>'
-  link_list:
-    - name: realwds's website
-      link: https://realwds.com/
-      avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png
-      descr: 数学系的挨踢者
-    - name: realwds's blog
-      link: https://blog.realwds.com/
-      avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165755.jpg
-      descr: 数学系的挨踢者
-    - name: realwds's info
-      link: https://realwds-info.vercel.app/
-      avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165809.jpg
-      descr: 数学系的挨踢者
+# - class_name: '旗下产品'
+#   class_desc: '<span>鄙人做过的网站</span>'
+#   link_list:
+#     - name: realwds's website
+#       link: https://realwds.com/
+#       avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png
+#       descr: 数学系的挨踢者
+#     - name: realwds's blog
+#       link: https://blog.realwds.com/
+#       avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165755.jpg
+#       descr: 数学系的挨踢者
+#     - name: realwds's info
+#       link: https://realwds-info.vercel.app/
+#       avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165809.jpg
+#       descr: 数学系的挨踢者
 - class_name: '常用网站'
   class_desc: '<span>常用网站合集</span>'
   link_list:
@@ -46,7 +46,7 @@
       descr: 免费logo在线制作
     - name: 别字
       link: http://www.biezi.com/
-      avatar: https://p.zhheo.com/a8396459e2cf40b35201190ba6cc36f070c87f44.png!cover_mini
+      avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/biezi.37y77uwlrck0.png
       descr: 错别字检测
     - name: 轻闪PDF
       link: https://lightpdf.cn/
