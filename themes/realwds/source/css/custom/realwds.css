@@ -790,6 +790,7 @@ a.deal_link:hover i{
 #noticeList .swiper-container{
   display: flex;
   flex: 1;
+  margin: 0 10px;
 }
 #noticeList i {
   text-align: right;
@@ -1515,15 +1516,19 @@ a.reward-main-btn:hover {
 }
 
 /* 首页自定义顶部样式 */
+.hometop-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 12px;
+  margin-bottom: 1rem;
+}
 .hometop-group .hometop-item {
-  display: inline-block;
-  margin: 0 6px 1rem 6px;
-  transition: .3s;
-  border-radius: 12px;
-  width: calc(100% / 4 - 12px);
   height: 100px;
   line-height: 100px;
+  border-radius: 12px;
+  transition: .3s;
   transition-timing-function: ease-in-out;
+  overflow: hidden;
 }
 .hometop-group .hometop-item:nth-child(1){
   background: linear-gradient(to right,#2f80ed,#56ccf2);
@@ -1538,8 +1543,11 @@ a.reward-main-btn:hover {
   background: linear-gradient(to right,#607d8b,#9e9e9e);
 }
 @media (max-width: 620px) {
-  .hometop-group .hometop-item {
-    width: calc(100% / 2 - 12px);
+  .hometop-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+    margin-bottom: 1rem;
   }
 }
 .hometop-group .hometop-item .hometop-button {
@@ -1551,7 +1559,6 @@ a.reward-main-btn:hover {
   color: var(--wds-white);
   transition: all .4s cubic-bezier(.39,.575,.565,1);
   transform: scale(1);
-  overflow: hidden;
 }
 
 .hometop-group .hometop-item .hometop-button span {
