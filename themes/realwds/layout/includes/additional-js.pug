@@ -15,7 +15,7 @@ div
     script(src=url_for(theme.CDN.lazyload))
 
   if theme.snackbar.enable
-    script(src=url_for(theme.CDN.snackbar))
+    script(defer src=url_for(theme.CDN.snackbar))
 
   if theme.pangu.enable
     !=partial('includes/third-party/pangu.pug', {}, {cache: true})
