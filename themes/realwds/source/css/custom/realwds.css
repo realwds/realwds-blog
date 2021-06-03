@@ -773,7 +773,7 @@ a.deal_link:hover i{
 #noticeList {
   background: var(--wds-card-bg);
   color: var(--font-color);
-  margin-bottom: 1rem;
+  margin-bottom: 12px;
   padding: 0.6rem 1rem;
   border-radius: 12px;
   cursor: pointer;
@@ -1520,7 +1520,7 @@ a.reward-main-btn:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 12px;
-  margin-bottom: 1rem;
+  margin-bottom: 12px;
 }
 .hometop-group .hometop-item {
   height: 100px;
@@ -1547,7 +1547,7 @@ a.reward-main-btn:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 12px;
-    margin-bottom: 1rem;
+    margin-bottom: 12px;
   }
 }
 .hometop-group .hometop-item .hometop-button {
@@ -2104,6 +2104,7 @@ div.timenode .meta p {
   padding: 1rem 2rem;
   border-radius: 12px;
   background: var(--wds-card-bg);
+  min-height: calc(100vh - 320px);
 }
 @media screen and (max-width: 768px) {
   .layout .recent-posts #archive,
