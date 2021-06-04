@@ -74,7 +74,7 @@ date: 2021-06-04 11:25:00
 | **查看磁盘使⽤情况及挂载点**      | `df -h`                               |
 | **同上**                | `df -hl`                              |
 | **查看指定某个⽬录的⼤⼩**       | `du -sh /dir`                         |
-| **从⾼到低依次显示⽂件和⽬录⼤⼩**   | `du -sk * | sort -rn`                 |
+| **从⾼到低依次显示⽂件和⽬录⼤⼩**   | `du -sk * ▏sort -rn`                 |
 | **挂载hda2盘**           | `mount /dev/hda2 /mnt/hda2`           |
 | **指定⽂件系统类型挂载（如ntfs）** | `mount -t ntfs /dev/sdc1 /mnt/usbhd1` |
 | **挂载iso⽂件**           | `mount -o loop xxx.iso /mnt/cdrom`    |
@@ -128,7 +128,7 @@ date: 2021-06-04 11:25:00
 | **解析主机名**                       | `host blog.realwds.com`                                         |
 | **查询DNS记录，查看域名解 析是否正常**         | `nslookup blog.realwds.com`                                     |
 | **查看所有进程**                      | `ps -ef`                                                        |
-| **过滤出你需要的进程**                   | `ps -ef | grep name`                                            |
+| **过滤出你需要的进程**                   | `ps -ef ▏grep name`                                            |
 | **kill指定名称的进程**                 | `kill -s name`                                                  |
 | **kill指定pid的进程**               | `kill -s pid`                                                   |
 | **实时显示进程状态**                    | `top`                                                           |
