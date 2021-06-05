@@ -55,3 +55,30 @@ function coverColor() {
     })
   ) : document.styleSheets[0].addRule(":root", "--wds-main: #057748 !important")
 }
+
+console.log(`
+┌─┐       ┌─┐ + +
+┌──┘ ┴───────┘ ┴──┐++
+│                 │
+│       ───       │++ + + +
+███████───███████ │+
+│                 │+
+│       ─┴─       │
+│                 │
+└───┐         ┌───┘
+    │         │
+    │         │   + +
+    │         │
+    │         └──────────────┐
+    │                        │
+    │    realwds's blog      ├─┐
+    │                        ┌─┘
+    │                        │
+    └─┐  ┐  ┌───────┬──┐  ┌──┘  + + + +
+      │ ─┤ ─┤       │ ─┤ ─┤
+      └──┴──┘       └──┴──┘  + + + +
+
+Delicate facial features are the beginning of the heart, 
+charming temperament is the abyss of emotion.
+
+`)

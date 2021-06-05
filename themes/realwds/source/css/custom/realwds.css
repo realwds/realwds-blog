@@ -432,6 +432,7 @@ hr {
   height: 40px;
   background-color: var(--wds-main);
   color: var(--wds-white);
+  line-height: 40px;
 }
 #rightside > div > button:hover, #rightside > div > a:hover {
   background-color: var(--wds-main);
