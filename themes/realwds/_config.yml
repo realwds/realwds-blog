@@ -729,7 +729,7 @@ change_font_size: false
 
 # Conversion between Traditional and Simplified Chinese (简繁转换)
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）

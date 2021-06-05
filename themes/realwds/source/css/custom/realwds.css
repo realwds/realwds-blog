@@ -424,15 +424,17 @@ hr {
 
 /* 右下角按钮设置 */
 
-#rightside {
-  right: -40px;
-}
 #rightside #rightside-config-hide {
   transform: translate(40px, 0);
 }
 #rightside > div > button, #rightside > div > a {
   width: 40px;
   height: 40px;
+  background-color: var(--wds-main);
+  color: var(--wds-white);
+}
+#rightside > div > button:hover, #rightside > div > a:hover {
+  background-color: var(--wds-main);
 }
 @media screen and (max-width: 900px){
   #rightside #mobile-toc-button{
@@ -722,11 +724,6 @@ a.deal_link:hover i{
   content: ''!important;
   background-color: var(--wds-maskbg)!important;
   z-index: -1;
-}
-
-/* 底部工具栏 */
-#rightside {
-  display: none;
 }
 
 #web_bg {
@@ -2104,5 +2101,12 @@ div.timenode .meta p {
   .layout .recent-posts #category,
   .layout .recent-posts #tag{
     padding: .6rem 1rem !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* 修改弹窗样式 */
+  .snackbar-pos.bottom-right {
+    border-radius: 12px;
+    margin-right: 80px;
   }
 }
