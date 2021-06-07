@@ -49,7 +49,7 @@ description:
 
 function refresh(start) {
 
-  var url = `https://realwds-api.vercel.app/bing?start=${start}&&count=1`
+  var url = `https://realwds-api.vercel.app/360/getAppsByCategory?cid=new&&start=${start}&&count=1`
   var xhr = new XMLHttpRequest()
   xhr.open('GET', url, true)
   xhr.send()
@@ -61,11 +61,10 @@ function refresh(start) {
       var wallCon = document.querySelector('.wallpaper-con')
       wallCon.innerHTML +=  `
       <div class="timenode">
-        <div class="meta"><p></p><p class="date">${obj.data.images[0].startdate} ~ ${obj.data.images[0].enddate}</p><p></p></div>
+        <div class="meta"><p></p><p class="date">${obj.data.data[0].create_time}</p><p></p></div>
         <div class="body">
-          <p>《${obj.data.images[0].title}》</p>
-          <img src="https://www.bing.com${obj.data.images[0].url}" />
-          <p><a href="${obj.data.images[0].copyrightlink}">${obj.data.images[0].copyright}</p>
+          <p>${obj.data.data[0].utag}</p>
+          <img src="${obj.data.data[0].url_thumb}" />
         </div>
       </div>
       `
