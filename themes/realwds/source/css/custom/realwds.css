@@ -2115,3 +2115,7 @@ div.timenode .meta p {
     margin-right: 80px;
   }
 }
+/* 代码块层级bug */
+#article-container figure.highlight {
+  z-index: 2;
+}
