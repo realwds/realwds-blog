@@ -13,5 +13,5 @@ block content
       #category
         .article-sort-title= page.category
         +articleSort(page.posts)
-        if(page.posts.length>9)
-          include includes/pagination.pug
+      if(page.posts.length>9)
+        include includes/pagination.pug

@@ -13,5 +13,5 @@ block content
       #tag
         .article-sort-title= page.tag
         +articleSort(page.posts)
-        if(page.posts.length>9)
-          include includes/pagination.pug
+      if(page.posts.length>9)
+        include includes/pagination.pug    
