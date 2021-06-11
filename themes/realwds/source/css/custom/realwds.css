@@ -487,19 +487,11 @@ hr {
   text-decoration: none;
   color: var(--wds-fontcolor);
   font-weight: 700;
-  background-color: rgba(187,239,253,0.3);
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 #article-container a:hover {
   text-decoration: none;
-  background-color: #bbeffd;
-  border-bottom-color: var(--wds-main);
-}
-
-[data-theme="dark"] #article-container a:hover {
-  text-decoration: none;
-  background-color: var(--wds-main);
   border-bottom-color: var(--wds-main);
 }
 
