@@ -1198,6 +1198,11 @@ h1, h2, h3, h4, h5, h6 {
 h2, h3, h4, h5, h6 {
   padding-top: 3rem;
   margin-top: -3rem;
+  z-index: -1;
+}
+#article-container{
+  position: relative;
+  z-index: 0;
 }
 #article-container .headerlink {
   float: right;
@@ -2114,8 +2119,4 @@ div.timenode .meta p {
     border-radius: 12px;
     margin-right: 80px;
   }
-}
-/* 代码块层级bug */
-#article-container figure.highlight {
-  z-index: 2;
 }
