@@ -401,11 +401,45 @@ hr {
   color: var(--wds-secondtext);
 }
 
-.layout>div:first-child:not(.recent-posts) {
+.layout #page {
   box-shadow: var(--wds-shadow-lightblack);
   padding: 1rem 2rem;
   border-radius: 12px;
-  background: var(--wds-card-bg);
+  background-color: var(--wds-card-bg);
+}
+
+.layout #post {
+  padding:0;
+  box-shadow: none;
+  background: 0;
+}
+
+.layout #post #article-all {
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  background-color: var(--wds-card-bg);
+}
+
+.layout #post #pagination-con,
+.layout #post .relatedPosts,
+.layout #post #post-comment {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  background-color: var(--wds-card-bg);
+}
+
+/* 上一篇下一篇样式 */
+.layout #post #pagination.pagination-post {
+  overflow: hidden;
+  color: var(--wds-fontcolor);
+  font-size: .8rem;
+  border-radius: 8px;
+  background: var(--wds-main);
+  margin-top: 0;
+}
+.layout #post #pagination .prev-post a, #pagination .next-post a {
+  height: 80px;
 }
 
 #aside-content .card-widget {
@@ -745,7 +779,7 @@ a.deal_link:hover i{
   opacity: .93;
 }
 
-/* 主页哔哔bb */
+/* 主页公告 */
 #notice-item {
   width: 100%;
   height: 25px;
@@ -1503,20 +1537,6 @@ a.reward-main-btn:hover {
   }
 }
 
-/* 上一篇下一篇样式 */
-#pagination.pagination-post {
-  overflow: hidden;
-  color: var(--wds-fontcolor);
-  font-size: .8rem;
-  border-radius: 8px;
-}
-#pagination .prev-post a, #pagination .next-post a {
-  height: 80px;
-}
-#pagination.pagination-post {
-  background: var(--wds-main);
-}
-
 /* 首页自定义顶部样式 */
 .hometop-group {
   display: grid;
@@ -1796,9 +1816,6 @@ a.reward-main-btn:hover {
 }
 
 /* 评论样式修改 */
-#post-comment {
-  margin-top: 1.2rem;
-}
 #post-comment .comment-head {
   margin-bottom: 0;
 }
@@ -2025,13 +2042,24 @@ div.timenode .meta::after {
   background: var(--wds-main) !important;
 }
 /* 时间线时间样式 */
-div.timenode .meta p {
-  font-size: .68rem;
+#article-container .timeline .meta p {
+  font-size: 16px;
+  color: var(--wds-secondtext);
 }
 /* 手机端layout样式 */
 @media screen and (max-width: 768px){
-  .layout > div:first-child:not(.recent-posts) {
-    padding: .6rem 1rem !important;
+  .layout #post {
+    padding: 0 !important;
+  }
+  .layout #page {
+    padding: 1rem !important;
+  }
+  .layout #post #article-all,
+  .layout #post #pagination-con, 
+  .layout #post .relatedPosts, 
+  .layout #post #post-comment {
+    padding: 1rem;
+    border-radius: 0;
   }
 
   #body-wrap.post .layout {

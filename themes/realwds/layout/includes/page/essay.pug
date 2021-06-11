@@ -1,0 +1,17 @@
+#article-container
+  if top_img === false
+    h1.page-title(style="display:inline")= page.title
+    .essay-tip(style="color: var(--wds-secondtext);margin-bottom: 20px;")= '仅代表个人观点，不作为参考依据'
+
+  != page.content
+
+  .timeline(class="essay")
+    if site.data.essay
+      each i in site.data.essay
+        .timenode
+          .meta
+            p
+            p=i.date
+            p
+          .body
+            p=i.msg
