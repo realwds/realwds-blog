@@ -435,11 +435,8 @@ hr {
   color: var(--wds-fontcolor);
   font-size: .8rem;
   border-radius: 8px;
-  background: var(--wds-main);
+  background: #262f3e;
   margin-top: 0;
-}
-.layout #post #pagination .prev-post a, #pagination .next-post a {
-  height: 80px;
 }
 
 #aside-content .card-widget {
