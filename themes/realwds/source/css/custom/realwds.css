@@ -2106,8 +2106,12 @@ div.timenode .meta::after {
     display: none;
   }
   #sidebar #sidebar-menus .site-data {
-    margin: 1rem 0;
-    padding: .6rem .5rem;
+    padding: 1rem .5rem;
+    background: var(--wds-main);
+  }
+  #sidebar #sidebar-menus .site-data .data-item .data-item-link .length-num,
+  #sidebar #sidebar-menus .site-data .data-item .data-item-link .headline {
+    color: var(--wds-white);
   }
   #page-header.not-top-img {
     height: 59px;
@@ -2128,6 +2132,9 @@ div.timenode .meta::after {
   .layout .recent-posts #category,
   .layout .recent-posts #tag{
     padding: .6rem 1rem !important;
+  }
+  #rightside {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {

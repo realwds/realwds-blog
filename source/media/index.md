@@ -1,6 +1,6 @@
 ---
 title: 视频解析
-tip: 选择接口，填写视频地址，点击“立即播放”按钮，畅享vip视频
+tip: 本站不存储任何链接，播放内容与本站无关，接口源于互联网，仅供学习交流。
 aside: false
 comments: false
 keywords: vip视频解析,vip视频在线解析,vip解析,万能vip视频解析,vip视频全能解析,vip视频,手机vip视频解析,手机在线解析vip视频,优酷vip解析,爱奇艺vip解析,腾讯vip解析,乐视vip解析,芒果vip解析
@@ -146,7 +146,7 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   <div class="main-iframe">
     <iframe id="video-iframe" allowfullscreen="true"></iframe>
   </div>
-  <div class="video-alert">本站不存储任何链接，播放内容与本站无关，接口源于互联网，仅供学习交流。</div>
+  <div class="video-alert">选择接口，填写视频地址，点击“立即播放”按钮，畅享vip视频</div>
   <div class="others">
     <a href="https://v.qq.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/qqlogo.2zanrv8bd820.png" alt="腾讯视频" /></a> 
     <a href="https://www.iqiyi.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/iqiyi.6byskr7b5000.png" alt="爱奇艺" /></a> 

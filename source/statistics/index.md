@@ -1,5 +1,6 @@
 ---
 title: 博客统计
+tip: 统计功能来源：<a href="https://blog.eurkon.com/post/1213ef82.html">Eurkon</a>
 top_img: false
 comments: false
 aside: false
