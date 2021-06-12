@@ -18,14 +18,24 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   padding: 10px 20px;
   font-size: 14px;
   outline: none;
-  color: #333;
+  color: var(--wds-secondtext);
   -webkit-appearance: none;  
-  /*清除select默认样式*/
-  background: url("https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/down.6r9p72o1uw80.jpeg")no-repeat right;
-  /*注：上一步清除样式后，select中的三角符号也会被清除，所以需要自己添加下三角，我在此出用一个下三角背景图片填充*/
+  background: url("https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/aaa.3lcrtaf9uk60.svg")no-repeat right;
   background-size: 0.3rem;
   background-position-x: 96%;
 }
+[data-theme=dark] .select-container .select select {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  font-size: 14px;
+  outline: none;
+  color: var(--wds-secondtext);
+  -webkit-appearance: none;  
+  background: url("https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/aadark.4sucly1njfg0.svg")no-repeat right;
+  background-size: 0.3rem;
+  background-position-x: 96%;
+}
+
 .select-container .url-input {
   flex: 1;
   margin: 0 30px;
@@ -36,10 +46,10 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   font-size: 14px;
   outline: none;
   width: 100%;
-  color: #333;
+  color: var(--wds-secondtext);
 }
 .select-container .btn button{
-  color: #fff;
+  color: var(--wds-white);
   background-color: var(--wds-main);
   padding: 12px 20px;
   font-size: 14px;
@@ -77,10 +87,10 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   width: calc(100% / 2);
   float: left;
   border-bottom: none !important ;
-  background-color: #fff !important;
+  background-color: var(--wds-white) !important;
 }
 .others a:hover {
-  background-color: #fff !important;
+  background-color: var(--wds-white) !important;
 }
 .others a img {
   margin-top: .8rem !important;
