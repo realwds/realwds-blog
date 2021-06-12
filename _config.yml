@@ -112,7 +112,7 @@ theme: realwds
   # other deployer
 deploy:
   type: git
-  repo: git@github.com:hiwego/hiwego.github.io.git # 推送到 hiwego 组织仓库
+  repo: git@e.coding.net:realwds/realwds/realwds-blog.git # 推送到 coding 组织仓库
   branch: master
 
 search:
