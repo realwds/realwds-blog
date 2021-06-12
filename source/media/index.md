@@ -47,6 +47,7 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   outline: none;
   width: 100%;
   color: var(--wds-secondtext);
+  background: 0;
 }
 .select-container .btn button{
   color: var(--wds-white);
