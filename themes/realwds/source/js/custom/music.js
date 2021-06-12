@@ -11,84 +11,12 @@ new Vue({
       tracks: [
         {
           id: 1,  
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
-          cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/1.jpg",
-          source: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/mp3/1.mp3",
-          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
-          favorited: false
-        },
-        {
-          id: 2, 
-          name: "Everybody Knows",
-          artist: "Leonard Cohen",
-          cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/2.jpg",
-          source: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/mp3/2.mp3",
-          url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
+          name: "张宇",
+          artist: "一言难尽",
+          cover: "http://p2.music.126.net/Pp57aut4D9nbOmgzRsRNnw==/109951165907319455.jpg",
+          source: "https://music.163.com/song/media/outer/url?id=190690",
+          url: "https://music.163.com/#/song?id=190690",
           favorited: true
-        },
-        {
-          id: 3, 
-          name: "Extreme Ways",
-          artist: "Moby",
-          cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/3.jpg",
-          source: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/mp3/3.mp3",
-          url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
-          favorited: false
-        },
-        {
-          id: 4, 
-          name: "Butterflies",
-          artist: "Sia",
-          cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/4.jpg",
-          source: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/mp3/4.mp3",
-          url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
-          favorited: false
-        },
-        {
-          id: 5, 
-          name: "The Final Victory",
-          artist: "Haggard",
-          cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/5.jpg",
-          source: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/mp3/5.mp3",
-          url: "https://www.youtube.com/watch?v=0WlpALnQdN8",
-          favorited: true
-        },
-        {
-          id: 6, 
-          name: "Genius ft. Sia, Diplo, Labrinth",
-          artist: "LSD",
-          cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/6.jpg",
-          source: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/mp3/6.mp3",
-          url: "https://www.youtube.com/watch?v=HhoATZ1Imtw",
-          favorited: false
-        },
-        {
-          id: 7, 
-          name: "The Comeback Kid",
-          artist: "Lindi Ortega",
-          cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/7.jpg",
-          source: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/mp3/7.mp3",
-          url: "https://www.youtube.com/watch?v=me6aoX0wCV8",
-          favorited: true
-        },
-        {
-          id: 8, 
-          name: "Overdose",
-          artist: "Grandson",
-          cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/8.jpg",
-          source: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/mp3/8.mp3",
-          url: "https://www.youtube.com/watch?v=00-Rl3Jlx-o",
-          favorited: false
-        },
-        {
-          id: 9, 
-          name: "Rag'n'Bone Man",
-          artist: "Human",
-          cover: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/img/9.jpg",
-          source: "https://cdn.jsdelivr.net/gh/muhammed/mini-player@master/mp3/9.mp3",
-          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
-          favorited: false
         }
       ],
       currentTrack: null,
@@ -96,7 +24,35 @@ new Vue({
       transitionName: null
     };
   },
+  mounted(){
+    this.getPlayList()
+  },
   methods: {
+    getPlayList(){
+      var url = `https://realwds-music-api.vercel.app/playlist/detail?id=3778678`
+      var xhr = new XMLHttpRequest()
+      xhr.open('GET', url, true)
+      xhr.send()
+      const self = this
+
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          var json = xhr.responseText
+          var obj = eval('(' + json + ')')
+          obj.playlist.tracks.forEach((item)=>{
+            self.tracks.push({
+              id: item.al.id, 
+              name: item.ar[0].name,
+              artist: item.al.name,
+              cover: item.al.picUrl,
+              source: `https://music.163.com/song/media/outer/url?id=`+item.id,
+              url: `https://music.163.com/#/song?id=`+item.id,
+              favorited: false
+            })
+          })
+        }
+      }
+    },
     play() {
       if (this.audio.paused) {
         this.audio.play();

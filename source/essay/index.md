@@ -1,5 +1,6 @@
 ---
 title: 随笔
+tip: 仅代表个人观点，不作为参考依据
 aside: false
 comments: false
 type: essay

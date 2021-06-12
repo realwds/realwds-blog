@@ -1,8 +1,10 @@
 #article-container
-  if top_img === false
-    h1.page-title(style="display:inline")= page.title
-    .essay-tip(style="color: var(--wds-secondtext);margin-bottom: 20px;")= '仅代表个人观点，不作为参考依据'
-
+  if top_img === false && page.tip
+    h1.page-title.page-title-has= page.title
+    .page-title-tip= page.tip
+  else 
+    h1.page-title= page.title
+    
   != page.content
 
   .timeline(class="essay")

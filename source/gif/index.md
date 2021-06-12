@@ -1,5 +1,6 @@
 ---
 title: 每日动图
+tip: 数据来自新浪每日动图
 aside: false
 comments: false
 keywords: 搞笑图片,搞笑动图,gif,sina gif,新浪动图,sina动图

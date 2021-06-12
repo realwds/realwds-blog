@@ -1,4 +1,8 @@
 #article-container
-  if top_img === false
+  if top_img === false && page.tip
+    h1.page-title.page-title-has= page.title
+    .page-title-tip= page.tip
+  else 
     h1.page-title= page.title
+
   != page.content

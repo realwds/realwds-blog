@@ -1,5 +1,6 @@
 ---
 title: 视频解析
+tip: 选择接口，填写视频地址，点击“立即播放”按钮，畅享vip视频
 aside: false
 comments: false
 keywords: vip视频解析,vip视频在线解析,vip解析,万能vip视频解析,vip视频全能解析,vip视频,手机vip视频解析,手机在线解析vip视频,优酷vip解析,爱奇艺vip解析,腾讯vip解析,乐视vip解析,芒果vip解析
@@ -51,18 +52,6 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   background-color: #ecf5ff;
   border-radius: 6px 6px 0 0;
   position: relative;
-}
-.main-iframe .video-tip{
-  border-radius: 6px;
-  position: absolute;
-  top: 16px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background-color: #f0f9eb;
-  color: #67c23a;
-  font-size: 14px;
-  padding: 0 18px;
 }
 
 .main-iframe #video-iframe {
@@ -118,9 +107,6 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
     margin-top: 20px;
     width: 100%;
   }
-  .main-iframe .video-tip {
-    display:none;
-  }
   .main-iframe {
     height: 280px;
   }
@@ -147,7 +133,6 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
     </div>
   </div> 
   <div class="main-iframe">
-    <div class="video-tip"> <i class="fa fa-check-circle"></i> 选择接口，填写视频地址，点击“立即播放”按钮，畅享vip视频</div>
     <iframe id="video-iframe" allowfullscreen="true"></iframe>
   </div>
   <div class="video-alert">本站不存储任何链接，播放内容与本站无关，接口源于互联网，仅供学习交流。</div>
@@ -164,7 +149,6 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
 <script>
   var num=0
   function seeVideo(){
-    document.querySelector('.video-tip').style.display = 'none'
     var link = document.getElementById('video-link').value
     var jiexi = document.getElementById('video-jiexi').value
     var video = document.getElementById("video-iframe")

@@ -2137,3 +2137,11 @@ div.timenode .meta::after {
     margin-right: 80px;
   }
 }
+/* 增加标题提示tip */
+#page h1.page-title-has {
+  display:inline
+}
+#page .page-title-tip {
+  color: var(--wds-secondtext);
+  margin-bottom: 20px;
+}
