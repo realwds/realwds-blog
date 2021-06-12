@@ -2152,3 +2152,11 @@ div.timenode .meta::after {
   color: var(--wds-secondtext);
   margin-bottom: 20px;
 }
+
+/* 搜索显示高度 */
+#local-search .search-dialog .search-result-list {
+  max-height: 28rem;
+}
+#local-search .search-dialog .search-result-list #local-search__hits-empty {
+  color: var(--wds-main);
+}

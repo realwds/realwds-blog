@@ -517,7 +517,7 @@ tag_ui: # 留空或 index
 background: var(--wds-background)
 
 # the position of bottom right button/default unit: px (右下角按钮距离底部的距离/默认单位为px)
-rightside-bottom: 60px
+rightside-bottom: 80px
 
 # Enter transitions (开啓网页进入效果)
 enter_transitions: false
