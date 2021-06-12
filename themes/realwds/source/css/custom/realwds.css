@@ -76,10 +76,6 @@
   --wds-box-shadow-hover: 0 3px 8px 6px rgba(165,178,191,0.15);
 }
 
-#page {
-  min-height: calc(100vh - 100px)
-}
-
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px
@@ -401,20 +397,19 @@ hr {
   color: var(--wds-secondtext);
 }
 
+.layout #post,
 .layout #page {
-  box-shadow: var(--wds-shadow-lightblack);
-  padding: 1rem 2rem;
-  border-radius: 12px;
-  background-color: var(--wds-card-bg);
-}
-
-.layout #post {
   padding:0;
   box-shadow: none;
   background: 0;
 }
 
-.layout #post #article-all {
+#page #article-all {
+  min-height: calc(100vh - 100px)
+}
+
+.layout #post #article-all,
+.layout #page #article-all {
   padding: 1rem 2rem;
   border-radius: 12px;
   background-color: var(--wds-card-bg);
@@ -422,7 +417,8 @@ hr {
 
 .layout #post #pagination-con,
 .layout #post .relatedPosts,
-.layout #post #post-comment {
+.layout #post #post-comment,
+.layout #page #post-comment {
   margin-top: 1rem;
   padding: 1rem 2rem;
   border-radius: 12px;
@@ -1847,7 +1843,7 @@ a.reward-main-btn:hover {
   padding-top: 1em !important;
 }
 .v[data-class=v] .vwrap {
-  border: 1px solid #c6c6c6 !important;
+  border: 1px solid #ccc !important;
 }
 .v[data-class=v] .vsys, .v[data-class=v] .vtime {
   color: var(--wds-secondtext) !important;
@@ -1855,7 +1851,9 @@ a.reward-main-btn:hover {
 .v[data-class=v] .vrow .vcol {
   color: #eb5055 !important;
 }
-
+.v[data-class=v] .veditor {
+  min-height: 6rem !important
+}
 /* 侧边栏评论样式修改 */
 #aside-content .aside-list > .aside-list-item .content > .title, #aside-content .aside-list > .aside-list-item .content > .comment {
   font-size: .7rem;
@@ -2037,11 +2035,13 @@ div.timenode .meta::after {
 }
 /* 手机端layout样式 */
 @media screen and (max-width: 768px){
-  .layout #post {
+  .layout #post,
+  .layout #page {
     padding: 0 !important;
   }
-  .layout #page {
-    padding: 1rem !important;
+  .layout #page #article-all,
+  .layout #page #post-comment {
+    padding: 1rem;
   }
   .layout #post #article-all,
   .layout #post #pagination-con, 

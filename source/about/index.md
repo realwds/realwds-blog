@@ -1,8 +1,9 @@
 ---
 title: 关于博主
 top_img: false
-comments: false
 aside: false
+keywords: realwds,realwds's blog,博客
+description: 精致的五官是心动的开始，迷人的气质是动情的深渊！
 ---
 
 {% note blue no-icon %}

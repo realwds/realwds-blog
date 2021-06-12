@@ -641,7 +641,7 @@ preloader: false
 aside:
   enable: true
   hide: false
-  button: false
+  button: true
   mobile: false # display on mobile
   position: right # left or right
   card_author:
@@ -748,7 +748,7 @@ readmode: false
 darkmode:
   enable: true
   # Toggle Button to switch dark/light mode
-  button: false
+  button: true
   # Switch dark/light mode automatically (自动切换 dark mode和 light mode)
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am

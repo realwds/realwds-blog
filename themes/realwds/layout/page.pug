@@ -12,17 +12,18 @@ block content
       include includes/page/categories.pug
   else
     #page
-      case page.type
-        when 'link'
-          include includes/page/flink.pug
-        when 'essay'
-          include includes/page/essay.pug
-        when 'notice'
-          include includes/page/notice.pug
-        when 'tools'
-          include includes/page/tools.pug
-        default
-          include includes/page/default-page.pug
+      #article-all
+        case page.type
+          when 'link'
+            include includes/page/flink.pug
+          when 'essay'
+            include includes/page/essay.pug
+          when 'notice'
+            include includes/page/notice.pug
+          when 'tools'
+            include includes/page/tools.pug
+          default
+            include includes/page/default-page.pug
 
       if page.comments !== false && theme.comments && theme.comments.use
         - var commentsJsLoad = true
