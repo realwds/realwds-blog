@@ -869,7 +869,7 @@ CDN:
   main_css: /css/index.css
   jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
   main: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/main.min.js # /js/main.js
-  utils: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/utils.min.js # /js/utils.js
+  utils: https://cdn.jsdelivr.net/gh/realwds/cdn/js/realwds-blog-utils.min.js # /js/utils.js
 
   # pjax
   pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js

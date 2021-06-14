@@ -140,8 +140,8 @@ const btf = {
       return
     }
 
-    const currentPos = window.scrollY || window.screenTop
-    if (currentPos > pos) pos = pos - 70
+    // const currentPos = window.scrollY || window.screenTop
+    // if (currentPos > pos) pos = pos - 70
 
     if ('CSS' in window && CSS.supports('scroll-behavior', 'smooth')) {
       window.scrollTo({

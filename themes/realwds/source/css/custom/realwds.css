@@ -1214,7 +1214,7 @@ a.deal_link:hover i{
 h1, h2, h3, h4, h5, h6 {
   padding-left: 0 !important;
 }
-h2, h3, h4, h5, h6 {
+#article-all h2, #article-all h3, #article-all h4, #article-all h5, #article-all h6 {
   padding-top: 3rem;
   margin-top: -3rem;
   z-index: -1;
