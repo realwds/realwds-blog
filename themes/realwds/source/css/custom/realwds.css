@@ -2160,3 +2160,8 @@ div.timenode .meta::after {
 #local-search .search-dialog .search-result-list #local-search__hits-empty {
   color: var(--wds-main);
 }
+
+#article-all  .wechat-qrcode{
+  padding-top: 0;
+  margin-top: 0;
+}
