@@ -2152,7 +2152,6 @@ div.timenode .meta::after {
   color: var(--wds-secondtext);
   margin-bottom: 20px;
 }
-
 /* 搜索显示高度 */
 #local-search .search-dialog .search-result-list {
   max-height: 28rem;
@@ -2160,8 +2159,8 @@ div.timenode .meta::after {
 #local-search .search-dialog .search-result-list #local-search__hits-empty {
   color: var(--wds-main);
 }
-
-#article-all  .wechat-qrcode{
+/* 修复扫一扫 */
+#article-all  .wechat-qrcode h4{
   padding-top: 0;
   margin-top: 0;
 }
