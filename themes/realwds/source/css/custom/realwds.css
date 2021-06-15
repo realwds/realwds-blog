@@ -2136,6 +2136,10 @@ div.timenode .meta::after {
   #rightside {
     display: none;
   }
+  /* 手机端404页面最近文章隐藏 */
+  .aside-list-404 {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   /* 修改弹窗样式 */
