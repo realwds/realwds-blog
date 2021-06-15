@@ -248,7 +248,7 @@ block content
 
 ### 添加判断
 
-文件地址：```themes/butterfly/layout/index.pug```
+文件地址：```themes/butterfly/layout/page.pug```
 
 ``` diff
 when 'categories'
