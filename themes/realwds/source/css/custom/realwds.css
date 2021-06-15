@@ -14,7 +14,7 @@
 }
 
 ::selection {
-  background: var(--wds-main);
+  background: var(--wds-theme);
   color: var(--wds-white)
 }
 
