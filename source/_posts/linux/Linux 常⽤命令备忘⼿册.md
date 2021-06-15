@@ -1,5 +1,5 @@
 ---
-title: 常⽤ Linux 命令备忘⼿册
+title: Linux 常⽤命令备忘⼿册
 tags:
   - linux
   - 精选
