@@ -85,10 +85,9 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   display: flex;
 }
 .others a {
-  width: calc(100% / 2);
-  float: left;
+  display: inline-block;
+  width: calc(100% / 2 - 6px);
   border-bottom: none !important ;
-  background-color: var(--wds-white) !important;
 }
 .others a:hover {
   background-color: var(--wds-white) !important;
