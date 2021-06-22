@@ -5,10 +5,9 @@ tags:
   - 跨域
   - cors
 categories: Git相关
-keywords: '跨域,vercel,github,cors'
+keywords: 跨域,vercel,github,cors
 description: Vercel 改写网络接口，前端跨域问题秒解
-cover: >-
-  https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/vercel.3umkcz88tkw0.png
+cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/vercel.3umkcz88tkw0.png
 abbrlink: 49fde86b
 date: 2021-06-07 10:00:00
 ---
