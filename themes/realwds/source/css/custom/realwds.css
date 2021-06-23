@@ -2171,3 +2171,8 @@ div.timenode .meta::after {
   padding-top: 0;
   margin-top: 0;
 }
+/* 表格样式调整 */
+.table-wrap table td, .table-wrap table th {
+  min-width: 5rem;
+  font-size: .96em;
+}
