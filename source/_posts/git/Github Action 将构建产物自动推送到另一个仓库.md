@@ -1,18 +1,18 @@
 ---
-title: GitHub Action 将构建产物自动推送到令一个仓库
+title: GitHub Action 将构建产物自动推送到另一个仓库
 tags:
   - GitHub
   - 持续集成
   - CI/CD
 categories: Git相关
 keywords: github,action,ci,cd,持续集成
-description: GitHub Action 利用 CI/CD 持续集成，将产物自动推动到令一个仓库。
+description: GitHub Action 利用 CI/CD 持续集成，将产物自动推动到另一个仓库。
 cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/action.5vhqtmv3tk00.png
 abbrlink: a3cc0a75
 date: 2021-05-14 21:32:31
 ---
 
-有一个自有的私密仓库，我不想让别人看到源代码，只是想把产物展示出来。从而想到用 GitHub Action 的 CI/CD 持续集成，将产物自动推动到令一个仓库。
+有一个自有的私密仓库，我不想让别人看到源代码，只是想把产物展示出来。从而想到用 GitHub Action 的 CI/CD 持续集成，将产物自动推动到另一个仓库。
 
 ## 编写代码
 
