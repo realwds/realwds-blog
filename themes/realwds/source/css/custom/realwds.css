@@ -802,6 +802,7 @@ a.deal_link:hover i{
   display: flex;
   flex: 1;
   margin: 0 10px;
+  overflow: hidden;
 }
 #noticeList i {
   text-align: right;
