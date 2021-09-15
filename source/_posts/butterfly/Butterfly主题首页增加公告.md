@@ -246,6 +246,34 @@ block content
     include includes/pagination.pug
 ```
 
+### 引入 notice 模板
+
+文件地址：```themes/butterfly/layout/includes/page/notice.pug```
+
+``` pug
+#article-container
+  if top_img === false && page.tip
+    h1.page-title.page-title-has= page.title
+    .page-title-tip!= page.tip
+  else 
+    h1.page-title= page.title
+    
+  != page.content
+
+  .timeline(class="notice")
+    if site.data.notice
+      each i in site.data.notice
+        .timenode
+          .meta
+            p
+            p=i.date
+            p
+          .body
+            p=i.msg
+
+```
+
+
 ### 添加判断
 
 文件地址：```themes/butterfly/layout/page.pug```
