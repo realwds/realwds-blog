@@ -27,10 +27,10 @@
 - class_name: '仰望大佬'
   class_desc: '<span>给阿姨倒上一杯卡布奇诺</span>'
   link_list:
-    - name: MYW
-      link: https://immyw.com/
-      avatar: https://immyw.com/img/avatar.png
-      descr: 今日事,今日畢
+    - name: CrazyWong
+      link: https://crazywong.com/
+      avatar: https://crazywong.com/img/avatar.png
+      descr: 熱衷學習，熱衷生活
     - name: Just
       link: https://blog.just-null.cn/
       avatar: https://blog.just-null.cn/img/avatar.jpg
@@ -70,7 +70,7 @@
       descr: 人生在勤，不索何获。
     - name: Eurkon
       link: https://blog.eurkon.com
-      avatar: https://blog.eurkon.com/images/user/avatar.jpg
+      avatar: https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/avatar.jpg
       descr: 不只是代码的搬运工
     - name: 可以清心
       link: https://www.keyiqingxin.cn/

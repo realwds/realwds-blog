@@ -325,7 +325,7 @@ valine:
   placeholder: 昵称处填QQ号可自动获取昵称头像邮箱哦 ^_^ # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  serverURLs: https://lmm2g147.api.lncldglobal.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: https://cdn.jsdelivr.net/gh/realwds/cdn/img/20210414100654.png # valine background
   emojiCDN: https://tb2.bdstatic.com/tb/editor/images/face/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
@@ -955,6 +955,7 @@ artitalk:
   enable: true
   appId: lMM2G147us4K8mXILKxKHmHr-MdYXbMMI
   appKey: dGgm6nGrFdRjcvz2tBy7BzWr
+  serverURLs: https://lmm2g147.api.lncldglobal.com
   path: talking
   js:
   option:
