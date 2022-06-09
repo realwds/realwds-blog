@@ -81,11 +81,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/favicon.png
+favicon: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog/favicon.png
 
 # Avatar (头像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165755.jpg
+  img: https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20201216165755.jpg
   effect: false
 
 # Disable all banner image
@@ -128,18 +128,18 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-1.png
-    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-2.png
-    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-3.png
-    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-4.png
-    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-6.png
-    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-7.png
-    - https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-9.png
+    - https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-1.png
+    - https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-2.png
+    - https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-3.png
+    - https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-4.png
+    - https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-6.png
+    - https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-7.png
+    - https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-9.png
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
-  flink: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/404.jpg
-  post_page: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/404.jpg
+  flink: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog/404.jpg
+  post_page: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog/404.jpg
 
 # A simple 404 page
 error_404:
@@ -196,10 +196,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210413174753.png
+    - img: https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20210413174753.png
       link:
       text: 微信
-    - img: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210413174751.png
+    - img: https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20210413174751.png
       link:
       text: 支付宝
 
@@ -326,7 +326,7 @@ valine:
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
   serverURLs: https://lmm2g147.api.lncldglobal.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: https://cdn.jsdelivr.net/gh/realwds/cdn/img/20210414100654.png # valine background
+  bg: https://fastly.jsdelivr.net/gh/realwds/cdn/img/20210414100654.png # valine background
   emojiCDN: https://tb2.bdstatic.com/tb/editor/images/face/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
@@ -646,7 +646,7 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/person/awds-79k.png
+    avatar: https://fastly.jsdelivr.net/gh/realwds/cdn@master/person/awds-79k.png
     sayhi: 👋 你好！我是
     name: realwds's blog
     description: 我会在这里分享踩过的坑，干货笔记，以及生活中的感悟、吐槽、看法，与君共勉。
@@ -660,7 +660,7 @@ aside:
       link2: https://github.com/realwds
   card_announcement:
     enable: true
-    content: '<p>有问题评论留言，微信不解答问题，添加请注明来意。</p><div class="content_qrcode"><img src="https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/wechat.png" alt="添加微信"></div>'
+    content: '<p>有问题评论留言，微信不解答问题，添加请注明来意。</p><div class="content_qrcode"><img src="https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/wechat.png" alt="添加微信"></div>'
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -831,7 +831,7 @@ pangu:
 # https://github.com/verlok/lazyload
 lazyload:
   enable: true
-  post: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/loading.png
+  post: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog/loading.png
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -856,10 +856,10 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     - <link rel="stylesheet" href="/css/custom/realwds.css">
   bottom:
-    - <script src="https://cdn.jsdelivr.net/gh/CodeByZach/pace@1.2.3/pace.min.js"></script>
+    - <script src="https://fastly.jsdelivr.net/gh/CodeByZach/pace@1.2.3/pace.min.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -867,87 +867,87 @@ inject:
 CDN:
   # main
   main_css: /css/index.css
-  jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
-  main: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/main.min.js # /js/main.js
-  utils: https://cdn.jsdelivr.net/gh/realwds/cdn/js/realwds-blog-utils.min.js # /js/utils.js
+  jquery: https://fastly.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
+  main: https://fastly.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/main.min.js # /js/main.js
+  utils: https://fastly.jsdelivr.net/gh/realwds/cdn/js/realwds-blog-utils.min.js # /js/utils.js
 
   # pjax
-  pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
+  pjax: https://fastly.jsdelivr.net/npm/pjax/pjax.min.js
 
   # comments
-  gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
-  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
+  gitalk: https://fastly.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
+  gitalk_css: https://fastly.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
+  valine: https://fastly.jsdelivr.net/npm/valine/dist/Valine.min.js
+  disqusjs: https://fastly.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
+  disqusjs_css: https://fastly.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
+  twikoo: https://fastly.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js
-  sharejs_css: https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css
+  sharejs: https://fastly.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js
+  sharejs_css: https://fastly.jsdelivr.net/npm/social-share.js/dist/css/share.min.css
 
   # search
-  local_search: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/search/local-search.min.js # /js/search/local-search.js
-  algolia_js: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/search/algolia.min.js # /js/search/algolia.js
-  algolia_search: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
+  local_search: https://fastly.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/search/local-search.min.js # /js/search/local-search.js
+  algolia_js: https://fastly.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/search/algolia.min.js # /js/search/algolia.js
+  algolia_search: https://fastly.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
+  algolia_search_css: https://fastly.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
 
   # math
-  mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  katex: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
-  katex_copytex: https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js
-  katex_copytex_css: https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.css
-  mermaid: https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  mathjax: https://fastly.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  katex: https://fastly.jsdelivr.net/npm/katex@latest/dist/katex.min.css
+  katex_copytex: https://fastly.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js
+  katex_copytex_css: https://fastly.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.css
+  mermaid: https://fastly.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
 
   # count
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
   # background effect
-  canvas_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
-  canvas_fluttering_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
-  canvas_nest: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js
+  canvas_ribbon: https://fastly.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
+  canvas_fluttering_ribbon: https://fastly.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
+  canvas_nest: https://fastly.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js
 
-  lazyload: https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
-  instantpage: https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js
-  typed: https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js
-  pangu: https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
+  lazyload: https://fastly.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
+  instantpage: https://fastly.jsdelivr.net/npm/instant.page/instantpage.min.js
+  typed: https://fastly.jsdelivr.net/npm/typed.js/lib/typed.min.js
+  pangu: https://fastly.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
 
   # photo
-  fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
-  medium_zoom: https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
+  fancybox_css: https://fastly.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox: https://fastly.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+  medium_zoom: https://fastly.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
 
   # snackbar
-  snackbar_css: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css
-  snackbar: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
+  snackbar_css: https://fastly.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css
+  snackbar: https://fastly.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
 
   # effect
-  activate_power_mode: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
-  fireworks: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js
-  click_heart: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js
-  ClickShowText: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js
+  activate_power_mode: https://fastly.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
+  fireworks: https://fastly.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js
+  click_heart: https://fastly.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js
+  ClickShowText: https://fastly.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js
 
   # fontawesome
-  fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
+  fontawesome: https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
 
   # Conversion between Traditional and Simplified Chinese
-  translate: https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/tw_cn.min.js # /js/tw_cn.js
+  translate: https://fastly.jsdelivr.net/npm/hexo-theme-butterfly@3.7.1/source/js/tw_cn.min.js # /js/tw_cn.js
 
   # justifiedGallery
-  justifiedGallery_js: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
-  justifiedGallery_css: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css
+  justifiedGallery_js: https://fastly.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
+  justifiedGallery_css: https://fastly.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css
 
   # aplayer
-  aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
-  aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
-  meting_js: https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
+  aplayer_css: https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+  aplayer_js: https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+  meting_js: https://fastly.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
 
   # Prism.js
-  prismjs_js: https://cdn.jsdelivr.net/npm/prismjs/prism.min.js
-  prismjs_lineNumber_js: https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
-  prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
+  prismjs_js: https://fastly.jsdelivr.net/npm/prismjs/prism.min.js
+  prismjs_lineNumber_js: https://fastly.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+  prismjs_autoloader: https://fastly.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
 
   # Artitalk
 # see https://artitalk.js.org/

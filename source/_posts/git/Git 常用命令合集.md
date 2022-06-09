@@ -9,7 +9,7 @@ tags:
 categories: Git相关
 keywords: git,git常用命令
 description: Git常用命令以及奇技淫巧
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/git.2yfqqjxrax80.jpg
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/git.2yfqqjxrax80.jpg
 ---
 
 Git 是一个 “分布式版本管理工具”，简单的理解版本管理工具：大家在写东西的时候都用过 “回撤” 这个功能，但是回撤只能回撤几步，假如想要找回我三天之前的修改，光用 “回撤” 是找不回来的。而 “版本管理工具” 能记录每次的修改，只要提交到版本仓库，你就可以找到之前任何时刻的状态（文本状态）。
@@ -650,7 +650,7 @@ ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p
 
 ## 脑图
 
-![](https://cdn.jsdelivr.net/gh/521xueweihan/git-tips/assets/git.png)
+![](https://fastly.jsdelivr.net/gh/521xueweihan/git-tips/assets/git.png)
 
 ## 优雅的Commit信息
 
@@ -690,7 +690,7 @@ echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 ```
 全局安装后使用 `git cz` 代替 `git commit`就可以了,如下图
 
-![](https://cdn.jsdelivr.net/gh/521xueweihan/git-tips/assets/gitcz.png)
+![](https://fastly.jsdelivr.net/gh/521xueweihan/git-tips/assets/gitcz.png)
 
 
 ## 参考文献

@@ -7,7 +7,7 @@ tags:
 categories: Git相关
 keywords: 博客部署,vercel,github
 description: 博客部署从 Vercel 到 GitHub Page
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/20210330-135551-2b69.696up9ch5r00.26ommgpec1pc.png
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/20210330-135551-2b69.696up9ch5r00.26ommgpec1pc.png
 abbrlink: 2a6b5553
 date: 2021-05-20 15:45:20
 ---

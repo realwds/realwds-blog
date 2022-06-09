@@ -72,8 +72,8 @@ comments: false
 **附件：国家版权局发布的示范格式**
 -------------------
 
-1、[《要求删除或断开链接侵权网络内容的通知》](https://cdn.jsdelivr.net/gh/realwds/cdn/pdf/27061708341.pdf)示例格式：
+1、[《要求删除或断开链接侵权网络内容的通知》](https://fastly.jsdelivr.net/gh/realwds/cdn/pdf/27061708341.pdf)示例格式：
 
-2、[《要求删除或断开链接侵权网络内容的通知》](https://cdn.jsdelivr.net/gh/realwds/cdn/pdf/27061709218.pdf)填写说明：
+2、[《要求删除或断开链接侵权网络内容的通知》](https://fastly.jsdelivr.net/gh/realwds/cdn/pdf/27061709218.pdf)填写说明：
 
 请按照此通知格式填写发至本站的邮箱 admin@disnot.com

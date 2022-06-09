@@ -1328,7 +1328,7 @@ a.reward-main-btn {
 a.reward-main-btn:hover {
   color: var(--wds-white);
   background: var(--wds-red);
-  background-image: url(https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/reward.2emkfzy7hvgg.gif);
+  background-image: url(https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/reward.2emkfzy7hvgg.gif);
 }
 .reward-text {
   margin-bottom: 0;

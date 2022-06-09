@@ -11,7 +11,7 @@ keywords: Butterfly,标签,tag
 description: Butterfly 主题标签外挂使用样例
 # sticky: 100
 abbrlink: b8a0d4e7
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-6.png
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-6.png
 ---
 
 简单精美的图标样式会为博文增色不少，以下是我在博文中常用的 Butterfly 主题标签外挂。
@@ -64,7 +64,7 @@ cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-6.png
 {% link <链接名>, <链接地址>, <链接图像> %}
 ```
 
-{% link realwds, https://blog.realwds.com, https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png %}
+{% link realwds, https://blog.realwds.com, https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png %}
 
 ## 行内图片 Inline Image
 
@@ -72,7 +72,7 @@ cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-6.png
 <文字> {% inlineimage <图片链接> %} <文字>
 ```
 
-数学系的挨踢者{% inlineimage https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/aru-l/5150.gif %}
+数学系的挨踢者{% inlineimage https://fastly.jsdelivr.net/gh/volantis-x/cdn-emoji/aru-l/5150.gif %}
 
 ## 单张图片 Single Image
 
@@ -82,7 +82,7 @@ cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-6.png
 {% image <图片链接>, width=<Custom>px, alt=<Custom> %}
 ```
 
-{% image https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165804.jpg, width=100% %}
+{% image https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20201216165804.jpg, width=100% %}
 
 ## 相册 Gallery
 

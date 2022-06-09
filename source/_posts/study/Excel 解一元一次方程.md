@@ -5,14 +5,14 @@ tags:
 categories: 跨界学习
 keywords: excel,一元一次方程
 description: Excel 解一元一次方程
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/excel.40e4likoexs0.png
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/excel.40e4likoexs0.png
 abbrlink: 7431b662
 date: 2021-07-03 11:40:00
 ---
 
 今天 `leader` 扔了一个公式让我们解方程，如下，求 x 的值：
 
-![](https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/JTVDZnJhYyU.ozacxfgphu8.png)
+![](https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog/JTVDZnJhYyU.ozacxfgphu8.png)
 
 1. 该方程变量为 `x`, 存放于单元格 `A1`，`A1` 即为可变单元格，此时为空。
 

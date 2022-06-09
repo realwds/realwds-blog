@@ -7,7 +7,7 @@ tags:
 categories: 工具相关
 keywords: cloudflare,网站加速,ssl
 description: CloudFlare，一个可以让国内网站在国外加速的服务
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/cloudflare.25sw2q0mkdk.png
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/cloudflare.25sw2q0mkdk.png
 abbrlink: c3e13e67
 date: 2021-05-18 14:50:30
 ---
@@ -39,11 +39,11 @@ CloudFlare 是一家美国的跨国科技企业，总部位于旧金山，在英
 
 前往域名服务商更改 DNS 服务器。
 
-![更改DNS服务器](https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/da9c07a860b0430f96b6bae928cf698a.5igd7v70ang0.png)
+![更改DNS服务器](https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog/da9c07a860b0430f96b6bae928cf698a.5igd7v70ang0.png)
 
 修改完成后，点击继续开启一些配置后，出现下图表示配置成功。
 
-![CloudFlare配置](https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/1bab8ac4d5454c0384ef801219874d95.2qyn265t6ce0.png)
+![CloudFlare配置](https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog/1bab8ac4d5454c0384ef801219874d95.2qyn265t6ce0.png)
 
 国外用户访问国内网站不会变卡了！
 

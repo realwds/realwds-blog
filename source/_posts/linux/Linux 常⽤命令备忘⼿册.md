@@ -7,7 +7,7 @@ tags:
 categories: Linux
 keywords: linux,知识点,linux命令行
 description: 常⽤ Linux 命令备忘⼿册
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/u=2564444625,3313783209&fm=26&gp=0.5111wpwr71c0.jpg
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/u=2564444625,3313783209&fm=26&gp=0.5111wpwr71c0.jpg
 abbrlink: 268f35ec
 date: 2021-06-04 11:25:00
 ---

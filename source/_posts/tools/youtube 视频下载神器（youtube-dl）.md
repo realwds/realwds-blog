@@ -7,7 +7,7 @@ tags:
 categories: 工具相关
 keywords: 油管,youtube,下载视频
 description: youtube 油管下载高清视频，可带字幕。
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/youtube-dl.2e680upet6ck.png
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/youtube-dl.2e680upet6ck.png
 abbrlink: cc427180
 date: 2021-05-15 23:03:18
 ---

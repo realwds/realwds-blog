@@ -9,7 +9,7 @@ description: Butterfly 主题自定义首页文章卡片高度
 large: true
 abbrlink: 48bb9713
 date: 2021-05-12 08:58:31
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-1.png
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-1.png
 ---
 
 

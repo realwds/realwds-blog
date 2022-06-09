@@ -17,6 +17,6 @@ aside: false
 ``` yml
 name: realwds's blog
 link: https://blog.realwds.com
-avatar: https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165755.jpg
+avatar: https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20201216165755.jpg
 descr: 数学系的挨踢者
 ```

@@ -9,7 +9,7 @@ tags:
 categories: JavaScript
 keywords: js,知识点,JavaScript
 description: JavaScript 常用知识点回顾
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/js.61y0s3aqj0w0.jpg
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/js.61y0s3aqj0w0.jpg
 ---
 
 ## 内置类型
@@ -216,7 +216,7 @@ server {
 
 有 `defer`，加载后续文档元素的过程将和 `script.js` 的加载并行进行（异步），但是 `script.js` 的执行要在所有元素解析完成之后，`DOMContentLoaded` 事件触发之前完成。
 
-![](https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/script-defer-async.84113912.1idrxdvmec2o.jpg)
+![](https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog/script-defer-async.84113912.1idrxdvmec2o.jpg)
 
 > 蓝色线代表网络读取，红色线代表执行时间，这俩都是针对脚本的；绿色线代表 HTML 解析。
 

@@ -8,7 +8,7 @@ keywords: hexo,butterfly,主题,doc,教程,文档
 description: 页面有时候会时效或者用户输入不存在的 url 地址，那么网站就会出现无法访问，也就是 404。Butterfly 主题 404 页面增加最近文章
 abbrlink: 2c9bc301
 date: 2021-05-13 17:08:31
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/404.5edup5k17zw0.png
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/404.5edup5k17zw0.png
 ---
 
 页面有时候会时效或者用户输入不存在的 url 地址，那么网站就会出现无法访问，也就是 404。butterfly 主题存在 404 页面处理，但是过于简单，参考张洪大佬的网站，可以给 404 页面加上最近文章的展示，从而增强用户观感和粘性。

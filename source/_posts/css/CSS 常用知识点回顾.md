@@ -9,7 +9,7 @@ tags:
 categories: CSS
 keywords: css,知识点
 description: CSS 常用知识点回顾
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/css.66y0hzd74js0.png
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/css.66y0hzd74js0.png
 ---
 
 ## 隐藏元素
@@ -117,7 +117,7 @@ cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/css.66y0hzd74js
 - 获取不存在与 DOM 树中的信息。比如 `a` 标签的 `:link`、`visited` 等，这些信息不存在与 DOM 树结构中，只能通过 CSS 选择器来获取；
 - 获取不能被常规 CSS 选择器获取的信息。比如：要获取第一个子元素，我们无法用常规的 CSS 选择器获取，但可以通过 `:first-child` 来获取到。
 
-![](https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/false-class.81137d65.47ajvus48zs0.png)
+![](https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog/false-class.81137d65.47ajvus48zs0.png)
 
 ### 伪元素
 

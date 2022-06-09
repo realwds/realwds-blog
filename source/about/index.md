@@ -13,7 +13,7 @@ description: 精致的五官是心动的开始，迷人的气质是动情的深�
 
 {% endnote %}
 
-![](https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/20201216165804.jpg)
+![](https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20201216165804.jpg)
 
 <style>
 .fancybox img {

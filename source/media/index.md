@@ -20,7 +20,7 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   outline: none;
   color: var(--wds-secondtext);
   -webkit-appearance: none;  
-  background: url("https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/aaa.3lcrtaf9uk60.svg")no-repeat right;
+  background: url("https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/aaa.3lcrtaf9uk60.svg")no-repeat right;
   background-size: 0.3rem;
   background-position-x: 96%;
 }
@@ -31,7 +31,7 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   outline: none;
   color: var(--wds-secondtext);
   -webkit-appearance: none;  
-  background: url("https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/aadark.4sucly1njfg0.svg")no-repeat right;
+  background: url("https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/aadark.4sucly1njfg0.svg")no-repeat right;
   background-size: 0.3rem;
   background-position-x: 96%;
 }
@@ -147,12 +147,12 @@ description: 本站提供vip视频在线免费解析，vip视频解析，优酷v
   </div>
   <div class="video-alert">选择接口，填写视频地址，点击“立即播放”按钮，畅享vip视频</div>
   <div class="others">
-    <a href="https://v.qq.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/qqlogo.2zanrv8bd820.png" alt="腾讯视频" /></a> 
-    <a href="https://www.iqiyi.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/iqiyi.6byskr7b5000.png" alt="爱奇艺" /></a> 
-    <a href="https://youku.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/youkulogo.2jo1c1m2gfc0.png" alt="优酷视频" /></a> 
-    <a href="https://www.mgtv.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/hunantvlogo.606ewgjk63c0.png" alt="芒果TV" /></a> 
-    <a href="https://www.bilibili.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/bilibili.3q0x0tj8tbw.png" alt="哔哩哔哩" /></a> 
-    <a href="https://www.yinyuetai.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/realwds/cdn@master/img/yinyuetailogo.40ahfxetoc80.png" alt="音悦台" /></a> 
+    <a href="https://v.qq.com/" target="_blank"> <img src="https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/qqlogo.2zanrv8bd820.png" alt="腾讯视频" /></a> 
+    <a href="https://www.iqiyi.com/" target="_blank"> <img src="https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/iqiyi.6byskr7b5000.png" alt="爱奇艺" /></a> 
+    <a href="https://youku.com/" target="_blank"> <img src="https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/youkulogo.2jo1c1m2gfc0.png" alt="优酷视频" /></a> 
+    <a href="https://www.mgtv.com/" target="_blank"> <img src="https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/hunantvlogo.606ewgjk63c0.png" alt="芒果TV" /></a> 
+    <a href="https://www.bilibili.com/" target="_blank"> <img src="https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/bilibili.3q0x0tj8tbw.png" alt="哔哩哔哩" /></a> 
+    <a href="https://www.yinyuetai.com/" target="_blank"> <img src="https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/yinyuetailogo.40ahfxetoc80.png" alt="音悦台" /></a> 
   </div>
 </div>
 

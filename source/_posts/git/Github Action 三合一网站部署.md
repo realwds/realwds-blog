@@ -7,7 +7,7 @@ tags:
 categories: Git相关
 keywords: github,action,ci,cd,持续集成
 description: GitHub Action 利用 CI/CD 持续集成，自动部署到 github、gitlab、gitee 平台
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/github-action.37jx8hg50fs0.png
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/github-action.37jx8hg50fs0.png
 abbrlink: 4b365e6c
 date: 2021-05-14 21:04:15
 ---
@@ -26,7 +26,7 @@ date: 2021-05-14 21:04:15
 - gitee 私人令牌获取方法，点开右上角头像。设置 => 私人令牌
 - gitlab 私人令牌获取方法，点开右上角头像。Preferences => 访问令牌
 
-![获取私人令牌](https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog/3d9e5d49d1ef49fdbf3e482fb5c50c9c.76le68kg3hs0.62vsm3idncg0.png)
+![获取私人令牌](https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog/3d9e5d49d1ef49fdbf3e482fb5c50c9c.76le68kg3hs0.62vsm3idncg0.png)
 
 ## 新建 github 仓库
 

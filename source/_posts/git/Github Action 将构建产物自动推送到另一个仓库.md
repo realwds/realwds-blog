@@ -7,7 +7,7 @@ tags:
 categories: Git相关
 keywords: github,action,ci,cd,持续集成
 description: GitHub Action 利用 CI/CD 持续集成，将产物自动推动到另一个仓库。
-cover: https://cdn.jsdelivr.net/gh/realwds/cdn@master/blog-cover/action.5vhqtmv3tk00.png
+cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/action.5vhqtmv3tk00.png
 abbrlink: a3cc0a75
 date: 2021-05-14 21:32:31
 ---
