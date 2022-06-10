@@ -6,7 +6,7 @@ categories: 开发规范
 keywords: '前端,开发规范,css规范'
 description: 前端开发规范-css规范
 cover: >-
-  https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/srchttpckimg.2mezruygtwu0.webp
+  https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/srchttpckimg.6b8b29cn06o0.png
 abbrlink: a5f152af
 date: 2022-06-10 09:50:43
 ---
