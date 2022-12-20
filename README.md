@@ -1,6 +1,6 @@
 # realwds's blog
 
-⛔ 个人博客，此仓库禁止 Fork !!!
+🏡 Butterfly hexo 主题魔改版本
 
 访问地址：https://blog.realwds.com
 
