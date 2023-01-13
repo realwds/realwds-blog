@@ -10,6 +10,9 @@
 # 进入文件目录
 cd source
 
+# 安装
+npm install
+
 # 启动
 npm run dev
 
