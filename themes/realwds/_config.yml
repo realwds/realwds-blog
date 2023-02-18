@@ -317,8 +317,8 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: lMM2G147us4K8mXILKxKHmHr-MdYXbMMI # leancloud application app id
-  appKey: dGgm6nGrFdRjcvz2tBy7BzWr # leancloud application app key
+  appId: sNpMPzMQSzWYulPy0gKEVsDy-gzGzoHsz # leancloud application app id
+  appKey: MFX7fn9D72KJs4iOmGHUFOfg # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: mp # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja

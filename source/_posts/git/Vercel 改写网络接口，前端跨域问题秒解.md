@@ -3,7 +3,7 @@ title: Vercel 改写网络接口，前端跨域问题秒解
 tags:
   - vercel
   - 跨域
-  - cors
+  - 精选
 categories: Git相关
 keywords: 跨域,vercel,github,cors
 description: Vercel 改写网络接口，前端跨域问题秒解
