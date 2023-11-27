@@ -16,7 +16,7 @@ new Vue({
           cover: "http://p2.music.126.net/Pp57aut4D9nbOmgzRsRNnw==/109951165907319455.jpg",
           source: "https://music.163.com/song/media/outer/url?id=190690",
           url: "https://music.163.com/#/song?id=190690",
-          favorited: true
+          favorited: false
         }
       ],
       currentTrack: null,
@@ -24,35 +24,7 @@ new Vue({
       transitionName: null
     };
   },
-  mounted(){
-    this.getPlayList()
-  },
   methods: {
-    getPlayList(){
-      var url = `https://realwds-music-api.vercel.app/playlist/detail?id=3778678`
-      var xhr = new XMLHttpRequest()
-      xhr.open('GET', url, true)
-      xhr.send()
-      const self = this
-
-      xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-          var json = xhr.responseText
-          var obj = eval('(' + json + ')')
-          obj.playlist.tracks.forEach((item)=>{
-            self.tracks.push({
-              id: item.al.id, 
-              name: item.ar[0].name,
-              artist: item.al.name,
-              cover: item.al.picUrl,
-              source: `https://music.163.com/song/media/outer/url?id=`+item.id,
-              url: `https://music.163.com/#/song?id=`+item.id,
-              favorited: false
-            })
-          })
-        }
-      }
-    },
     play() {
       if (this.audio.paused) {
         this.audio.play();

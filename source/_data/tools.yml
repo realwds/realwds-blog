@@ -1,18 +1,3 @@
-# - class_name: '旗下产品'
-#   class_desc: '<span>鄙人做过的网站</span>'
-#   link_list:
-#     - name: realwds's website
-#       link: https://realwds.com/
-#       avatar: https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png
-#       descr: 数学系的挨踢者
-#     - name: realwds's blog
-#       link: https://blog.realwds.com/
-#       avatar: https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20201216165755.jpg
-#       descr: 数学系的挨踢者
-#     - name: realwds's info
-#       link: https://realwds-info.vercel.app/
-#       avatar: https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20201216165809.jpg
-#       descr: 数学系的挨踢者
 - class_name: '常用网站'
   class_desc: '<span>常用网站合集</span>'
   link_list:

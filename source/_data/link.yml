@@ -26,10 +26,6 @@
       link: https://blog.zhheo.com
       avatar: https://blog.zhheo.com/img/avatar.png
       descr: 爱折腾的设计师
-    - name: Hassan's Blog
-      link: https://hassanwong.top
-      avatar: https://fastly.jsdelivr.net/gh/hassanblog/CDN@v20210404/img/avatar_blog.jpg
-      descr: 时不我待，只争朝夕
     - name: Akilarの糖果屋
       link: https://akilar.top/
       avatar: https://akilar.top/img/siteicon/favicon.png
@@ -39,17 +35,13 @@
       avatar: https://forever97-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/avatar.png
       descr: 在人海里梦游
       siteshot: https://fastly.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/forever97.top.jpg
-    - name: 小康博客
-      link: https://www.antmoe.com/
-      avatar: https://fastly.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
-      descr: 一个收藏回忆与分享技术的地方！
     - name: CrazyWong
       link: https://crazywong.com/
       avatar: https://crazywong.com/img/avatar.png
       descr: 熱衷學習，熱衷生活
     - name: Ethan.Tzy
-      link: https://tzy1997.com/
-      avatar: https://bu.dusays.com/2022/01/14/cd5ffd485f867.jpg
+      link: https://fe32.top/
+      avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
       descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。
     - name: MJ's Blog
       link: https://blog.justlovesmile.top
@@ -59,7 +51,3 @@
       link: https://blog.eurkon.com
       avatar: https://fastly.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/avatar.jpg
       descr: 不只是代码的搬运工
-    - name: Aohui
-      link: https://aohuiliu.fun
-      avatar: https://www.aohuiliu.fun/images/avatar.jpeg
-      descr: 记录学习，记录生活。
