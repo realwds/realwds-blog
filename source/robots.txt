@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.realwds.com/sitemap.xml
-Sitemap: https://blog.realwds.com/baidusitemap.xml
+Sitemap: https://realwds.com/sitemap.xml

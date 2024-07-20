@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.realwds.com
+url: https://realwds.com
 root: /
 permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink
 abbrlink:
@@ -112,7 +112,7 @@ theme: realwds
   # other deployer
 deploy:
   type: git
-  repo: git@github.com:hiwego/hiwego.github.io.git # 推送到 hiwego 组织仓库
+  repo: https://github.com/realwds/realwds.github.io.git # 推送到 realwds 组织仓库
   branch: master
 
 search:

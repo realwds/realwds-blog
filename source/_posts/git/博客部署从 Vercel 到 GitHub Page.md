@@ -61,5 +61,5 @@ deploy:
 
 ## 大功告成
 
-打开域名 https://blog.realwds.com 访问成功！
+打开域名 https://realwds.com 访问成功！
 

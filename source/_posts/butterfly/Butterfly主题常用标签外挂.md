@@ -64,7 +64,7 @@ cover: https://fastly.jsdelivr.net/gh/realwds/cdn@master/blog-cover/material-6.p
 {% link <链接名>, <链接地址>, <链接图像> %}
 ```
 
-{% link realwds, https://blog.realwds.com, https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png %}
+{% link realwds, https://realwds.com, https://fastly.jsdelivr.net/gh/realwds/cdn@master/img/20210115180321.png %}
 
 ## 行内图片 Inline Image
 
