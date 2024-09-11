@@ -29,3 +29,7 @@ pnpm build
 # 提交
 pnpm upload <提交信息说明>
 ```
+
+## Star History
+
+![Star History Chart](https://api.star-history.com/svg?repos=realwds/realwds-blog&type=Date)
