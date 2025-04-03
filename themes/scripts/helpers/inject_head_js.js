@@ -27,7 +27,7 @@ hexo.extend.helper.register('inject_head_js', function () {
         if (!itemStr) {
           return undefined
         }
-        const item = JSON.parse(itemStr)
+        const item = JSON.parse(itemStr||'{}')
         const now = new Date()
 
         if (now.getTime() > item.expiry) {
